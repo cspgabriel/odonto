@@ -47,14 +47,16 @@ export function FullProfileSheetProvider({ userRole, canEditPatient, canViewMedi
   return (
     <FullProfileSheetContext.Provider value={{ openFullProfile, closeFullProfile }}>
       {children}
-      <PatientFullProfileSheet
-        patientId={patientId}
-        open={open}
-        onOpenChange={handleOpenChange}
-        userRole={userRole}
-        canEdit={canEditPatient}
-        canViewMedicalHistory={canViewMedicalHistory}
-      />
+      {patientId ? (
+        <PatientFullProfileSheet
+          patientId={patientId}
+          open={open}
+          onOpenChange={handleOpenChange}
+          userRole={userRole}
+          canEdit={canEditPatient}
+          canViewMedicalHistory={canViewMedicalHistory}
+        />
+      ) : null}
     </FullProfileSheetContext.Provider>
   );
 }

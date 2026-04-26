@@ -45,6 +45,10 @@ import {
   Stethoscope,
   AlertTriangle,
   Wallet,
+  Building2,
+  Package,
+  Settings,
+  Shield,
 } from "lucide-react";
 import { RevenueChart } from "./_components/revenue-chart";
 import { RevenueValue } from "./_components/revenue-value";
@@ -175,8 +179,18 @@ export default async function DashboardPage() {
           {[
             { title: "Pacientes", href: "/dashboard/patients", icon: Users },
             { title: "Agendamentos", href: "/dashboard/appointments", icon: Calendar },
-            { title: "Financeiro", href: "/dashboard/invoices", icon: DollarSign },
-            { title: "Configurações", href: "/dashboard/settings", icon: ClipboardList },
+            { title: "Prontuários", href: "/dashboard/medical-records", icon: ClipboardList },
+            { title: "Receitas", href: "/dashboard/prescriptions", icon: Stethoscope },
+            { title: "Exames", href: "/dashboard/test-reports", icon: FileText },
+            { title: "Faturas", href: "/dashboard/invoices", icon: DollarSign },
+            { title: "Pagamentos", href: "/dashboard/payments", icon: Wallet },
+            { title: "Despesas", href: "/dashboard/expenses", icon: Wallet },
+            { title: "Serviços", href: "/dashboard/services", icon: Stethoscope },
+            { title: "Departamentos", href: "/dashboard/departments", icon: Building2 },
+            { title: "Inventário", href: "/dashboard/inventory", icon: Package },
+            { title: "Equipe", href: "/dashboard/staff", icon: Users },
+            { title: "Permissões", href: "/dashboard/permissions", icon: Shield },
+            { title: "Configurações", href: "/dashboard/settings", icon: Settings },
           ].map((item) => (
             <Card key={item.href} className="transition hover:border-primary/50 hover:shadow-sm">
               <CardHeader>

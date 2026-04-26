@@ -247,7 +247,13 @@ export default async function DashboardLayout({
   }
   let can: (permission: string) => boolean;
   try {
-    ({ can } = await getCurrentUserPermissions());
+    const permissionResult = await getCurrentUserPermissions();
+    if (permissionResult.permissions.length === 0) {
+      const fallbackPermissions = DEFAULT_ROLE_PERMISSIONS[appUserResult.role] ?? [];
+      can = (permission: string) => fallbackPermissions.includes(permission as PermissionKey);
+    } else {
+      can = permissionResult.can;
+    }
   } catch (err) {
     requestLog("layout.permissions.fallback", err instanceof Error ? err.message : String(err));
     const fallbackPermissions = DEFAULT_ROLE_PERMISSIONS[appUserResult.role] ?? [];
