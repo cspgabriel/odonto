@@ -1,0 +1,435 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "services": "Services",
+    "doctors": "Médecins",
+    "departments": "Départements",
+    "pricing": "Tarifs",
+    "blog": "Blog",
+    "reviews": "Avis",
+    "contact": "Contact",
+    "bookAppointment": "Réserver un rendez-vous",
+    "appointment": "Rendez-vous",
+    "signUp": "S'inscrire",
+    "login": "Connexion",
+    "getToKnowUs": "Découvrez-nous",
+    "logoAlt": "Logo Clinic Master",
+    "toggleMenu": "Basculer le menu de navigation"
+  },
+  "topBar": {
+    "phone": "+1 123 456 7890",
+    "email": "info@example.com"
+  },
+  "hero": {
+    "headline": "Obtenez un sourire beau et droit rapidement",
+    "subtitle": "Notre personnel expérimenté est dédié à l'amélioration de la santé dentaire de nos patients et à l'amélioration de leurs sourires avec des soins experts.",
+    "talkToDoctors": "Parlez à plus de 215 médecins",
+    "rating": "(4,8)",
+    "ratingsText": "12k+ avis sur Google",
+    "availableDoctors": "Médecins disponibles",
+    "selectDoctor": "Sélectionner un médecin",
+    "bookAppointment": "Réserver un rendez-vous",
+    "appointment": "Rendez-vous",
+    "avatarAlt": "Avatar patient",
+    "heroDoctorAlt": "Dentiste professionnel",
+    "toothAlt": "Icône de soins dentaires",
+    "sparkleAlt": "Éclat de soins dentaires",
+    "doctor1Alt": "Dr. Olivia Davis",
+    "doctor2Alt": "Dr. William Martinez",
+    "doctor1Name": "Olivia Davis",
+    "doctor2Name": "William Martinez",
+    "dentist": "Dentiste",
+    "decorativeImageAlt": "Élément décoratif dentaire"
+  },
+  "services": {
+    "badge": "Nos Services",
+    "title": "Nos Spécialités Dentaires",
+    "subtitle": "Traitements de précision conçus pour votre confort et une santé dentaire durable.",
+    "bracesAligners": {
+      "title": "Appareils dentaires et gouttières",
+      "tag": "Orthodontie",
+      "desc": "Options d'appareils traditionnels et de gouttières transparentes pour des dents plus droites et un meilleur alignement de la mâchoire."
+    },
+    "dentalImplants": {
+      "title": "Implants dentaires",
+      "tag": "Restauration",
+      "desc": "Remplacement dentaire permanent qui semble et se sent naturel. Restaurez la fonction et l'esthétique avec nos procédures d'implantation spécialisées.",
+      "bookNow": "Réserver maintenant"
+    },
+    "emergencyCare": {
+      "title": "Soins d'urgence",
+      "tag": "Urgent",
+      "desc": "Soins urgents le jour même pour les traumatismes dentaires, les douleurs sévères et les infections. Nos spécialistes sont toujours disponibles quand vous en avez le plus besoin."
+    },
+    "teethWhitening": {
+      "title": "Blanchiment des dents",
+      "tag": "Esthétique",
+      "desc": "Traitements de blanchiment professionnels pour restaurer un sourire plus brillant et plus confiant avec des résultats durables."
+    },
+    "rootCanal": {
+      "title": "Dévitalisation",
+      "tag": "Chirurgie",
+      "desc": "Traitement confortable et efficace pour sauver les dents infectées et soulager la douleur tout en préservant votre sourire naturel."
+    },
+    "cosmeticDentistry": {
+      "title": "Dentisterie esthétique",
+      "tag": "Esthétique",
+      "desc": "Facettes, collage et design de sourire pour corriger les imperfections et obtenir le sourire que vous méritez."
+    },
+    "mostPopular": "Le plus populaire"
+  },
+  "aboutDoctor": {
+    "title": "À propos du médecin",
+    "doctorName": "Dr. Sarah Williams",
+    "quote": "Notre mission est de combiner l'art de l'esthétique dentaire avec la science de l'excellence clinique pour donner à chaque patient le sourire dont il a toujours rêvé.",
+    "description": "Le Dr Williams apporte plus de deux décennies d'expérience en dentisterie générale et esthétique. Il s'engage à fournir des soins personnalisés et à rester à la pointe de la technologie dentaire grâce à la recherche et à la formation continues.",
+    "bullet1": "Plus de 20 ans d'expérience clinique",
+    "bullet2": "Spécialiste dentaire certifié",
+    "bullet3": "Design de sourire esthétique avancé",
+    "bullet4": "Membre de l'Association dentaire internationale",
+    "scheduleConsultation": "Planifier une consultation",
+    "leadDentalDirector": "Directeur dentaire principal"
+  },
+  "weCare": {
+    "title": "Nous nous soucions de votre santé dentaire",
+    "description": "Il est établi depuis longtemps qu'un lecteur sera distrait par le contenu lisible d'une page lorsqu'il regarde sa mise en page. L'intérêt d'utiliser Lorem Ipsum est qu'il a une distribution plus ou moins normale des lettres, par opposition à l'utilisation.",
+    "teethWhitening": "Blanchiment des dents",
+    "modernAnesthetic": "Anesthésique moderne",
+    "qualityBrackets": "Brackets de qualité",
+    "rootCanal": "Dévitalisation",
+    "happyPatients": "Patients satisfaits",
+    "specialists": "Spécialistes",
+    "winningAwards": "Prix remportés",
+    "patientImageAlt": "Patient recevant des soins dentaires"
+  },
+  "smileComparison": {
+    "title": "Obtenez un beau sourire, c'est important !",
+    "beforeLabel": "Cas initial",
+    "afterLabel": "Résultat final",
+    "disclaimer": "* Les résultats peuvent varier selon l'état dentaire individuel et le plan de traitement."
+  },
+  "pricing": {
+    "badge": "Tarification transparente",
+    "title": "Plans simples pour votre sourire",
+    "disclaimer": "* Tous les plans incluent une consultation initiale gratuite et un scan dentaire complet.",
+    "essentialCare": {
+      "name": "Soins essentiels",
+      "description": "Santé de base pour chaque patient.",
+      "badge": "Basique",
+      "price": "89 €",
+      "period": "/fixe",
+      "bookService": "Réserver le service",
+      "standardExam": "Examen dentaire standard",
+      "professionalCleaning": "Nettoyage professionnel",
+      "digitalXrays": "2 radiographies numériques",
+      "personalConsultation": "Consultation personnelle",
+      "priorityConsultation": "Consultation prioritaire"
+    },
+    "advancedSmile": {
+      "name": "Sourire avancé",
+      "description": "Transformation complète et esthétique.",
+      "badge": "Favori des patients",
+      "price": "499 €",
+      "period": "/fixe",
+      "bookService": "Réserver le service",
+      "fullAestheticDesign": "Design esthétique complet",
+      "professionalWhitening": "Blanchiment professionnel",
+      "panoramicImaging": "Imagerie panoramique",
+      "sedationOptions": "Options de sédation",
+      "postCareKit": "Kit de soins post-traitement",
+      "priorityConsultation": "Consultation prioritaire"
+    }
+  },
+  "blogPage": {
+    "pageTitle": "Nos dernières",
+    "pageTitleHighlight": "actualités et articles",
+    "pageSubtitle": "Restez informé des dernières tendances en soins dentaires, des mises à jour de la clinique et des conseils d'experts pour un sourire en meilleure santé.",
+    "previous": "Précédent",
+    "next": "Suivant",
+    "pageOf": "Page {page} sur {total}",
+    "tags": "Tags :",
+    "shareArticle": "Partager l'article",
+    "commentsOne": "1 commentaire",
+    "commentsCount": "{count} commentaires",
+    "commentsZero": "0 commentaire",
+    "commentsOff": "Commentaires désactivés",
+    "postNotFound": "Article introuvable",
+    "postNotFoundDesc": "L'article que vous recherchez n'existe pas.",
+    "backToHome": "Retour à l'accueil",
+    "minRead": "min",
+    "joinConversation": "Rejoignez la conversation",
+    "addComment": "Ajouter un commentaire",
+    "cancel": "Annuler",
+    "leaveComment": "Laisser un commentaire",
+    "name": "Nom",
+    "emailOptional": "(optionnel)",
+    "comment": "Commentaire",
+    "yourName": "Votre nom",
+    "yourEmail": "votre@email.com",
+    "shareThoughts": "Partagez vos réflexions...",
+    "postComment": "Publier le commentaire",
+    "posting": "Publication...",
+    "noCommentsYet": "Aucun commentaire pour le moment. Soyez le premier !",
+    "commentPosted": "Commentaire publié !",
+    "failedToPost": "Échec de la publication. Réessayez.",
+    "justNow": "à l'instant",
+    "minutesAgo": "il y a {n} min",
+    "hoursAgo": "il y a {n} h",
+    "daysAgo": "il y a {n} j"
+  },
+  "news": {
+    "badge": "Blog et Actualités",
+    "title": "Restez informé de nos dernières actualités",
+    "subtitle": "Conseils professionnels, conseils de santé et mises à jour de la clinique directement de notre panel de spécialistes dentaires certifiés.",
+    "readMore": "Voir plus",
+    "minRead": "min",
+    "enterPublication": "Entrer dans la publication",
+    "info": "Info",
+    "tipsHealthySmile": {
+      "title": "Conseils pour maintenir un sourire sain",
+      "category": "Santé bucco-dentaire",
+      "excerpt": "Habitudes quotidiennes et soins professionnels qui maintiennent vos dents et vos gencives en parfait état pour les années à venir."
+    },
+    "understandingImplants": {
+      "title": "Comprendre les implants dentaires",
+      "category": "Traitements",
+      "excerpt": "Ce à quoi s'attendre de la chirurgie d'implantation et comment prendre soin de votre nouveau sourire pendant le processus de récupération."
+    },
+    "emergencyDentist": {
+      "title": "Quand consulter un dentiste d'urgence",
+      "category": "Urgent",
+      "excerpt": "Signes indiquant que vous avez besoin de soins urgents et comment nous pouvons vous aider quand c'est le plus important pour votre santé dentaire."
+    },
+    "digitalDentistry": {
+      "title": "Nouvelle technologie en dentisterie numérique",
+      "category": "Innovation",
+      "excerpt": "Comment le scan 3D et les empreintes numériques révolutionnent le confort du patient et la précision du traitement."
+    }
+  },
+  "testimonials": {
+    "badge": "Histoires de patients",
+    "title": "Ce que nos patients disent de nous",
+    "subtitle": "Conseils professionnels, conseils de santé et mises à jour de la clinique directement de notre panel de spécialistes dentaires certifiés.",
+    "testimonial1": {
+      "content": "Professionnel, doux et efficace. Toute ma famille vient ici maintenant. L'équipe rend chaque visite confortable et sans stress. La meilleure expérience dentaire que j'aie jamais eue !",
+      "name": "Sarah Mitchell",
+      "role": "Patient familial"
+    },
+    "testimonial2": {
+      "content": "Le traitement de blanchiment était indolore et les résultats sont incroyables. J'ai retrouvé ma confiance et je ne peux pas arrêter de sourire. Je recommande vivement leurs services esthétiques !",
+      "name": "James K. Wilson",
+      "role": "Soins esthétiques"
+    },
+    "testimonial3": {
+      "content": "L'une des meilleures cliniques dentaires que j'ai visitées. La technologie qu'ils utilisent est de pointe et le personnel est incroyablement compétent. Vraiment une expérience premium.",
+      "name": "Yucel Faruksahan",
+      "role": "Patient régulier"
+    },
+    "testimonial4": {
+      "content": "J'étais nerveux à propos de l'extraction de ma dent de sagesse, mais les médecins étaient si patients et ont tout expliqué. La récupération était beaucoup plus rapide que prévu.",
+      "name": "Rodrigo Aguilar",
+      "role": "Chirurgie buccale"
+    },
+    "testimonial5": {
+      "content": "Nos enfants aiment vraiment aller chez le dentiste ici ! L'aile pédiatrique est si accueillante et les médecins sont incroyables avec les enfants. Parfait pour les familles.",
+      "name": "Emma Davis",
+      "role": "Parent"
+    },
+    "testimonial6": {
+      "content": "Tarifs abordables et transparents et soins de haute qualité. Il n'y a pas de coûts cachés et les résultats parlent d'eux-mêmes. C'est maintenant notre clinique de référence.",
+      "name": "Michael Chen",
+      "role": "Soins de santé"
+    }
+  },
+  "footer": {
+    "description": "Fournissant des soins dentaires de qualité depuis 2005. Nous combinons les meilleurs spécialistes du monde avec une technologie médicale moderne pour offrir des résultats dentaires inégalés.",
+    "quickLinks": "Liens rapides",
+    "home": "Accueil",
+    "aboutUs": "À propos de nous",
+    "services": "Services",
+    "ourDoctors": "Nos médecins",
+    "caseStudies": "Études de cas",
+    "ourServices": "Nos services",
+    "teethWhitening": "Blanchiment des dents",
+    "dentalImplants": "Implants dentaires",
+    "rootCanal": "Dévitalisation",
+    "bracesAligners": "Appareils dentaires et gouttières",
+    "emergencyCare": "Soins d'urgence",
+    "support": "Support",
+    "helpCenter": "Centre d'aide",
+    "privacyPolicy": "Politique de confidentialité",
+    "termsOfService": "Conditions d'utilisation",
+    "refundPolicy": "Politique de remboursement",
+    "cookieSettings": "Paramètres des cookies",
+    "connect": "Connecter",
+    "emergency": "Urgence",
+    "ourStudio": "Notre studio",
+    "address": "123 rue du Sourire, CA",
+    "googleRating": "(4,8)",
+    "ratingsText": "12k+ avis sur Google",
+    "allRightsReserved": "© {year} ClinicMaster. Tous droits réservés.",
+    "logoAlt": "Clinic Master"
+  },
+  "contact": {
+    "badge": "Contactez-nous",
+    "title": "Prêt à améliorer votre sourire ?",
+    "subtitle": "Conseils professionnels, conseils de santé et mises à jour de la clinique directement de notre panel de spécialistes dentaires certifiés.",
+    "sendMessage": "Envoyer un message",
+    "fastFriendlySupport": "Équipe de support rapide et amicale",
+    "fullName": "Nom complet",
+    "fullNamePlaceholder": "Jean Dupont",
+    "emailAddress": "Adresse e-mail",
+    "emailPlaceholder": "jean@exemple.com",
+    "yourInquiry": "Votre demande",
+    "inquiryPlaceholder": "Comment pouvons-nous vous aider aujourd'hui ?",
+    "sendMessageButton": "Envoyer le message",
+    "processing": "Traitement en cours...",
+    "errorFieldsRequired": "Veuillez remplir tous les champs obligatoires"
+  },
+  "whyChoose": {
+    "title": "Pourquoi choisir notre cabinet dentaire ?",
+    "description": "Nous combinons l'excellence clinique avec une approche centrée sur le patient. Des soins préventifs aux traitements avancés, nous nous engageons pour votre santé bucco-dentaire à long terme et un beau sourire.",
+    "latestTechnology": {
+      "title": "Dernière technologie",
+      "description": "Protocoles fondés sur des preuves et flux de travail numériques utilisant un équipement de pointe."
+    },
+    "experiencedTeam": {
+      "title": "Équipe expérimentée",
+      "description": "Notre équipe apporte des décennies d'expertise combinée pour offrir les meilleurs soins."
+    },
+    "modernFacilities": "Installations modernes",
+    "treatmentImageAlt": "Traitement dentaire",
+    "smileImageAlt": "Beau sourire"
+  },
+  "makeAppointment": {
+    "title": "Planifier votre visite",
+    "subtitle": "Soins professionnels à portée de main.",
+    "certifiedDoctors": "Médecins certifiés et professionnels",
+    "emergencyCare247": "Soins dentaires d'urgence 24h/24 et 7j/7",
+    "modernEquipment": "Équipement dentaire moderne",
+    "flexiblePayment": "Options de paiement flexibles",
+    "fullName": "Nom complet",
+    "fullNamePlaceholder": "ex. Jean Dupont",
+    "phoneNumber": "Numéro de téléphone",
+    "phonePlaceholder": "+33 1 23 45 67 89",
+    "selectService": "Sélectionner un service",
+    "selectServicePlaceholder": "De quoi avez-vous besoin ?",
+    "selectDate": "Date préférée",
+    "bookNow": "Confirmer ma demande maintenant",
+    "processing": "Traitement en cours...",
+    "fullNameRequired": "Le nom complet est requis",
+    "phoneRequired": "Le numéro de téléphone est requis",
+    "serviceRequired": "Veuillez sélectionner un service",
+    "dateRequired": "Veuillez sélectionner une date",
+    "success": {
+      "title": "Succès !",
+      "message": "Merci pour votre demande. Nous vous contacterons sous peu pour confirmer votre visite.",
+      "reschedule": "Reprogrammer une autre séance"
+    },
+    "services": {
+      "generalCheckup": "Examen général",
+      "teethWhitening": "Blanchiment des dents",
+      "dentalImplants": "Implants dentaires",
+      "rootCanal": "Dévitalisation",
+      "cosmeticDentistry": "Dentisterie esthétique",
+      "emergencyCare": "Soins d'urgence"
+    },
+    "doctorsImageAlt": "Médecins dentistes professionnels",
+    "satisfactionRate": "99%",
+    "satisfaction": "Satisfaction",
+    "satisfactionDescription": "Fait confiance par les patients locaux pour des soins dentaires de qualité."
+  },
+  "appointmentHero": {
+    "badge": "Réservation Instantanée",
+    "title": "Rendez-vous",
+    "home": "Accueil",
+    "appointment": "Rendez-vous",
+    "doctorImageAlt": "Médecin"
+  },
+  "appointmentFeatures": {
+    "title": "Prendre un Rendez-vous",
+    "subtitle": "Faites le premier pas vers un sourire plus sain et plus radieux. Nous sommes une équipe de professionnels dédiés à votre santé.",
+    "feature1": {
+      "num": "01",
+      "title": "Service Médical",
+      "desc": "Découvrez des soins dentaires de classe mondiale avec notre équipe de spécialistes dédiés à votre santé.",
+      "readMore": "Lire la suite"
+    },
+    "feature2": {
+      "num": "02",
+      "title": "Médicaments 24/7",
+      "desc": "Notre pharmacie sur place garantit que vous obtenez les médicaments dont vous avez besoin, exactement quand vous en avez besoin.",
+      "readMore": "Lire la suite"
+    },
+    "feature3": {
+      "num": "03",
+      "title": "Meilleur Médecin",
+      "desc": "Nos médecins certifiés apportent des années d'expertise et une approche compatissante.",
+      "readMore": "Lire la suite"
+    }
+  },
+  "locations": {
+    "badge": "Trouvez-nous",
+    "title": "Tous les emplacements",
+    "subtitle": "Plusieurs emplacements pratiques près de chez vous.",
+    "getDirections": "Obtenir l'itinéraire",
+    "location1": {
+      "country": "États-Unis",
+      "address": "123 Health Way, Suite 456, Goodland, 78910 United States",
+      "phone": "+1 123-456-7890",
+      "hours": "Lun-Jeu: 8h00-17h00"
+    },
+    "location2": {
+      "country": "Canada",
+      "address": "123 Health Way, Suite 456, Goodland, 78910 United States",
+      "phone": "+1 123-456-7890",
+      "hours": "Lun-Jeu: 8h00-17h00"
+    },
+    "overlay": {
+      "officeAddress": "Adresse du bureau:",
+      "address": "234 Oak Drive, NY, USA",
+      "workingHours": "Heures d'ouverture:",
+      "hours1": "Lun-Jeu: 8h00-17h00",
+      "hours2": "Ven: 8h00-13h00"
+    }
+  },
+  "cookieNotice": {
+    "title": "Avis sur les cookies",
+    "message": "Nous utilisons des cookies pour vous offrir la meilleure expérience sur notre site.",
+    "linkText": "Lire la politique des cookies.",
+    "managePrefs": "Gérer les préférences",
+    "decline": "Refuser",
+    "accept": "Accepter"
+  },
+  "highlyQualified": {
+    "title": "Rencontrez notre équipe hautement qualifiée",
+    "description": "Notre équipe est composée de spécialistes certifiés qui donnent la priorité à votre confort et à votre bien-être. En utilisant des outils de diagnostic de pointe, nous garantissons précision et soins pour chaque sourire.",
+    "availableToday": "Disponible aujourd'hui",
+    "mainDoctorName": "Dr. Robert Smithson",
+    "mainDoctorTitle": "Directeur dentaire principal",
+    "experienceYears": "20+ ans",
+    "experienceLabel": "Expérience professionnelle",
+    "viewAllDoctors": "Voir tous les médecins spécialistes",
+    "doctors": {
+      "doctor1": {
+        "name": "Dr. Michael Williams",
+        "specialty": "Chirurgien buccal"
+      },
+      "doctor2": {
+        "name": "Dr. Jessica Brown",
+        "specialty": "Orthodontiste"
+      },
+      "doctor3": {
+        "name": "Dr. David Chen",
+        "specialty": "Dentisterie générale"
+      },
+      "doctor4": {
+        "name": "Dr. Sarah Miller",
+        "specialty": "Dentisterie esthétique"
+      }
+    },
+    "mainDoctorAlt": "Médecin principal",
+    "doctorImageAlt": "Médecin"
+  }
+}

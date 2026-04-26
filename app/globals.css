@@ -1,0 +1,694 @@
+/* @import must come before all other rules (Tailwind expands to many lines) */
+@import url("https://fonts.cdnfonts.com/css/clash-grotesk");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Brand palette (hex) for direct use */
+    --color-brand: #3337ff;
+    --color-brand-light: #c6daff;
+    --color-brand-mid: #72a5ff;
+    --color-brand-mid2: #587dff;
+    --color-brand-mid3: #3f57ff;
+    --color-brand-cyan: #67dcff;
+    --color-brand-deep: #2720ff;
+    /* Font stacks (loaded at runtime via layout link tags; no build-time fetch) */
+    --font-inter: "Inter", ui-sans-serif, system-ui, sans-serif;
+    --font-arabic: "Noto Sans Arabic", ui-sans-serif, system-ui, sans-serif;
+    --font-dental-heading: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+    --font-dental-body: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+    --font-sans: var(--font-inter), "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-heading: "Clash Grotesk", var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+    /* Main theme: blue palette (#3337ff, #c6daff, #72a5ff, #587dff, #3f57ff, #67dcff, #2720ff) */
+    --background: 210 40% 98%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --primary: 238 100% 60%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 0 0% 96%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 0 0% 97%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 0 0% 96%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 84.2% 60.2%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 238 100% 60%;
+    --radius: 0.5rem;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --hero-from: 214 100% 97%;
+    --hero-to: 220 80% 98%;
+    /* Sidebar: brand blue, wider collapsed */
+    --sidebar-width: 16rem;
+    --sidebar-width-icon: 4.5rem;
+    --sidebar: 0 0% 100%;
+    --sidebar-foreground: 215.4 16.3% 46.9%;
+    --sidebar-primary: 238 100% 60%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 0 0% 96%;
+    --sidebar-accent-foreground: 222.2 47.4% 11.2%;
+    --sidebar-border: 214.3 31.8% 91.4%;
+    --sidebar-ring: 238 100% 60%;
+  }
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+    --primary: 238 100% 65%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 0 0% 15%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 0 0% 15%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 0 0% 15%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 238 100% 65%;
+    --hero-from: 222 47% 11%;
+    --hero-to: 224 40% 14%;
+    /* Sidebar dark */
+    --sidebar: 222.2 84% 4.9%;
+    --sidebar-foreground: 215 20.2% 65.1%;
+    --sidebar-primary: 238 100% 65%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 0 0% 15%;
+    --sidebar-accent-foreground: 210 40% 98%;
+    --sidebar-border: 217.2 32.6% 17.5%;
+    --sidebar-ring: 238 100% 65%;
+  }
+}
+
+.hero-gradient {
+  background: linear-gradient(
+    135deg,
+    hsl(var(--hero-from)) 0%,
+    hsl(var(--hero-to)) 100%
+  );
+}
+
+/* Ophthalmology landing - same structure as dental, teal colors */
+.ophthalmology-landing {
+  font-family: var(--font-dental-body), var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+}
+.ophthalmology-landing h1,
+.ophthalmology-landing h2,
+.ophthalmology-landing h3,
+.ophthalmology-landing .font-dental-heading {
+  font-family: var(--font-dental-heading), var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+}
+html.locale-ar .ophthalmology-landing {
+  font-family: var(--font-arabic), "Noto Sans Arabic", ui-sans-serif, system-ui, sans-serif;
+}
+html.locale-ar .ophthalmology-landing h1,
+html.locale-ar .ophthalmology-landing h2,
+html.locale-ar .ophthalmology-landing h3,
+html.locale-ar .ophthalmology-landing .font-dental-heading {
+  font-family: var(--font-arabic), "Noto Sans Arabic", ui-sans-serif, system-ui, sans-serif;
+}
+.ophthalmology-landing [id] {
+  scroll-margin-top: 6.5rem;
+}
+html.locale-ar .ophthalmology-landing,
+html[dir="rtl"] .ophthalmology-landing {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+.ophthalmology-landing h1,
+.ophthalmology-landing h2,
+.ophthalmology-landing h3 {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+  text-wrap: balance;
+}
+html.locale-ar .ophthalmology-landing h1,
+html.locale-ar .ophthalmology-landing h2,
+html.locale-ar .ophthalmology-landing h3,
+html[dir="rtl"] .ophthalmology-landing h1,
+html[dir="rtl"] .ophthalmology-landing h2,
+html[dir="rtl"] .ophthalmology-landing h3 {
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+  text-wrap: balance;
+  line-height: 1.4 !important;
+}
+.ophthalmology-landing p,
+.ophthalmology-landing span {
+  orphans: 2;
+  widows: 2;
+}
+html.locale-ar .ophthalmology-landing p,
+html.locale-ar .ophthalmology-landing span,
+html[dir="rtl"] .ophthalmology-landing p,
+html[dir="rtl"] .ophthalmology-landing span {
+  orphans: 3;
+  widows: 3;
+}
+.ophthalmology-landing p,
+.ophthalmology-landing .text-base,
+.ophthalmology-landing .text-lg {
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+html.locale-ar .ophthalmology-landing p,
+html.locale-ar .ophthalmology-landing .text-base,
+html.locale-ar .ophthalmology-landing .text-lg,
+html[dir="rtl"] .ophthalmology-landing p,
+html[dir="rtl"] .ophthalmology-landing .text-base,
+html[dir="rtl"] .ophthalmology-landing .text-lg {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+
+/* General landing – same font variables as dental/ophthalmology so typography settings apply */
+.general-landing {
+  font-family: var(--font-dental-body), var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+}
+.general-landing h1,
+.general-landing h2,
+.general-landing h3,
+.general-landing .font-dental-heading {
+  font-family: var(--font-dental-heading), var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Dental / Clinical landing branding: 2 fonts, 2 colors, 1 gradient, creative radius */
+.dental-landing {
+  font-family: var(--font-dental-body), var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+}
+.dental-landing h1,
+.dental-landing h2,
+.dental-landing h3,
+.dental-landing .font-dental-heading {
+  font-family: var(--font-dental-heading), var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Arabic font for dental landing when Arabic is selected */
+html.locale-ar .dental-landing {
+  font-family: var(--font-arabic), "Noto Sans Arabic", ui-sans-serif, system-ui, sans-serif;
+}
+html.locale-ar .dental-landing h1,
+html.locale-ar .dental-landing h2,
+html.locale-ar .dental-landing h3,
+html.locale-ar .dental-landing .font-dental-heading {
+  font-family: var(--font-arabic), "Noto Sans Arabic", ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Smooth scroll and offset for fixed navbar when clicking nav links */
+html {
+  scroll-behavior: smooth;
+}
+.dental-landing [id] {
+  scroll-margin-top: 6.5rem;
+}
+
+/* When Arabic is selected: RTL layout and Arabic font (overrides Inter on body) */
+html.locale-ar {
+  font-family: var(--font-arabic), "Noto Sans Arabic", ui-sans-serif, system-ui, sans-serif;
+}
+html.locale-ar body,
+html.locale-ar .font-heading {
+  font-family: var(--font-arabic), "Noto Sans Arabic", ui-sans-serif, system-ui, sans-serif;
+}
+html.locale-ar .font-heading {
+  font-family: var(--font-arabic), "Noto Sans Arabic", "Clash Grotesk", ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Dynamic text wrapping for all languages - prevents awkward line breaks */
+/* Note: Applied selectively to avoid breaking existing layouts */
+html.locale-ar .dental-landing,
+html[dir="rtl"] .dental-landing {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+
+/* Headlines - prevent awkward breaks, especially for Arabic */
+h1, h2, h3, h4, h5, h6 {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+  text-wrap: pretty;
+  line-height: 1.2;
+}
+
+/* Arabic-specific headline adjustments */
+html.locale-ar h1,
+html.locale-ar h2,
+html.locale-ar h3,
+html.locale-ar h4,
+html.locale-ar h5,
+html.locale-ar h6,
+html[dir="rtl"] h1,
+html[dir="rtl"] h2,
+html[dir="rtl"] h3,
+html[dir="rtl"] h4,
+html[dir="rtl"] h5,
+html[dir="rtl"] h6 {
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+  text-wrap: balance;
+  line-height: 1.4;
+  letter-spacing: normal;
+}
+
+/* Paragraphs - better wrapping for all languages */
+p {
+  word-break: break-word;
+  overflow-wrap: break-word;
+  text-wrap: pretty;
+  line-height: 1.6;
+}
+
+/* Arabic paragraphs - optimized wrapping */
+html.locale-ar p,
+html[dir="rtl"] p {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+  text-wrap: pretty;
+  line-height: 1.8;
+}
+
+/* Dental landing specific - prevent awkward breaks */
+.dental-landing h1,
+.dental-landing h2,
+.dental-landing h3 {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+  text-wrap: balance;
+}
+
+html.locale-ar .dental-landing h1,
+html.locale-ar .dental-landing h2,
+html.locale-ar .dental-landing h3,
+html[dir="rtl"] .dental-landing h1,
+html[dir="rtl"] .dental-landing h2,
+html[dir="rtl"] .dental-landing h3 {
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+  text-wrap: balance;
+  line-height: 1.4 !important;
+}
+
+/* Prevent single words on their own line */
+.dental-landing p,
+.dental-landing span {
+  orphans: 2;
+  widows: 2;
+}
+
+html.locale-ar .dental-landing p,
+html.locale-ar .dental-landing span,
+html[dir="rtl"] .dental-landing p,
+html[dir="rtl"] .dental-landing span {
+  orphans: 3;
+  widows: 3;
+}
+
+/* VerticalCutReveal component - better wrapping */
+.vertical-cut-reveal,
+[class*="vertical-cut"] {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+  text-wrap: pretty;
+}
+
+html.locale-ar .vertical-cut-reveal,
+html.locale-ar [class*="vertical-cut"],
+html[dir="rtl"] .vertical-cut-reveal,
+html[dir="rtl"] [class*="vertical-cut"] {
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+  text-wrap: balance;
+}
+
+/* Specific fixes for large headlines that break awkwardly */
+h1.text-5xl,
+h1.text-6xl,
+h1.text-7xl,
+h2.text-3xl,
+h2.text-4xl,
+h2.text-5xl,
+h2.text-\[56px\] {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+  text-wrap: balance;
+  hyphens: auto;
+  line-height: 1.25 !important;
+}
+
+html.locale-ar h1.text-5xl,
+html.locale-ar h1.text-6xl,
+html.locale-ar h1.text-7xl,
+html.locale-ar h2.text-3xl,
+html.locale-ar h2.text-4xl,
+html.locale-ar h2.text-5xl,
+html.locale-ar h2.text-\[56px\],
+html[dir="rtl"] h1.text-5xl,
+html[dir="rtl"] h1.text-6xl,
+html[dir="rtl"] h1.text-7xl,
+html[dir="rtl"] h2.text-3xl,
+html[dir="rtl"] h2.text-4xl,
+html[dir="rtl"] h2.text-5xl,
+html[dir="rtl"] h2.text-\[56px\] {
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+  text-wrap: balance;
+  line-height: 1.4 !important;
+  hyphens: auto;
+}
+
+/* Override tight leading-[1.1] for large headlines to prevent overlapping */
+h2.leading-\[1\.1\],
+h1.leading-\[1\.1\] {
+  line-height: 1.25 !important;
+}
+
+html.locale-ar h2.leading-\[1\.1\],
+html.locale-ar h1.leading-\[1\.1\],
+html[dir="rtl"] h2.leading-\[1\.1\],
+html[dir="rtl"] h1.leading-\[1\.1\] {
+  line-height: 1.4 !important;
+}
+
+/* Extra spacing for very large text */
+h2.text-\[56px\],
+h2.text-5xl,
+h2.text-6xl {
+  line-height: 1.2 !important;
+}
+
+html.locale-ar h2.text-\[56px\],
+html.locale-ar h2.text-5xl,
+html.locale-ar h2.text-6xl,
+html[dir="rtl"] h2.text-\[56px\],
+html[dir="rtl"] h2.text-5xl,
+html[dir="rtl"] h2.text-6xl {
+  line-height: 1.35 !important;
+}
+
+/* Better paragraph wrapping for all languages */
+.dental-landing p,
+.dental-landing .text-base,
+.dental-landing .text-lg {
+  word-break: break-word;
+  overflow-wrap: break-word;
+  text-wrap: pretty;
+  hyphens: auto;
+}
+
+html.locale-ar .dental-landing p,
+html.locale-ar .dental-landing .text-base,
+html.locale-ar .dental-landing .text-lg,
+html[dir="rtl"] .dental-landing p,
+html[dir="rtl"] .dental-landing .text-base,
+html[dir="rtl"] .dental-landing .text-lg {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+  text-wrap: pretty;
+  line-height: 1.8;
+  hyphens: auto;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  /* Cursor pointer for all clickable elements on hover */
+  button,
+  [role="button"],
+  [role="menuitem"],
+  [role="menuitemradio"],
+  [role="menuitemcheckbox"],
+  [role="option"],
+  [role="tab"],
+  [role="link"],
+  [role="combobox"],
+  input[type="submit"],
+  input[type="button"],
+  input[type="reset"],
+  input[type="image"],
+  a,
+  summary,
+  .clickable,
+  [data-slot="sidebar-menu-button"],
+  [data-slot="sidebar-trigger"],
+  [data-radix-select-trigger],
+  [data-state="open"][aria-haspopup] {
+    cursor: pointer;
+  }
+}
+
+/* Premium hover: table rows and cards */
+[data-slot="table-row"] {
+  @apply transition-colors duration-150;
+}
+[data-slot="table-row"]:hover {
+  @apply bg-muted/60;
+}
+/* Skeleton shimmer for dashboard loading */
+@keyframes dashboard-shimmer {
+  0% { opacity: 0.5; }
+  50% { opacity: 1; }
+  100% { opacity: 0.5; }
+}
+.animate-dashboard-shimmer {
+  animation: dashboard-shimmer 1.5s ease-in-out infinite;
+}
+
+/* Dashboard page layout — title/description match patients page (size and position) */
+.dashboard-page {
+  @apply space-y-6;
+}
+.dashboard-page-header {
+  @apply space-y-1 pt-4;
+}
+.dashboard-page-title {
+  @apply font-heading text-3xl font-black tracking-tight text-slate-900 dark:text-white;
+}
+.dashboard-page-description {
+  @apply text-sm font-semibold text-slate-500 dark:text-slate-400 mt-1;
+}
+
+/* Chart styling - ensure transparent backgrounds */
+.chart-wrapper,
+[data-slot="chart"] {
+  background: transparent !important;
+}
+
+.chart-wrapper *,
+[data-slot="chart"] * {
+  background: transparent !important;
+}
+
+/* Enhanced card hover effects - no shadow on hover */
+.card-hover {
+  @apply transition-all duration-200;
+}
+
+.card-hover:hover {
+  transform: translateY(-1px);
+}
+
+/* Remove focus/selection border when clicking on chart cards (Revenue, Activity, Appointment Status) */
+.dashboard-chart-card,
+.dashboard-chart-card:focus,
+.dashboard-chart-card:focus-visible,
+.dashboard-chart-card *,
+.dashboard-chart-card *:focus,
+.dashboard-chart-card *:focus-visible {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.dashboard-chart-card * {
+  --tw-ring-shadow: 0 0 #0000 !important;
+  --tw-ring-offset-shadow: 0 0 #0000 !important;
+}
+
+/* Smooth animations for progress bars */
+@keyframes progress-animate {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* Subrocket-style: heading font for titles */
+.font-heading {
+  font-family: var(--font-heading), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Theme switch: disable transitions during toggle (Subrocket-style) */
+.disable-transitions * {
+  transition: none !important;
+}
+
+/* Theme ripple fallback animation (when View Transitions API not supported) */
+@keyframes theme-ripple {
+  0% {
+    transform: scale(0);
+    opacity: 0.6;
+  }
+  30% {
+    opacity: 0.4;
+  }
+  70% {
+    opacity: 0.2;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+
+/* Theme presets (Subrocket-style: multiple colors) */
+[data-theme-preset="ocean"] {
+  --primary: 199 89% 48%;
+  --ring: 199 89% 48%;
+}
+.dark[data-theme-preset="ocean"] {
+  --primary: 199 96% 59%;
+  --ring: 199 96% 59%;
+}
+
+[data-theme-preset="forest"] {
+  --primary: 158 64% 52%;
+  --ring: 158 64% 52%;
+}
+.dark[data-theme-preset="forest"] {
+  --primary: 158 81% 57%;
+  --ring: 158 81% 57%;
+}
+
+[data-theme-preset="slate"] {
+  --primary: 215 16% 47%;
+  --ring: 215 16% 47%;
+}
+.dark[data-theme-preset="slate"] {
+  --primary: 214 32% 91%;
+  --ring: 214 32% 91%;
+}
+
+[data-theme-preset="rose"] {
+  --primary: 346 77% 50%;
+  --ring: 346 77% 50%;
+}
+.dark[data-theme-preset="rose"] {
+  --primary: 346 77% 66%;
+  --ring: 346 77% 66%;
+}
+
+/* Sonner: close button top-right inside toast (not outside) */
+[data-sonner-toaster][dir="ltr"] [data-sonner-toast][data-styled="true"] [data-close-button],
+html[dir="ltr"] [data-sonner-toast][data-styled="true"] [data-close-button] {
+  left: unset;
+  right: 8px;
+  top: 8px;
+  transform: none;
+}
+[data-sonner-toaster][dir="rtl"] [data-sonner-toast][data-styled="true"] [data-close-button],
+html[dir="rtl"] [data-sonner-toast][data-styled="true"] [data-close-button] {
+  right: unset;
+  left: 8px;
+  top: 8px;
+  transform: none;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+@keyframes float-slow {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+@keyframes float-subtle {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
+@keyframes pulse-slow {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.8; transform: scale(0.95); }
+}
+@keyframes pulse-subtle {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.92; }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+.animate-float-slow {
+  animation: float-slow 8s ease-in-out infinite;
+}
+.animate-float-subtle {
+  animation: float-subtle 5s ease-in-out infinite;
+}
+.animate-pulse-slow {
+  animation: pulse-slow 4s ease-in-out infinite;
+}
+.animate-pulse-subtle {
+  animation: pulse-subtle 3s ease-in-out infinite;
+}
+
+/* Skeleton shimmer – professional loading state */
+@keyframes skeleton-shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+.skeleton-shimmer {
+  background: linear-gradient(
+    90deg,
+    hsl(var(--muted)) 0%,
+    hsl(var(--muted)) 35%,
+    hsl(var(--accent)) 50%,
+    hsl(var(--muted)) 65%,
+    hsl(var(--muted)) 100%
+  );
+  background-size: 200% 100%;
+  animation: skeleton-shimmer 1.8s ease-in-out infinite;
+}
+
+/* Awards slider: hide horizontal scrollbar in all browsers (scroll/drag still work) */
+#awards .awards-slider-scroll,
+#awards [data-awards-slider],
+.awards-slider-scroll,
+[data-awards-slider] {
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+  scrollbar-color: transparent transparent !important;
+}
+#awards .awards-slider-scroll::-webkit-scrollbar,
+#awards [data-awards-slider]::-webkit-scrollbar,
+.awards-slider-scroll::-webkit-scrollbar,
+[data-awards-slider]::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  max-width: 0 !important;
+  max-height: 0 !important;
+  background: transparent !important;
+  border: none !important;
+}
+#awards .awards-slider-scroll::-webkit-scrollbar-track,
+#awards .awards-slider-scroll::-webkit-scrollbar-thumb,
+#awards [data-awards-slider]::-webkit-scrollbar-track,
+#awards [data-awards-slider]::-webkit-scrollbar-thumb,
+.awards-slider-scroll::-webkit-scrollbar-track,
+.awards-slider-scroll::-webkit-scrollbar-thumb,
+[data-awards-slider]::-webkit-scrollbar-track,
+[data-awards-slider]::-webkit-scrollbar-thumb {
+  display: none !important;
+  background: transparent !important;
+  border: none !important;
+}

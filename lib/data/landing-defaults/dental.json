@@ -1,0 +1,285 @@
+{
+  "branding": {
+    "primaryLogoUrl": "/landing/dental/logo.svg",
+    "darkLogoUrl": "/landing/dental/logo-dark.svg",
+    "faviconUrl": "/landing/dental/favicon.svg",
+    "brandName": "ClinicMaster"
+  },
+  "colors": {
+    "primary": "#e11d48",
+    "secondary": "#ec4899",
+    "accent": "#f43f5e",
+    "background": "#FFFFFF",
+    "textPrimary": "#1F2937",
+    "textSecondary": "#6B7280",
+    "buttonHover": "#be123c",
+    "success": "#10B981",
+    "error": "#EF4444"
+  },
+  "content": {
+    "hero": {
+      "headline": "Get Beautiful Straight Smile Quickly",
+      "subtitle": "Experienced staff is dedicated to improving our patients' dental health and enhancing their smiles with expert care.",
+      "ctaPrimary": "Book Appointment",
+      "ctaSecondary": "Learn More",
+      "imageUrl": null,
+      "rating": 4.8,
+      "reviewCount": 120,
+      "patientCount": 5000
+    },
+    "services": [
+      {
+        "title": "Teeth Whitening",
+        "description": "Professional whitening treatments to brighten your smile safely and effectively.",
+        "iconUrl": null
+      },
+      {
+        "title": "Dental Implants",
+        "description": "Permanent, natural-looking solution for missing teeth restoring function and aesthetics.",
+        "iconUrl": null
+      },
+      {
+        "title": "Root Canal",
+        "description": "Expert endodontic therapy to save natural teeth and relieve pain efficiently.",
+        "iconUrl": null
+      },
+      {
+        "title": "Orthodontics",
+        "description": "Comprehensive orthodontic care including clear aligners and traditional braces.",
+        "iconUrl": null
+      }
+    ],
+    "aboutDoctor": {
+      "sectionTitle": "About The Doctor",
+      "doctorName": "Dr. Sarah Johnson",
+      "doctorTitle": "DDS, Cosmetic Dentist",
+      "doctorImageUrl": null,
+      "paragraph1": "With over 15 years of experience in cosmetic and general dentistry, Dr. Johnson is committed to providing exceptional care.",
+      "paragraph2": "Our clinic uses the latest technology for painless procedures and ensuring the best possible outcomes for every patient.",
+      "checkmark1": "15+ Years Experience",
+      "checkmark2": "Advanced Technology",
+      "checkmark3": "Painless Procedures",
+      "checkmark4": "Patient-Centered Care",
+      "yearsOfExperience": 15,
+      "totalPatients": 2000
+    },
+    "testimonials": {
+      "sectionTitle": "What Our Patients Say",
+      "reviews": [
+        {
+          "name": "Emily R.",
+          "role": "Patient",
+          "text": "The best dental experience I've ever had! The staff is friendly and professional.",
+          "rating": 5,
+          "avatarUrl": null
+        },
+        {
+          "name": "Michael T.",
+          "role": "Patient",
+          "text": "Dr. Johnson transformed my smile. I couldn't be happier with the results.",
+          "rating": 5,
+          "avatarUrl": null
+        }
+      ]
+    },
+    "pricing": {
+      "sectionTitle": "Simple, Transparent Pricing",
+      "plans": [
+        {
+          "name": "Check-up",
+          "price": 99,
+          "currency": "USD",
+          "features": [
+            "Comprehensive Exam",
+            "X-Rays",
+            "Cleaning",
+            "Oral Cancer Screening"
+          ],
+          "ctaText": "Book Now",
+          "featured": false
+        },
+        {
+          "name": "Whitening",
+          "price": 299,
+          "currency": "USD",
+          "features": [
+            "Professional Whitening",
+            "Take-home Kit",
+            "Desensitizing Gel",
+            "Follow-up Visit"
+          ],
+          "ctaText": "Get Started",
+          "featured": true
+        }
+      ]
+    },
+    "whyChooseUs": {
+      "sectionTitle": "Why Choose ClinicMaster?",
+      "reasons": [
+        {
+          "title": "Experienced Team",
+          "description": "Our team of specialists has decades of combined experience.",
+          "iconUrl": null
+        },
+        {
+          "title": "Modern Technology",
+          "description": "We use the latest digital equipment for precise treatments.",
+          "iconUrl": null
+        },
+        {
+          "title": "Comfortable Care",
+          "description": "We prioritize your comfort with sedation options and amenities.",
+          "iconUrl": null
+        }
+      ]
+    },
+    "dentalHealth": {
+      "sectionTitle": "Committed to Your Dental Health",
+      "mainParagraph": "We believe prevention is the key to a healthy smile. Our comprehensive approach ensures long-term oral health.",
+      "stat1Number": 5000,
+      "stat1Label": "Happy Patients",
+      "stat2Number": 15,
+      "stat2Label": "Years Experience",
+      "stat3Number": 25,
+      "stat3Label": "Awards Won",
+      "imageUrl": null
+    },
+    "smileComparison": null,
+    "features": {
+      "enableDarkModeToggle": true,
+      "enableLanguageSwitcher": true,
+      "enableStickyNavbar": true,
+      "supportedLanguages": [
+        "en",
+        "fr",
+        "es",
+        "ar"
+      ],
+      "enableTopBar": true,
+      "topBarType": "info",
+      "topBarCustomText": "Welcome to ClinicMaster - Call us to book an appointment!"
+    }
+  },
+  "seo": {
+    "metaTitle": "ClinicMaster - Dental Practice Management",
+    "metaDescription": "Complete dental practice management system for modern clinics.",
+    "metaKeywords": "clinic management, healthcare, patient management",
+    "ogImageUrl": null,
+    "ogTitle": null,
+    "ogDescription": null,
+    "twitterCardType": "summary_large_image",
+    "canonicalUrl": null,
+    "robots": "index"
+  },
+  "typography": {
+    "headingFont": "Poppins",
+    "bodyFont": "Open Sans",
+    "fontSize": "medium",
+    "lineHeight": "normal"
+  },
+  "cta": {
+    "sectionTitle": "Ready to Get Started?",
+    "description": "Book your appointment today",
+    "formFields": {
+      "name": true,
+      "email": true,
+      "phone": true,
+      "service": true,
+      "message": true
+    },
+    "submitButtonText": "Submit",
+    "successMessage": "Thank you! We'll contact you soon.",
+    "errorMessage": "Something went wrong. Please try again.",
+    "emailNotifications": true
+  },
+  "contact": {
+    "phone": "+1 (555) 001-234",
+    "email": "info@clinicmaster.com",
+    "address": "123 Smile Street, Beverly Hills, CA 90210",
+    "mapsUrl": null,
+    "openingHours": [
+      {
+        "day": "Monday – Friday",
+        "time": "9:00 AM – 6:00 PM"
+      },
+      {
+        "day": "Saturday",
+        "time": "9:00 AM – 2:00 PM"
+      },
+      {
+        "day": "Sunday",
+        "time": "Closed"
+      }
+    ],
+    "whatsappNumber": null,
+    "emergencyContact": "+1 (555) 999-911"
+  },
+  "social": {
+    "facebook": "https://facebook.com/clinicmaster",
+    "instagram": "https://instagram.com/clinicmaster",
+    "twitter": "https://twitter.com/clinicmaster",
+    "linkedin": "https://linkedin.com/clinicmaster",
+    "youtube": null,
+    "tiktok": null,
+    "enabled": {
+      "facebook": true,
+      "instagram": true,
+      "twitter": true,
+      "linkedin": true,
+      "youtube": false,
+      "tiktok": false
+    }
+  },
+  "footer": {
+    "logoUrl": "/landing/dental/logo.svg",
+    "companyDescription": "Providing premium dental care since 2005. We combine the world's best specialists with modern medical technology to deliver unmatched dental outcomes.",
+    "quickLinks": [
+      {
+        "label": "Home",
+        "url": "#hero"
+      },
+      {
+        "label": "About Us",
+        "url": "#about"
+      },
+      {
+        "label": "Services",
+        "url": "#services"
+      },
+      {
+        "label": "Our Doctors",
+        "url": "#doctors"
+      },
+      {
+        "label": "Contact",
+        "url": "#contact"
+      }
+    ],
+    "serviceLinks": [
+      {
+        "label": "Teeth Whitening",
+        "url": "#services"
+      },
+      {
+        "label": "Dental Implants",
+        "url": "#services"
+      },
+      {
+        "label": "Root Canal",
+        "url": "#services"
+      },
+      {
+        "label": "Braces & Aligners",
+        "url": "#services"
+      },
+      {
+        "label": "Emergency Care",
+        "url": "#services"
+      }
+    ],
+    "copyrightText": "© 2026 ClinicMaster. All rights reserved.",
+    "privacyPolicyLink": "/policies/privacy-policy",
+    "termsLink": "/policies/terms-of-service",
+    "backgroundColor": null
+  }
+}

@@ -1,0 +1,475 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "doctors": "Doctors",
+    "departments": "Departments",
+    "pricing": "Pricing",
+    "blog": "Blog",
+    "reviews": "Reviews",
+    "contact": "Contact",
+    "bookAppointment": "Book Appointment",
+    "appointment": "Appointment",
+    "signUp": "Sign up",
+    "login": "Login",
+    "getToKnowUs": "Get to know us",
+    "logoAlt": "Clinic Master Logo",
+    "toggleMenu": "Toggle navigation menu"
+  },
+  "topBar": {
+    "phone": "+1 123 456 7890",
+    "email": "info@example.com"
+  },
+  "hero": {
+    "tagline": "Expert Vision Care",
+    "headline": "Your Vision is our Mission",
+    "subtitle": "Advanced ophthalmology care with cutting-edge technology and compassionate specialists dedicated to your vision health.",
+    "talkToDoctors": "Talk to over 215 doctors",
+    "rating": "(4.8)",
+    "ratingsText": "12k+ ratings on google",
+    "availableDoctors": "Available Doctors",
+    "selectDoctor": "Select Doctor",
+    "bookAppointment": "Book appointment",
+    "heroCta": "Schedule your visit",
+    "contact": "Contact Us",
+    "appointment": "Appointment",
+    "avatarAlt": "Patient avatar",
+    "heroDoctorAlt": "Professional ophthalmologist",
+    "toothAlt": "Eye care icon",
+    "sparkleAlt": "Eye care sparkle",
+    "doctor1Alt": "Dr. Olivia Davis",
+    "doctor2Alt": "Dr. William Martinez",
+    "doctor1Name": "Olivia Davis",
+    "doctor2Name": "William Martinez",
+    "dentist": "Ophthalmologist",
+    "decorativeImageAlt": "Decorative eye care element"
+  },
+  "services": {
+    "badge": "Our Services",
+    "title": "Our Ophthalmology Specialisms",
+    "subtitle": "Precision-driven eye care designed for your comfort and lasting vision health.",
+    "bracesAligners": {
+      "title": "Comprehensive Eye Exams",
+      "tag": "Diagnostics",
+      "desc": "Thorough examinations detecting vision problems and eye diseases at their earliest stages."
+    },
+    "dentalImplants": {
+      "title": "LASIK Surgery",
+      "tag": "Refractive",
+      "desc": "Advanced laser vision correction for a life free from glasses and contact lenses.",
+      "bookNow": "Book Now"
+    },
+    "emergencyCare": {
+      "title": "Emergency Eye Care",
+      "tag": "Urgent",
+      "desc": "Same-day urgent care for eye trauma, sudden vision loss, and infections. Our specialists are always on standby when you need us most."
+    },
+    "teethWhitening": {
+      "title": "Cataract Surgery",
+      "tag": "Surgery",
+      "desc": "Modern phacoemulsification with premium intraocular lens options for crystal clear vision."
+    },
+    "rootCanal": {
+      "title": "Glaucoma Treatment",
+      "tag": "Specialty",
+      "desc": "Early detection and management of glaucoma to preserve your precious sight."
+    },
+    "cosmeticDentistry": {
+      "title": "Pediatric Eye Care",
+      "tag": "Pediatrics",
+      "desc": "Gentle, specialized eye care for children from infancy through adolescence."
+    },
+    "lowVisionServices": {
+      "tag": "01",
+      "title": "Low Vision Services",
+      "desc": "Affordable glasses and lenses tailored to your needs. We understand and support you."
+    },
+    "pediatricEyeCare": {
+      "tag": "02",
+      "title": "Pediatric Eye Care",
+      "desc": "Gentle, child-friendly exams and affordable glasses when needed. We put little ones at ease."
+    },
+    "eyeEvaluation": {
+      "tag": "03",
+      "title": "Eye Evaluation",
+      "desc": "Full eye exams and modern equipment. We help you choose the best glasses or lenses."
+    },
+    "longTermEyeHealth": {
+      "tag": "04",
+      "title": "Long-Term Eye Health",
+      "desc": "Ongoing care and check-ups to protect your vision. Prevention and wellness for the long run."
+    },
+    "mostPopular": "Most Popular"
+  },
+  "aboutDoctor": {
+    "title": "About The Doctor",
+    "doctorName": "Dr. Emma Foster",
+    "quote": "Our mission is to combine advanced technology with compassionate care to give every patient the gift of clear vision and lasting eye health.",
+    "description": "Dr. Foster brings over two decades of experience in ophthalmology. She is committed to providing personalized care and staying at the forefront of eye care technology through continuous research and training.",
+    "bullet1": "20+ Years Clinical Experience",
+    "bullet2": "Board Certified Ophthalmologist",
+    "bullet3": "Advanced Refractive Surgery",
+    "bullet4": "Member of American Academy of Ophthalmology",
+    "scheduleConsultation": "Schedule Consultation",
+    "leadDentalDirector": "Chief of Ophthalmology"
+  },
+  "weCare": {
+    "subTitle": "About us",
+    "title": "We Care More Than Just Your Eyes",
+    "description": "Eye care center treatments are specialized services aimed at improving and maintaining eye health.",
+    "stat1Value": "20",
+    "stat1Label": "Years of service",
+    "stat2Value": "14",
+    "stat2Label": "Winning award",
+    "stat3Value": "28",
+    "stat3Label": "Health sections",
+    "readMore": "Read More",
+    "awardBadge": "EYE CARE CENTER #1 AWARD WINNING",
+    "patientImageAlt": "Patient receiving eye care",
+    "teethWhitening": "Comprehensive Exams",
+    "modernAnesthetic": "LASIK & Refractive",
+    "qualityBrackets": "Cataract Surgery",
+    "rootCanal": "Glaucoma Care",
+    "happyPatients": "Happy Patients",
+    "specialists": "Specialists",
+    "winningAwards": "Winning Awards"
+  },
+  "smileComparison": {
+    "title": "See Clearly Again — It Matters!",
+    "beforeLabel": "Before Treatment",
+    "afterLabel": "After Treatment",
+    "disclaimer": "* Results may vary based on individual eye condition and treatment plan."
+  },
+  "pricing": {
+    "badge": "Consultation & Care",
+    "title": "Consultation Options For Your Vision",
+    "disclaimer": "Contact us for a personalized consultation. We'll discuss your needs and options without obligation.",
+    "bookConsultationBasic": "Book Vision Care Consultation",
+    "bookConsultationAdvanced": "Book Surgical Consultation",
+    "essentialCare": {
+      "name": "Basic Vision Care",
+      "description": "Baseline eye health for every patient.",
+      "badge": "Basic",
+      "price": "$89",
+      "period": "/fixed",
+      "bookService": "Book Service",
+      "standardExam": "Comprehensive Eye Exam",
+      "professionalCleaning": "Vision Screening",
+      "digitalXrays": "Digital Retinal Imaging",
+      "personalConsultation": "Personal Consultation",
+      "priorityConsultation": "Priority Consultation"
+    },
+    "advancedSmile": {
+      "name": "Advanced Eye Surgery",
+      "description": "Full vision transformation & surgery.",
+      "badge": "Patient Favorite",
+      "price": "$499",
+      "period": "/fixed",
+      "bookService": "Book Service",
+      "fullAestheticDesign": "LASIK Consultation",
+      "professionalWhitening": "Cataract Surgery",
+      "panoramicImaging": "Premium IOL Options",
+      "sedationOptions": "Sedation Options",
+      "postCareKit": "Post-Care Kit",
+      "priorityConsultation": "Priority Consultation"
+    }
+  },
+  "blogPage": {
+    "pageTitle": "Our Latest",
+    "pageTitleHighlight": "News & Articles",
+    "pageSubtitle": "Stay updated with the latest trends in eye care, clinic updates, and expert tips for healthier vision.",
+    "previous": "Previous",
+    "next": "Next",
+    "pageOf": "Page {page} of {total}",
+    "tags": "Tags:",
+    "shareArticle": "Share Article",
+    "commentsOne": "1 Comment",
+    "commentsCount": "{count} Comments",
+    "commentsZero": "0 Comments",
+    "commentsOff": "Comments Off",
+    "postNotFound": "Post Not Found",
+    "postNotFoundDesc": "The article you are looking for does not exist.",
+    "backToHome": "Back to Home",
+    "minRead": "min",
+    "joinConversation": "Join the conversation",
+    "addComment": "Add Comment",
+    "cancel": "Cancel",
+    "leaveComment": "Leave a comment",
+    "name": "Name",
+    "emailOptional": "(optional)",
+    "comment": "Comment",
+    "yourName": "Your name",
+    "yourEmail": "your@email.com",
+    "shareThoughts": "Share your thoughts...",
+    "postComment": "Post Comment",
+    "posting": "Posting...",
+    "noCommentsYet": "No comments yet. Be the first!",
+    "commentPosted": "Comment posted!",
+    "failedToPost": "Failed to post comment. Try again.",
+    "justNow": "just now",
+    "minutesAgo": "{n}m ago",
+    "hoursAgo": "{n}h ago",
+    "daysAgo": "{n}d ago"
+  },
+  "news": {
+    "badge": "Blog & News",
+    "title": "Stay Informed With Our Latest News",
+    "subtitle": "Professional insights, health tips, and clinic updates directly from our panel of board-certified ophthalmologists.",
+    "readMore": "See More",
+    "minRead": "min",
+    "enterPublication": "Enter Publication",
+    "info": "Info",
+    "tipsHealthySmile": {
+      "title": "Tips for Maintaining Healthy Vision",
+      "category": "Eye Health",
+      "excerpt": "Daily habits and professional care that keep your eyes in top shape for years to come."
+    },
+    "understandingImplants": {
+      "title": "Understanding Cataract Surgery",
+      "category": "Treatments",
+      "excerpt": "What to expect from cataract surgery and how to care for your eyes during the recovery process."
+    },
+    "emergencyDentist": {
+      "title": "When to See an Emergency Eye Doctor",
+      "category": "Urgent",
+      "excerpt": "Signs you need urgent eye care and how we can help when it matters most for your vision."
+    },
+    "digitalDentistry": {
+      "title": "New Technology in Ophthalmology",
+      "category": "Innovation",
+      "excerpt": "How advanced imaging and laser technology are revolutionizing eye care precision and patient comfort."
+    }
+  },
+  "testimonials": {
+    "badge": "Patient Stories",
+    "title": "What Our Patients Say About Us",
+    "subtitle": "Professional insights, health tips, and clinic updates directly from our panel of board-certified ophthalmologists.",
+    "testimonial1": {
+      "content": "After LASIK surgery here, I can see clearly for the first time in 20 years. The entire team was professional and caring throughout.",
+      "name": "James Rodriguez",
+      "role": "LASIK Patient"
+    },
+    "testimonial2": {
+      "content": "The cataract surgery changed my life. Dr. Foster explained everything clearly and the results exceeded my expectations.",
+      "name": "Fatima Al-Hassan",
+      "role": "Cataract Surgery"
+    },
+    "testimonial3": {
+      "content": "Exceptional eye care from a team that truly cares. My annual exams always detect issues early. I trust them completely.",
+      "name": "Marie Dubois",
+      "role": "Regular Patient"
+    },
+    "testimonial4": {
+      "content": "I was nervous about my procedure, but the doctors were so patient and explained everything. Recovery was much faster than I expected.",
+      "name": "Rodrigo Aguilar",
+      "role": "Glaucoma Patient"
+    },
+    "testimonial5": {
+      "content": "Our kids actually enjoy their eye exams here! The pediatric wing is so welcoming and the doctors are amazing with children. Perfect for families.",
+      "name": "Emma Davis",
+      "role": "Parent"
+    },
+    "testimonial6": {
+      "content": "Affordable, transparent pricing and high-quality eye care. There are no hidden costs and the results speak for themselves. This is now our go-to clinic.",
+      "name": "Michael Chen",
+      "role": "Regular Patient"
+    }
+  },
+  "footer": {
+    "description": "Providing premium eye care since 2005. We combine the world's best specialists with modern medical technology to deliver unmatched vision outcomes.",
+    "quickLinks": "Quick Links",
+    "home": "Home",
+    "aboutUs": "About Us",
+    "services": "Services",
+    "ourDoctors": "Our Doctors",
+    "caseStudies": "Case Studies",
+    "ourServices": "Our Services",
+    "teethWhitening": "Eye Exams",
+    "dentalImplants": "LASIK Surgery",
+    "rootCanal": "Cataract Surgery",
+    "bracesAligners": "Glaucoma Care",
+    "emergencyCare": "Emergency Eye Care",
+    "support": "Support",
+    "helpCenter": "Help Center",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "refundPolicy": "Refund Policy",
+    "cookieSettings": "Cookie Settings",
+    "connect": "Connect",
+    "followUs": "Follow us",
+    "emergency": "Emergency",
+    "ourStudio": "Our Studio",
+    "address": "123 Smile Street, CA",
+    "googleRating": "(4.8)",
+    "ratingsText": "12k+ google ratings",
+    "allRightsReserved": "© {year} ClinicMaster. All rights reserved.",
+    "logoAlt": "Clinic Master"
+  },
+  "contact": {
+    "badge": "Get In Touch",
+    "title": "Ready to See More Clearly?",
+    "subtitle": "Professional insights, health tips, and clinic updates directly from our panel of board-certified ophthalmologists.",
+    "sendMessage": "Send a Message",
+    "fastFriendlySupport": "Fast & Friendly Support Team",
+    "fullName": "Full Name",
+    "fullNamePlaceholder": "John Doe",
+    "emailAddress": "Email Address",
+    "emailPlaceholder": "john@example.com",
+    "yourInquiry": "Your Inquiry",
+    "inquiryPlaceholder": "How can we help you today?",
+    "sendMessageButton": "Send Message",
+    "processing": "Processing...",
+    "errorFieldsRequired": "Please fill all required fields"
+  },
+  "whyChoose": {
+    "badge": "Why Choose us",
+    "mainTitle": "A Holistic View On Eye Care And Health",
+    "eyeSpecialist": {
+      "title": "Eye Specialist",
+      "description": "Our expert ophthalmologists provide specialized patient care."
+    },
+    "weAreCertified": {
+      "title": "We Are Certified",
+      "description": "Our expert ophthalmologists provide specialized patient care."
+    },
+    "happyClients": {
+      "title": "Happy Clients",
+      "description": "Our expert ophthalmologists provide specialized patient care."
+    },
+    "durationOfService": {
+      "title": "Duration of Service",
+      "description": "Our expert ophthalmologists provide specialized patient care."
+    }
+  },
+  "makeAppointment": {
+    "title": "Schedule Your Visit",
+    "subtitle": "Professional care at your fingertips.",
+    "certifiedDoctors": "Certified & Professional Doctors",
+    "emergencyCare247": "Emergency Eye Care 24/7",
+    "modernEquipment": "Modern Ophthalmic Equipment",
+    "flexiblePayment": "Flexible Payment Options",
+    "fullName": "Full Name",
+    "fullNamePlaceholder": "e.g. John Doe",
+    "phoneNumber": "Phone Number",
+    "phonePlaceholder": "+1 (555) 000-0000",
+    "selectService": "Select Service",
+    "selectServicePlaceholder": "What do you need?",
+    "selectDate": "Preferred Date",
+    "bookNow": "Confirm My Request Now",
+    "processing": "Processing...",
+    "fullNameRequired": "Full name is required",
+    "phoneRequired": "Phone number is required",
+    "serviceRequired": "Please select a service",
+    "dateRequired": "Please select a date",
+    "success": {
+      "title": "Success!",
+      "message": "Thank you for your request. We will contact you shortly to confirm your visit.",
+      "reschedule": "Reschedule Another Session"
+    },
+    "services": {
+      "generalCheckup": "Comprehensive Eye Exam",
+      "teethWhitening": "LASIK Surgery",
+      "dentalImplants": "Cataract Surgery",
+      "rootCanal": "Glaucoma Treatment",
+      "cosmeticDentistry": "Pediatric Eye Care",
+      "emergencyCare": "Emergency Eye Care"
+    },
+    "doctorsImageAlt": "Professional ophthalmologists",
+    "satisfactionRate": "99%",
+    "satisfaction": "Satisfaction",
+    "satisfactionDescription": "Trusted by local patients for premium eye care."
+  },
+  "appointmentHero": {
+    "badge": "Instant Booking",
+    "title": "Appointment",
+    "home": "Home",
+    "appointment": "Appointment",
+    "doctorImageAlt": "Doctor"
+  },
+  "appointmentFeatures": {
+    "title": "Make An Appointment",
+    "subtitle": "Take the first step towards clearer vision. We are a team of professionals dedicated to your eye health.",
+    "feature1": {
+      "num": "01",
+      "title": "Medical Service",
+      "desc": "Experience world-class eye care with our team of specialists dedicated to your vision.",
+      "readMore": "Read More"
+    },
+    "feature2": {
+      "num": "02",
+      "title": "24/7 Medicines",
+      "desc": "Our on-site pharmacy ensures you get the medication you need, exactly when you need it.",
+      "readMore": "Read More"
+    },
+    "feature3": {
+      "num": "03",
+      "title": "Best Doctor",
+      "desc": "Our board-certified doctors bring years of expertise and a compassionate approach.",
+      "readMore": "Read More"
+    }
+  },
+  "locations": {
+    "badge": "Find Us",
+    "title": "All Locations",
+    "subtitle": "Multiple convenient locations nearest to you.",
+    "getDirections": "Get Directions",
+    "location1": {
+      "country": "United States",
+      "address": "123 Health Way, Suite 456, Goodland, 78910 United States",
+      "phone": "+1 123-456-7890",
+      "hours": "Mon-Thu: 8:00am-5:00pm"
+    },
+    "location2": {
+      "country": "Canada",
+      "address": "123 Health Way, Suite 456, Goodland, 78910 United States",
+      "phone": "+1 123-456-7890",
+      "hours": "Mon-Thu: 8:00am-5:00pm"
+    },
+    "overlay": {
+      "officeAddress": "Office Address:",
+      "address": "234 Oak Drive, NY, USA",
+      "workingHours": "Working Hours:",
+      "hours1": "Mon-Thu: 8:00am-5:00pm",
+      "hours2": "Fri: 8:00am-1:00pm"
+    }
+  },
+  "cookieNotice": {
+    "title": "Cookie Notice",
+    "message": "We use cookies to ensure that we give you the best experience on our website.",
+    "linkText": "Read cookies policies.",
+    "managePrefs": "Manage Prefs",
+    "decline": "Decline",
+    "accept": "Accept"
+  },
+  "highlyQualified": {
+    "title": "Meet Our Highly Qualified Team",
+    "description": "Our team consists of board-certified ophthalmologists who prioritize your comfort and vision. Using state-of-the-art diagnostic tools, we ensure precision and care for every patient.",
+    "availableToday": "Available Today",
+    "mainDoctorName": "Dr. Emma Foster",
+    "mainDoctorTitle": "Chief of Ophthalmology",
+    "experienceYears": "20+ Yrs",
+    "experienceLabel": "Professional Experience",
+    "viewAllDoctors": "View All Specialist Doctors",
+    "doctors": {
+      "doctor1": {
+        "name": "Dr. Michael Williams",
+        "specialty": "Corneal Specialist"
+      },
+      "doctor2": {
+        "name": "Dr. Jessica Brown",
+        "specialty": "Retina Specialist"
+      },
+      "doctor3": {
+        "name": "Dr. David Chen",
+        "specialty": "General Ophthalmology"
+      },
+      "doctor4": {
+        "name": "Dr. Emma Foster",
+        "specialty": "Pediatric Ophthalmology"
+      }
+    },
+    "mainDoctorAlt": "Main Doctor",
+    "doctorImageAlt": "Doctor"
+  }
+}

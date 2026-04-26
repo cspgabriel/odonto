@@ -1,0 +1,255 @@
+{
+  "branding": {
+    "primaryLogoUrl": "/landing/general/logo.svg",
+    "darkLogoUrl": "/landing/general/logo-dark.svg",
+    "faviconUrl": "/landing/general/favicon.svg",
+    "brandName": "ClinicMaster"
+  },
+  "colors": {
+    "primary": "#0cc0df",
+    "secondary": "#0aa5c4",
+    "accent": "#2dd4f0",
+    "background": "#F0FDFF",
+    "textPrimary": "#1E2340",
+    "textSecondary": "#6B7280",
+    "buttonHover": "#0aa5c4",
+    "success": "#10B981",
+    "error": "#EF4444"
+  },
+  "content": {
+    "hero": {
+      "headline": "Medical & Health Care Services",
+      "subtitle": "Your health is our top priority. Schedule an appointment with us today.",
+      "ctaPrimary": "Book Appointment",
+      "ctaSecondary": "Learn More",
+      "imageUrl": "/landing/general/images/hero.webp",
+      "rating": 4.8,
+      "reviewCount": 120,
+      "patientCount": 5000
+    },
+    "services": [
+      {
+        "title": "Appointment Booking",
+        "description": "Easy online scheduling for patients with automated reminders and calendar management.",
+        "iconUrl": ""
+      },
+      {
+        "title": "Patient Records",
+        "description": "Complete digital health records with history, diagnoses, prescriptions and lab results.",
+        "iconUrl": ""
+      },
+      {
+        "title": "Billing & Invoices",
+        "description": "Automated invoicing, payment tracking and financial reporting in one dashboard.",
+        "iconUrl": ""
+      },
+      {
+        "title": "Staff Management",
+        "description": "Manage your medical team, departments, roles, and permissions with ease.",
+        "iconUrl": ""
+      },
+      {
+        "title": "Lab & Diagnostics",
+        "description": "Integrated lab vendor management, test orders and results tracking.",
+        "iconUrl": ""
+      },
+      {
+        "title": "Reports & Analytics",
+        "description": "Actionable insights on clinic performance, revenue, and patient outcomes.",
+        "iconUrl": ""
+      }
+    ],
+    "aboutDoctor": {
+      "sectionTitle": "Meet Dr. Natali Jackson",
+      "doctorName": "Dr. Natali Jackson",
+      "doctorTitle": "Medical Director",
+      "doctorImageUrl": "/landing/general/images/img1.9e846f12.png",
+      "paragraph1": "CareNova is designed by healthcare technology experts who understand the daily challenges of running a modern medical practice.",
+      "paragraph2": "Our clinic uses the latest technology for effective treatments and seamless patient management.",
+      "checkmark1": "15+ Years Experience",
+      "checkmark2": "Advanced Technology",
+      "checkmark3": "Certified Specialists",
+      "checkmark4": "Patient-Centered Care",
+      "yearsOfExperience": 15,
+      "totalPatients": 2000
+    },
+    "dentalHealth": {
+      "sectionTitle": "Committed to Your Health",
+      "mainParagraph": "We believe prevention and integrated care are the key to better outcomes. Our comprehensive approach ensures long-term health for every patient.",
+      "stat1Number": 5000,
+      "stat1Label": "Happy Patients",
+      "stat2Number": 15,
+      "stat2Label": "Years Experience",
+      "stat3Number": 25,
+      "stat3Label": "Awards Won",
+      "imageUrl": null
+    },
+    "smileComparison": null,
+    "pricing": {
+      "sectionTitle": "Simple, Transparent Pricing",
+      "plans": [
+        {
+          "name": "Check-up",
+          "price": 99,
+          "currency": "USD",
+          "features": [
+            "Comprehensive Exam",
+            "Consultation",
+            "Basic Screening",
+            "Follow-up Plan"
+          ],
+          "ctaText": "Book Now",
+          "featured": false
+        },
+        {
+          "name": "Premium",
+          "price": 299,
+          "currency": "USD",
+          "features": [
+            "Full Health Assessment",
+            "Lab Work",
+            "Specialist Referral",
+            "Priority Support"
+          ],
+          "ctaText": "Get Started",
+          "featured": true
+        }
+      ]
+    },
+    "testimonials": {
+      "sectionTitle": "What Our Patients Say",
+      "reviews": [
+        {
+          "name": "Dr. Ahmed Benali",
+          "role": "General Practitioner",
+          "text": "CareNova transformed how we manage our clinic. Scheduling, billing, and patient records are now seamless.",
+          "rating": 5,
+          "avatarUrl": null
+        },
+        {
+          "name": "Dr. Marie Fontaine",
+          "role": "Clinic Director",
+          "text": "The multilingual support is outstanding. Our staff works in French and Arabic without any issues.",
+          "rating": 5,
+          "avatarUrl": null
+        },
+        {
+          "name": "Dr. James Okafor",
+          "role": "Family Medicine",
+          "text": "Setup took less than 15 minutes. The dashboard is intuitive and our team adopted it immediately.",
+          "rating": 5,
+          "avatarUrl": null
+        }
+      ]
+    },
+    "whyChooseUs": {
+      "sectionTitle": "Why Clinics Choose CareNova",
+      "reasons": [
+        {
+          "title": "15-Minute Setup",
+          "description": "Deploy your clinic website and management system in minutes, not days.",
+          "iconUrl": null
+        },
+        {
+          "title": "Multilingual",
+          "description": "Full support for English, French, Arabic (RTL), and Spanish out of the box.",
+          "iconUrl": null
+        },
+        {
+          "title": "Fully Customizable",
+          "description": "Adapt colors, branding, content and landing pages from the dashboard — no code needed.",
+          "iconUrl": null
+        }
+      ]
+    },
+    "features": {
+      "enableDarkModeToggle": true,
+      "enableLanguageSwitcher": true,
+      "enableStickyNavbar": true,
+      "supportedLanguages": ["en", "fr", "es", "ar"],
+      "enableTopBar": true,
+      "topBarType": "custom",
+      "topBarCustomText": "👋 Welcome — 📞 Call us to book an appointment!"
+    }
+  },
+  "seo": {
+    "metaTitle": "ClinicMaster — Complete Clinic Management System",
+    "metaDescription": "Modern clinic management software with appointment booking, patient records, billing, and staff management. Setup in 15 minutes.",
+    "metaKeywords": "clinic management, medical software, appointment booking, patient records, healthcare system",
+    "ogImageUrl": null,
+    "ogTitle": null,
+    "ogDescription": null,
+    "twitterCardType": "summary_large_image",
+    "canonicalUrl": null,
+    "robots": "index"
+  },
+  "typography": {
+    "headingFont": "Outfit",
+    "bodyFont": "Inter",
+    "fontSize": "medium",
+    "lineHeight": "normal"
+  },
+  "cta": {
+    "sectionTitle": "Ready to Modernize Your Clinic?",
+    "description": "Join clinics worldwide using CareNova to deliver better patient care.",
+    "formFields": {
+      "name": true,
+      "email": true,
+      "phone": true,
+      "service": true,
+      "message": true
+    },
+    "submitButtonText": "Get Started Today",
+    "successMessage": "Thank you! We'll contact you soon.",
+    "errorMessage": "Something went wrong. Please try again.",
+    "emailNotifications": true
+  },
+  "contact": {
+    "phone": "+1 (555) 000-0000",
+    "email": "hello@yourclinic.com",
+    "address": "123 Medical Center Drive",
+    "mapsUrl": null,
+    "openingHours": [
+      { "day": "Monday – Friday", "time": "8:00 AM – 6:00 PM" }
+    ],
+    "whatsappNumber": null,
+    "emergencyContact": null
+  },
+  "social": {
+    "facebook": "https://facebook.com/clinicmaster",
+    "instagram": "https://instagram.com/clinicmaster",
+    "twitter": "https://twitter.com/clinicmaster",
+    "linkedin": "https://linkedin.com/clinicmaster",
+    "youtube": null,
+    "tiktok": null,
+    "enabled": {
+      "facebook": true,
+      "instagram": true,
+      "twitter": true,
+      "linkedin": true,
+      "youtube": false,
+      "tiktok": false
+    }
+  },
+  "footer": {
+    "logoUrl": "/landing/general/logo.svg",
+    "companyDescription": "Complete clinic management for modern healthcare. Appointments, patients, billing, and analytics in one place.",
+    "quickLinks": [
+      { "label": "Home", "url": "#hero" },
+      { "label": "About Us", "url": "#about" },
+      { "label": "Services", "url": "#services" },
+      { "label": "Our Doctors", "url": "#doctors" },
+      { "label": "Contact", "url": "#contact" }
+    ],
+    "serviceLinks": [
+      { "label": "Appointments", "url": "#services" },
+      { "label": "Patient Records", "url": "#services" },
+      { "label": "Billing", "url": "#services" },
+      { "label": "Support", "url": "#contact" }
+    ],
+    "copyrightText": "© 2026 ClinicMaster. All rights reserved.",
+    "privacyPolicyLink": "/policies/privacy-policy",
+    "termsLink": "/policies/terms-of-service",
+    "backgroundColor": null
+  }
+}

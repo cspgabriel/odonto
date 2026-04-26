@@ -1,0 +1,435 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "doctors": "Doctors",
+    "departments": "Departments",
+    "pricing": "Pricing",
+    "blog": "Blog",
+    "reviews": "Reviews",
+    "contact": "Contact",
+    "bookAppointment": "Book Appointment",
+    "appointment": "Appointment",
+    "signUp": "Sign up",
+    "login": "Login",
+    "getToKnowUs": "Get to know us",
+    "logoAlt": "Clinic Master Logo",
+    "toggleMenu": "Toggle navigation menu"
+  },
+  "topBar": {
+    "phone": "+1 123 456 7890",
+    "email": "info@example.com"
+  },
+  "hero": {
+    "headline": "Get Beautiful Straight Smile Quickly",
+    "subtitle": "Experienced staff is dedicated to improving our patients' dental health and enhancing their smiles with expert care.",
+    "talkToDoctors": "Talk to over 215 doctors",
+    "rating": "(4.8)",
+    "ratingsText": "12k+ ratings on google",
+    "availableDoctors": "Available Doctors",
+    "selectDoctor": "Select Doctor",
+    "bookAppointment": "Book appointment",
+    "appointment": "Appointment",
+    "avatarAlt": "Patient avatar",
+    "heroDoctorAlt": "Professional dentist",
+    "toothAlt": "Dental care icon",
+    "sparkleAlt": "Dental care sparkle",
+    "doctor1Alt": "Dr. Olivia Davis",
+    "doctor2Alt": "Dr. William Martinez",
+    "doctor1Name": "Olivia Davis",
+    "doctor2Name": "William Martinez",
+    "dentist": "Dentist",
+    "decorativeImageAlt": "Decorative dental element"
+  },
+  "services": {
+    "badge": "Our Services",
+    "title": "Our Dental Specialisms",
+    "subtitle": "Precision-driven treatments designed for your comfort and lasting dental health.",
+    "bracesAligners": {
+      "title": "Braces & Aligners",
+      "tag": "Orthodontics",
+      "desc": "Traditional and clear aligner options for straighter teeth and improved bite alignment."
+    },
+    "dentalImplants": {
+      "title": "Dental Implants",
+      "tag": "Restoration",
+      "desc": "Permanent tooth replacement that looks and feels natural. Restore function and aesthetics with our specialized implant procedures.",
+      "bookNow": "Book Now"
+    },
+    "emergencyCare": {
+      "title": "Emergency Care",
+      "tag": "Urgent",
+      "desc": "Same-day urgent care for dental trauma, severe pain, and infections. Our specialists are always on standby when you need us most."
+    },
+    "teethWhitening": {
+      "title": "Teeth Whitening",
+      "tag": "Aesthetics",
+      "desc": "Professional whitening treatments to restore a brighter, more confident smile with lasting results."
+    },
+    "rootCanal": {
+      "title": "Root Canal",
+      "tag": "Surgery",
+      "desc": "Comfortable, effective treatment to save infected teeth and relieve pain while preserving your natural smile."
+    },
+    "cosmeticDentistry": {
+      "title": "Cosmetic Dentistry",
+      "tag": "Aesthetics",
+      "desc": "Veneers, bonding, and smile design to correct imperfections and achieve the smile you deserve."
+    },
+    "mostPopular": "Most Popular"
+  },
+  "aboutDoctor": {
+    "title": "About The Doctor",
+    "doctorName": "Dr. Sarah Williams",
+    "quote": "Our mission is to combine the art of dental aesthetics with the science of clinical excellence to give every patient the smile they've always dreamed of.",
+    "description": "Dr. Williams brings over two decades of experience in general and cosmetic dentistry. He is committed to providing personalized care and staying at the forefront of dental technology through continuous research and training.",
+    "bullet1": "20+ Years Clinical Experience",
+    "bullet2": "Board Certified Dental Specialist",
+    "bullet3": "Advanced Aesthetic Smile Design",
+    "bullet4": "Member of Intl. Dental Association",
+    "scheduleConsultation": "Schedule Consultation",
+    "leadDentalDirector": "Lead Dental Director"
+  },
+  "weCare": {
+    "title": "We Care About Your Dental Health",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using.",
+    "teethWhitening": "Teeth Whitening",
+    "modernAnesthetic": "Modern Anesthetic",
+    "qualityBrackets": "Quality Brackets",
+    "rootCanal": "Root Canal",
+    "happyPatients": "Happy Patients",
+    "specialists": "Specialists",
+    "winningAwards": "Winning Awards",
+    "patientImageAlt": "Patient receiving dental care"
+  },
+  "smileComparison": {
+    "title": "Get a Beautiful Smile, it Matters!",
+    "beforeLabel": "Initial Case",
+    "afterLabel": "Final Result",
+    "disclaimer": "* Results may vary based on individual dental condition and treatment plan."
+  },
+  "pricing": {
+    "badge": "Transparent Pricing",
+    "title": "Simple Plans For Your Smile",
+    "disclaimer": "* All plans include free initial consultation and full dental scanning.",
+    "essentialCare": {
+      "name": "Essential Care",
+      "description": "Baseline health for every patient.",
+      "badge": "Basic",
+      "price": "$89",
+      "period": "/fixed",
+      "bookService": "Book Service",
+      "standardExam": "Standard Dental Exam",
+      "professionalCleaning": "Professional Cleaning",
+      "digitalXrays": "2 Digital X-Rays",
+      "personalConsultation": "Personal Consultation",
+      "priorityConsultation": "Priority Consultation"
+    },
+    "advancedSmile": {
+      "name": "Advanced Smile",
+      "description": "Full transformation & aesthetics.",
+      "badge": "Patient Favorite",
+      "price": "$499",
+      "period": "/fixed",
+      "bookService": "Book Service",
+      "fullAestheticDesign": "Full Aesthetic Design",
+      "professionalWhitening": "Professional Whitening",
+      "panoramicImaging": "Panoramic Imaging",
+      "sedationOptions": "Sedation Options",
+      "postCareKit": "Post-Care Kit",
+      "priorityConsultation": "Priority Consultation"
+    }
+  },
+  "blogPage": {
+    "pageTitle": "Our Latest",
+    "pageTitleHighlight": "News & Articles",
+    "pageSubtitle": "Stay updated with the latest trends in dental care, clinic updates, and expert tips for a healthier smile.",
+    "previous": "Previous",
+    "next": "Next",
+    "pageOf": "Page {page} of {total}",
+    "tags": "Tags:",
+    "shareArticle": "Share Article",
+    "commentsOne": "1 Comment",
+    "commentsCount": "{count} Comments",
+    "commentsZero": "0 Comments",
+    "commentsOff": "Comments Off",
+    "postNotFound": "Post Not Found",
+    "postNotFoundDesc": "The article you are looking for does not exist.",
+    "backToHome": "Back to Home",
+    "minRead": "min",
+    "joinConversation": "Join the conversation",
+    "addComment": "Add Comment",
+    "cancel": "Cancel",
+    "leaveComment": "Leave a comment",
+    "name": "Name",
+    "emailOptional": "(optional)",
+    "comment": "Comment",
+    "yourName": "Your name",
+    "yourEmail": "your@email.com",
+    "shareThoughts": "Share your thoughts...",
+    "postComment": "Post Comment",
+    "posting": "Posting...",
+    "noCommentsYet": "No comments yet. Be the first!",
+    "commentPosted": "Comment posted!",
+    "failedToPost": "Failed to post comment. Try again.",
+    "justNow": "just now",
+    "minutesAgo": "{n}m ago",
+    "hoursAgo": "{n}h ago",
+    "daysAgo": "{n}d ago"
+  },
+  "news": {
+    "badge": "Blog & News",
+    "title": "Stay Informed With Our Latest News",
+    "subtitle": "Professional insights, health tips, and clinic updates directly from our panel of board-certified dental specialists.",
+    "readMore": "See More",
+    "minRead": "min",
+    "enterPublication": "Enter Publication",
+    "info": "Info",
+    "tipsHealthySmile": {
+      "title": "Tips for Maintaining a Healthy Smile",
+      "category": "Oral Health",
+      "excerpt": "Daily habits and professional care that keep your teeth and gums in top shape for years to come."
+    },
+    "understandingImplants": {
+      "title": "Understanding Dental Implants",
+      "category": "Treatments",
+      "excerpt": "What to expect from implant surgery and how to care for your new smile during the recovery process."
+    },
+    "emergencyDentist": {
+      "title": "When to See an Emergency Dentist",
+      "category": "Urgent",
+      "excerpt": "Signs you need urgent care and how we can help when it matters most for your dental health."
+    },
+    "digitalDentistry": {
+      "title": "New Technology in Digital Dentistry",
+      "category": "Innovation",
+      "excerpt": "How 3D scanning and digital impressions are revolutionizing patient comfort and treatment precision."
+    }
+  },
+  "testimonials": {
+    "badge": "Patient Stories",
+    "title": "What Our Patients Say About Us",
+    "subtitle": "Professional insights, health tips, and clinic updates directly from our panel of board-certified dental specialists.",
+    "testimonial1": {
+      "content": "Professional, gentle, and efficient. My whole family comes here now. The team makes every visit comfortable and stress-free. Best dental experience I've ever had!",
+      "name": "Sarah Mitchell",
+      "role": "Family Patient"
+    },
+    "testimonial2": {
+      "content": "The whitening treatment was painless and the results are incredible. I've regained my confidence and can't stop smiling. Highly recommend their cosmetic services!",
+      "name": "James K. Wilson",
+      "role": "Cosmetic Care"
+    },
+    "testimonial3": {
+      "content": "One of the best dental clinics I've visited. The technology they use is state-of-the-art and the staff is incredibly knowledgeable. Truly a premium experience.",
+      "name": "Yucel Faruksahan",
+      "role": "Regular Patient"
+    },
+    "testimonial4": {
+      "content": "I was nervous about my wisdom tooth extraction, but the doctors were so patient and explained everything. Recovery was much faster than I expected.",
+      "name": "Rodrigo Aguilar",
+      "role": "Oral Surgery"
+    },
+    "testimonial5": {
+      "content": "Our kids actually enjoy going to the dentist here! The pediatric wing is so welcoming and the doctors are amazing with children. Perfect for families.",
+      "name": "Emma Davis",
+      "role": "Parent"
+    },
+    "testimonial6": {
+      "content": "Affordable, transparent pricing and high-quality care. There are no hidden costs and the results speak for themselves. This is now our go-to clinic.",
+      "name": "Michael Chen",
+      "role": "Health Care"
+    }
+  },
+  "footer": {
+    "description": "Providing premium dental care since 2005. We combine the world's best specialists with modern medical technology to deliver unmatched dental outcomes.",
+    "quickLinks": "Quick Links",
+    "home": "Home",
+    "aboutUs": "About Us",
+    "services": "Services",
+    "ourDoctors": "Our Doctors",
+    "caseStudies": "Case Studies",
+    "ourServices": "Our Services",
+    "teethWhitening": "Teeth Whitening",
+    "dentalImplants": "Dental Implants",
+    "rootCanal": "Root Canal",
+    "bracesAligners": "Braces & Aligners",
+    "emergencyCare": "Emergency Care",
+    "support": "Support",
+    "helpCenter": "Help Center",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "refundPolicy": "Refund Policy",
+    "cookieSettings": "Cookie Settings",
+    "connect": "Connect",
+    "emergency": "Emergency",
+    "ourStudio": "Our Studio",
+    "address": "123 Smile Street, CA",
+    "googleRating": "(4.8)",
+    "ratingsText": "12k+ google ratings",
+    "allRightsReserved": "© {year} ClinicMaster. All rights reserved.",
+    "logoAlt": "Clinic Master"
+  },
+  "contact": {
+    "badge": "Get In Touch",
+    "title": "Ready to Boost Your Smile?",
+    "subtitle": "Professional insights, health tips, and clinic updates directly from our panel of board-certified dental specialists.",
+    "sendMessage": "Send a Message",
+    "fastFriendlySupport": "Fast & Friendly Support Team",
+    "fullName": "Full Name",
+    "fullNamePlaceholder": "John Doe",
+    "emailAddress": "Email Address",
+    "emailPlaceholder": "john@example.com",
+    "yourInquiry": "Your Inquiry",
+    "inquiryPlaceholder": "How can we help you today?",
+    "sendMessageButton": "Send Message",
+    "processing": "Processing...",
+    "errorFieldsRequired": "Please fill all required fields"
+  },
+  "whyChoose": {
+    "title": "Why Choose Our Dental Care Practice?",
+    "description": "We combine clinical excellence with a patient-first approach. From preventive care to advanced treatments, we are committed to your long-term oral health and a beautiful smile.",
+    "latestTechnology": {
+      "title": "Latest Technology",
+      "description": "Evidence-based protocols and digital workflows using state-of-the-art equipment."
+    },
+    "experiencedTeam": {
+      "title": "Experienced Team",
+      "description": "Our team brings decades of combined expertise to deliver the highest care."
+    },
+    "modernFacilities": "Modern Facilities",
+    "treatmentImageAlt": "Dental treatment",
+    "smileImageAlt": "Beautiful smile"
+  },
+  "makeAppointment": {
+    "title": "Schedule Your Visit",
+    "subtitle": "Professional care at your fingertips.",
+    "certifiedDoctors": "Certified & Professional Doctors",
+    "emergencyCare247": "Emergency Dental Care 24/7",
+    "modernEquipment": "Modern Dental Equipment",
+    "flexiblePayment": "Flexible Payment Options",
+    "fullName": "Full Name",
+    "fullNamePlaceholder": "e.g. John Doe",
+    "phoneNumber": "Phone Number",
+    "phonePlaceholder": "+1 (555) 000-0000",
+    "selectService": "Select Service",
+    "selectServicePlaceholder": "What do you need?",
+    "selectDate": "Preferred Date",
+    "bookNow": "Confirm My Request Now",
+    "processing": "Processing...",
+    "fullNameRequired": "Full name is required",
+    "phoneRequired": "Phone number is required",
+    "serviceRequired": "Please select a service",
+    "dateRequired": "Please select a date",
+    "success": {
+      "title": "Success!",
+      "message": "Thank you for your request. We will contact you shortly to confirm your visit.",
+      "reschedule": "Reschedule Another Session"
+    },
+    "services": {
+      "generalCheckup": "General Check-up",
+      "teethWhitening": "Teeth Whitening",
+      "dentalImplants": "Dental Implants",
+      "rootCanal": "Root Canal",
+      "cosmeticDentistry": "Cosmetic Dentistry",
+      "emergencyCare": "Emergency Care"
+    },
+    "doctorsImageAlt": "Professional dental doctors",
+    "satisfactionRate": "99%",
+    "satisfaction": "Satisfaction",
+    "satisfactionDescription": "Trusted by local patients for premium dental care."
+  },
+  "appointmentHero": {
+    "badge": "Instant Booking",
+    "title": "Appointment",
+    "home": "Home",
+    "appointment": "Appointment",
+    "doctorImageAlt": "Doctor"
+  },
+  "appointmentFeatures": {
+    "title": "Make An Appointment",
+    "subtitle": "Take the first step towards a healthier, brighter smile. We are team of professionals dedicated to your health.",
+    "feature1": {
+      "num": "01",
+      "title": "Medical Service",
+      "desc": "Experience world-class dental care with our team of specialists dedicated to your health.",
+      "readMore": "Read More"
+    },
+    "feature2": {
+      "num": "02",
+      "title": "24/7 Medicines",
+      "desc": "Our on-site pharmacy ensures you get the medication you need, exactly when you need it.",
+      "readMore": "Read More"
+    },
+    "feature3": {
+      "num": "03",
+      "title": "Best Doctor",
+      "desc": "Our board-certified doctors bring years of expertise and a compassionate approach.",
+      "readMore": "Read More"
+    }
+  },
+  "locations": {
+    "badge": "Find Us",
+    "title": "All Locations",
+    "subtitle": "Multiple convenient locations nearest to you.",
+    "getDirections": "Get Directions",
+    "location1": {
+      "country": "United States",
+      "address": "123 Health Way, Suite 456, Goodland, 78910 United States",
+      "phone": "+1 123-456-7890",
+      "hours": "Mon-Thu: 8:00am-5:00pm"
+    },
+    "location2": {
+      "country": "Canada",
+      "address": "123 Health Way, Suite 456, Goodland, 78910 United States",
+      "phone": "+1 123-456-7890",
+      "hours": "Mon-Thu: 8:00am-5:00pm"
+    },
+    "overlay": {
+      "officeAddress": "Office Address:",
+      "address": "234 Oak Drive, NY, USA",
+      "workingHours": "Working Hours:",
+      "hours1": "Mon-Thu: 8:00am-5:00pm",
+      "hours2": "Fri: 8:00am-1:00pm"
+    }
+  },
+  "cookieNotice": {
+    "title": "Cookie Notice",
+    "message": "We use cookies to ensure that we give you the best experience on our website.",
+    "linkText": "Read cookies policies.",
+    "managePrefs": "Manage Prefs",
+    "decline": "Decline",
+    "accept": "Accept"
+  },
+  "highlyQualified": {
+    "title": "Meet Our Highly Qualified Team",
+    "description": "Our team consists of board-certified specialists who prioritize your comfort and well-being. Using state-of-the-art diagnostic tools, we ensure precision and care for every smile.",
+    "availableToday": "Available Today",
+    "mainDoctorName": "Dr. Robert Smithson",
+    "mainDoctorTitle": "Senior Dental Director",
+    "experienceYears": "20+ Yrs",
+    "experienceLabel": "Professional Experience",
+    "viewAllDoctors": "View All Specialist Doctors",
+    "doctors": {
+      "doctor1": {
+        "name": "Dr. Michael Williams",
+        "specialty": "Oral Surgeon"
+      },
+      "doctor2": {
+        "name": "Dr. Jessica Brown",
+        "specialty": "Orthodontist"
+      },
+      "doctor3": {
+        "name": "Dr. David Chen",
+        "specialty": "General Dentistry"
+      },
+      "doctor4": {
+        "name": "Dr. Sarah Miller",
+        "specialty": "Cosmetic Dentistry"
+      }
+    },
+    "mainDoctorAlt": "Main Doctor",
+    "doctorImageAlt": "Doctor"
+  }
+}

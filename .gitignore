@@ -1,0 +1,63 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+/.turbo/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+test.txt
+
+# local env files
+.env*.local
+.env
+.env.development
+.env.test
+.env.production
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# Local-only folders (not for git / CodeCanyon submission)
+_archived/
+docs/
+
+# Debug files (if restored locally)
+app/api/debug-permissions/
+
+# Dev-only — excluded from main/production build
+drizzle/
+supabase/migrations/
+scripts/
+.cursorrules
+
+# Dev seed files — local only
+data/medical-records-seed.json
+data/seed-data.json
+
+# Unused assets — never pushed to GitHub
+_unused-assets/
+
+# Lock files
+package-lock.json

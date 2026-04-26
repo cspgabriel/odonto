@@ -1,0 +1,273 @@
+{
+  "branding": {
+    "primaryLogoUrl": "/landing/ophthalmology/logo.svg",
+    "darkLogoUrl": "/landing/ophthalmology/logo-dark.svg",
+    "faviconUrl": "/landing/ophthalmology/favicon.svg",
+    "brandName": "ClinicMaster"
+  },
+  "colors": {
+    "primary": "#0D9488",
+    "secondary": "#14B8A6",
+    "accent": "#0F766E",
+    "background": "#F0FDFA",
+    "textPrimary": "#134E4A",
+    "textSecondary": "#0F766E",
+    "buttonHover": "#0F766E",
+    "buttonText": "#FFFFFF",
+    "success": "#10B981",
+    "error": "#EF4444",
+    "dark": {
+      "background": "#042F2E",
+      "surface": "#0D3B38",
+      "text": "#CCFBF1"
+    }
+  },
+  "content": {
+    "hero": {
+      "headline": "Your vision is our mission",
+      "subtitle": "Advanced ophthalmology care with cutting-edge technology and compassionate specialists dedicated to your vision health.",
+      "ctaPrimary": "Book Appointment",
+      "ctaSecondary": "Our Services",
+      "imageUrl": "/landing/ophthalmology/hero.jpg",
+      "badge": "Advanced Eye Care"
+    },
+    "stats": [
+      { "value": "10,000+", "label": "Patients Treated" },
+      { "value": "15+", "label": "Years Experience" },
+      { "value": "98%", "label": "Patient Satisfaction" },
+      { "value": "20+", "label": "Eye Specialists" }
+    ],
+    "services": [
+      {
+        "title": "Comprehensive Eye Exams",
+        "description": "Thorough examinations detecting vision problems and eye diseases at their earliest stages.",
+        "icon": "Eye"
+      },
+      {
+        "title": "LASIK Surgery",
+        "description": "Advanced laser vision correction for a life free from glasses and contact lenses.",
+        "icon": "Zap"
+      },
+      {
+        "title": "Cataract Surgery",
+        "description": "Modern phacoemulsification with premium intraocular lens options for crystal clear vision.",
+        "icon": "Sun"
+      },
+      {
+        "title": "Glaucoma Treatment",
+        "description": "Early detection and management of glaucoma to preserve your precious sight.",
+        "icon": "Shield"
+      },
+      {
+        "title": "Retina Care",
+        "description": "Specialized treatment for retinal disorders including diabetic retinopathy and macular degeneration.",
+        "icon": "Activity"
+      },
+      {
+        "title": "Pediatric Eye Care",
+        "description": "Gentle, specialized eye care for children from infancy through adolescence.",
+        "icon": "Heart"
+      }
+    ],
+    "whyChooseUs": {
+      "reasons": [
+        {
+          "title": "State-of-the-Art Technology",
+          "description": "We invest in the latest diagnostic and surgical equipment to provide the most accurate diagnoses and effective treatments.",
+          "icon": "Microscope"
+        },
+        {
+          "title": "Experienced Specialists",
+          "description": "Our team of board-certified ophthalmologists brings decades of combined experience to every patient encounter.",
+          "icon": "Award"
+        },
+        {
+          "title": "Patient-First Approach",
+          "description": "We take time to understand your concerns, explain your options clearly, and tailor treatment to your unique needs.",
+          "icon": "Users"
+        }
+      ]
+    },
+    "aboutDoctor": {
+      "headline": "Expert Care You Can Trust",
+      "doctorName": "Dr. Emma Foster",
+      "doctorTitle": "Chief of Ophthalmology",
+      "credentials": "MD, FACS, Board Certified Ophthalmologist",
+      "experience": "20+ years of experience",
+      "paragraph1": "Dr. Foster is a fellowship-trained ophthalmologist specializing in corneal diseases and refractive surgery. Her commitment to patient care and surgical excellence has made her one of the region's most trusted eye care specialists.",
+      "doctorImageUrl": "/landing/ophthalmology/images/doc.png"
+    },
+    "process": [
+      {
+        "step": "01",
+        "title": "Book Your Appointment",
+        "description": "Schedule online or call us. We offer flexible hours including evenings and weekends."
+      },
+      {
+        "step": "02",
+        "title": "Comprehensive Consultation",
+        "description": "Your specialist performs a thorough examination and discusses your vision concerns and goals."
+      },
+      {
+        "step": "03",
+        "title": "Personalized Treatment Plan",
+        "description": "Receive a tailored treatment plan using the latest evidence-based approaches."
+      },
+      {
+        "step": "04",
+        "title": "Clear Vision Achieved",
+        "description": "Follow-up care ensures optimal results and long-term vision health."
+      }
+    ],
+    "pricing": {
+      "sectionTitle": "Simple, Transparent Pricing",
+      "plans": [
+        {
+          "name": "Comprehensive Eye Exam",
+          "price": 99,
+          "currency": "USD",
+          "features": ["Full Eye Exam", "Retinal Imaging", "Vision Screening", "Glaucoma Check"],
+          "ctaText": "Book Now",
+          "featured": false
+        },
+        {
+          "name": "LASIK Consultation",
+          "price": 299,
+          "currency": "USD",
+          "features": ["LASIK Evaluation", "Custom Treatment Plan", "Pre-op Consultation", "Follow-up Care"],
+          "ctaText": "Get Started",
+          "featured": true
+        }
+      ]
+    },
+    "dentalHealth": {
+      "sectionTitle": "Committed to Your Vision Health",
+      "mainParagraph": "We believe prevention is the key to healthy vision. Our comprehensive approach ensures long-term eye health.",
+      "stat1Number": 10000,
+      "stat1Label": "Happy Patients",
+      "stat2Number": 15,
+      "stat2Label": "Years Experience",
+      "stat3Number": 25,
+      "stat3Label": "Awards Won",
+      "imageUrl": null
+    },
+    "smileComparison": null,
+    "features": {
+      "enableDarkModeToggle": true,
+      "enableLanguageSwitcher": true,
+      "enableStickyNavbar": true,
+      "supportedLanguages": ["en", "fr", "es", "ar"],
+      "enableTopBar": true,
+      "topBarType": "info",
+      "topBarCustomText": "Welcome to ClinicMaster - Call us to book an appointment!"
+    },
+    "testimonials": {
+      "reviews": [
+        {
+          "name": "James Rodriguez",
+          "text": "After LASIK surgery here, I can see clearly for the first time in 20 years. The entire team was professional and caring throughout.",
+          "rating": 5,
+          "avatarUrl": "/landing/ophthalmology/testimonials/avatar-1.jpg",
+          "role": "LASIK Patient"
+        },
+        {
+          "name": "Fatima Al-Hassan",
+          "text": "The cataract surgery changed my life. Dr. Mitchell explained everything clearly and the results exceeded my expectations.",
+          "rating": 5,
+          "avatarUrl": "/landing/ophthalmology/testimonials/avatar-2.jpg",
+          "role": "Cataract Surgery"
+        },
+        {
+          "name": "Marie Dubois",
+          "text": "Exceptional eye care from a team that truly cares. My annual exams always detect issues early. I trust them completely.",
+          "rating": 5,
+          "avatarUrl": "/landing/ophthalmology/testimonials/avatar-3.jpg",
+          "role": "Regular Patient"
+        }
+      ]
+    }
+  },
+  "seo": {
+    "metaTitle": "ClinicMaster — Advanced Ophthalmology Clinic",
+    "metaDescription": "Expert eye care including LASIK surgery, cataract treatment, comprehensive eye exams, and pediatric ophthalmology.",
+    "metaKeywords": "ophthalmology, eye care, LASIK surgery, cataract treatment, eye exams, vision care",
+    "ogImageUrl": null,
+    "ogTitle": null,
+    "ogDescription": null,
+    "twitterCardType": "summary_large_image",
+    "canonicalUrl": null,
+    "robots": "index"
+  },
+  "typography": {
+    "headingFont": "Roboto",
+    "bodyFont": "Inter",
+    "fontSize": "medium",
+    "lineHeight": "normal"
+  },
+  "cta": {
+    "sectionTitle": "Ready to See More Clearly?",
+    "description": "Book your appointment today",
+    "formFields": {
+      "name": true,
+      "email": true,
+      "phone": true,
+      "service": true,
+      "message": true
+    },
+    "submitButtonText": "Submit",
+    "successMessage": "Thank you! We'll contact you soon.",
+    "errorMessage": "Something went wrong. Please try again.",
+    "emailNotifications": true
+  },
+  "contact": {
+    "phone": "+1 (555) 234-5678",
+    "email": "hello@clinicmaster.com",
+    "address": "123 Vision Street, Medical District",
+    "mapsUrl": null,
+    "openingHours": [
+      { "day": "Monday – Friday", "time": "8:00 AM – 7:00 PM" },
+      { "day": "Saturday", "time": "9:00 AM – 5:00 PM" },
+      { "day": "Sunday", "time": "Closed" }
+    ],
+    "whatsappNumber": null,
+    "emergencyContact": "+1 (555) 999-911"
+  },
+  "social": {
+    "facebook": "https://facebook.com/clinicmaster",
+    "instagram": "https://instagram.com/clinicmaster",
+    "twitter": "https://twitter.com/clinicmaster",
+    "linkedin": "https://linkedin.com/clinicmaster",
+    "youtube": null,
+    "tiktok": null,
+    "enabled": {
+      "facebook": true,
+      "instagram": true,
+      "twitter": true,
+      "linkedin": true,
+      "youtube": false,
+      "tiktok": false
+    }
+  },
+  "footer": {
+    "logoUrl": "/landing/ophthalmology/logo.svg",
+    "companyDescription": "Providing premium eye care since 2005. We combine the world's best specialists with modern medical technology to deliver unmatched vision outcomes.",
+    "quickLinks": [
+      { "label": "Home", "url": "#hero" },
+      { "label": "About Us", "url": "#about" },
+      { "label": "Services", "url": "#services" },
+      { "label": "Our Doctors", "url": "#doctors" },
+      { "label": "Contact", "url": "#contact" }
+    ],
+    "serviceLinks": [
+      { "label": "Eye Exams", "url": "#services" },
+      { "label": "LASIK Surgery", "url": "#services" },
+      { "label": "Cataract Surgery", "url": "#services" },
+      { "label": "Glaucoma Care", "url": "#services" },
+      { "label": "Emergency Eye Care", "url": "#services" }
+    ],
+    "copyrightText": "© 2026 ClinicMaster. All rights reserved.",
+    "privacyPolicyLink": "/policies/privacy-policy",
+    "termsLink": "/policies/terms-of-service",
+    "backgroundColor": null
+  }
+}

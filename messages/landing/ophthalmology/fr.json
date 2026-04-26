@@ -1,0 +1,459 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "services": "Services",
+    "doctors": "Médecins",
+    "departments": "Départements",
+    "pricing": "Tarifs",
+    "blog": "Blog",
+    "reviews": "Avis",
+    "contact": "Contact",
+    "bookAppointment": "Réserver un rendez-vous",
+    "appointment": "Rendez-vous",
+    "signUp": "S'inscrire",
+    "login": "Connexion",
+    "getToKnowUs": "Découvrez-nous",
+    "logoAlt": "Logo Clinic Master",
+    "toggleMenu": "Basculer le menu de navigation"
+  },
+  "topBar": {
+    "phone": "+1 123 456 7890",
+    "email": "info@example.com"
+  },
+  "hero": {
+    "tagline": "Soins visuels experts",
+    "headline": "Votre vision est notre mission",
+    "subtitle": "Soins ophtalmologiques avancés avec une technologie de pointe et des spécialistes dévoués à votre santé visuelle.",
+    "talkToDoctors": "Parlez à plus de 215 médecins",
+    "rating": "(4,8)",
+    "ratingsText": "12k+ avis sur Google",
+    "availableDoctors": "Médecins disponibles",
+    "selectDoctor": "Sélectionner un médecin",
+    "bookAppointment": "Réserver un rendez-vous",
+    "heroCta": "Prendre rendez-vous",
+    "contact": "Contactez-nous",
+    "appointment": "Rendez-vous",
+    "avatarAlt": "Avatar patient",
+    "heroDoctorAlt": "Ophtalmologiste professionnel",
+    "toothAlt": "Icône de soins oculaires",
+    "sparkleAlt": "Éclat de soins oculaires",
+    "doctor1Alt": "Dr. Olivia Davis",
+    "doctor2Alt": "Dr. William Martinez",
+    "doctor1Name": "Olivia Davis",
+    "doctor2Name": "William Martinez",
+    "dentist": "Ophtalmologiste",
+    "decorativeImageAlt": "Élément décoratif soins oculaires"
+  },
+  "services": {
+    "badge": "Nos Services",
+    "title": "Nos Spécialités Ophtalmologiques",
+    "subtitle": "Soins oculaires de précision conçus pour votre confort et une santé visuelle durable.",
+    "bracesAligners": {
+      "title": "Examens oculaires complets",
+      "tag": "Diagnostic",
+      "desc": "Examens approfondis détectant les problèmes de vision et les maladies oculaires aux premiers stades."
+    },
+    "dentalImplants": {
+      "title": "Chirurgie LASIK",
+      "tag": "Réfractif",
+      "desc": "Correction laser avancée pour une vie sans lunettes ni lentilles de contact.",
+      "bookNow": "Réserver maintenant"
+    },
+    "emergencyCare": {
+      "title": "Urgences oculaires",
+      "tag": "Urgent",
+      "desc": "Soins urgents le jour même pour traumatismes oculaires, perte soudaine de vision et infections. Nos spécialistes sont toujours disponibles."
+    },
+    "teethWhitening": {
+      "title": "Chirurgie de la cataracte",
+      "tag": "Chirurgie",
+      "desc": "Phacoémulsification moderne avec options de lentilles intraoculaires premium pour une vision cristalline."
+    },
+    "rootCanal": {
+      "title": "Traitement du glaucome",
+      "tag": "Spécialité",
+      "desc": "Détection précoce et prise en charge du glaucome pour préserver votre précieuse vision."
+    },
+    "cosmeticDentistry": {
+      "title": "Ophtalmologie pédiatrique",
+      "tag": "Pédiatrie",
+      "desc": "Soins oculaires doux et spécialisés pour les enfants de la naissance à l'adolescence."
+    },
+    "lowVisionServices": { "tag": "01", "title": "Services pour Basse Vision", "desc": "Lunettes et lentilles à prix abordable adaptées à vous. Nous comprenons et vous accompagnons." },
+    "pediatricEyeCare": { "tag": "02", "title": "Soins Oculaires Pédiatriques", "desc": "Examens doux pour les enfants et lunettes abordables si besoin. Les petits sont à l'aise." },
+    "eyeEvaluation": { "tag": "03", "title": "Évaluation de la Vue", "desc": "Bilans complets et équipement moderne. Nous vous aidons à choisir les meilleures lunettes ou lentilles." },
+    "longTermEyeHealth": { "tag": "04", "title": "Santé Oculaire à Long Terme", "desc": "Suivi et contrôles pour protéger votre vision. Prévention et bien-être sur le long terme." },
+    "mostPopular": "Le plus populaire"
+  },
+  "aboutDoctor": {
+    "title": "À propos du médecin",
+    "doctorName": "Dr. Emma Foster",
+    "quote": "Notre mission est de combiner technologie avancée et soins compatissants pour offrir à chaque patient le cadeau d'une vision claire et d'une santé oculaire durable.",
+    "description": "Le Dr Foster apporte plus de deux décennies d'expérience en ophtalmologie. Elle s'engage à fournir des soins personnalisés et à rester à la pointe de la technologie des soins oculaires grâce à la recherche et à la formation continues.",
+    "bullet1": "Plus de 20 ans d'expérience clinique",
+    "bullet2": "Ophtalmologiste certifié",
+    "bullet3": "Chirurgie réfractive avancée",
+    "bullet4": "Membre de l'American Academy of Ophthalmology",
+    "scheduleConsultation": "Planifier une consultation",
+    "leadDentalDirector": "Chef du service ophtalmologie"
+  },
+  "weCare": {
+    "subTitle": "À propos",
+    "title": "Nous prenons soin de plus que vos yeux",
+    "description": "Les traitements du centre de soins oculaires sont des services spécialisés pour améliorer et maintenir la santé des yeux.",
+    "stat1Value": "20",
+    "stat1Label": "Années de service",
+    "stat2Value": "14",
+    "stat2Label": "Prix remporté",
+    "stat3Value": "28",
+    "stat3Label": "Sections santé",
+    "readMore": "Lire la suite",
+    "awardBadge": "CENTRE DE SOINS OCULAIRES #1 PRIMÉ",
+    "patientImageAlt": "Patient recevant des soins oculaires",
+    "teethWhitening": "Examens complets",
+    "modernAnesthetic": "LASIK & Réfractif",
+    "qualityBrackets": "Chirurgie cataracte",
+    "rootCanal": "Soins glaucome",
+    "happyPatients": "Patients satisfaits",
+    "specialists": "Spécialistes",
+    "winningAwards": "Prix remportés"
+  },
+  "smileComparison": {
+    "title": "Voyez clairement à nouveau — C'est important !",
+    "beforeLabel": "Cas initial",
+    "afterLabel": "Résultat final",
+    "disclaimer": "* Les résultats peuvent varier selon l'état oculaire individuel et le plan de traitement."
+  },
+  "pricing": {
+    "badge": "Consultation et soins",
+    "title": "Options de consultation pour votre vision",
+    "disclaimer": "Contactez-nous pour une consultation personnalisée. Nous discuterons de vos besoins et options sans engagement.",
+    "bookConsultationBasic": "Réserver une consultation soins visuels",
+    "bookConsultationAdvanced": "Réserver une consultation chirurgicale",
+    "essentialCare": {
+      "name": "Soins visuels de base",
+      "description": "Santé de base pour chaque patient.",
+      "badge": "Basique",
+      "price": "89 €",
+      "period": "/fixe",
+      "bookService": "Réserver le service",
+      "standardExam": "Examen oculaire complet",
+      "professionalCleaning": "Nettoyage professionnel",
+      "digitalXrays": "2 radiographies numériques",
+      "personalConsultation": "Consultation personnelle",
+      "priorityConsultation": "Consultation prioritaire"
+    },
+    "advancedSmile": {
+      "name": "Chirurgie oculaire avancée",
+      "description": "Transformation complète et esthétique.",
+      "badge": "Favori des patients",
+      "price": "499 €",
+      "period": "/fixe",
+      "bookService": "Réserver le service",
+      "fullAestheticDesign": "Design esthétique complet",
+      "professionalWhitening": "Blanchiment professionnel",
+      "panoramicImaging": "Imagerie panoramique",
+      "sedationOptions": "Options de sédation",
+      "postCareKit": "Kit de soins post-traitement",
+      "priorityConsultation": "Consultation prioritaire"
+    }
+  },
+  "blogPage": {
+    "pageTitle": "Nos dernières",
+    "pageTitleHighlight": "actualités et articles",
+    "pageSubtitle": "Restez informé des dernières tendances en soins oculaires, des mises à jour de la clinique et des conseils d'experts pour une vision plus saine.",
+    "previous": "Précédent",
+    "next": "Suivant",
+    "pageOf": "Page {page} sur {total}",
+    "tags": "Tags :",
+    "shareArticle": "Partager l'article",
+    "commentsOne": "1 commentaire",
+    "commentsCount": "{count} commentaires",
+    "commentsZero": "0 commentaire",
+    "commentsOff": "Commentaires désactivés",
+    "postNotFound": "Article introuvable",
+    "postNotFoundDesc": "L'article que vous recherchez n'existe pas.",
+    "backToHome": "Retour à l'accueil",
+    "minRead": "min",
+    "joinConversation": "Rejoignez la conversation",
+    "addComment": "Ajouter un commentaire",
+    "cancel": "Annuler",
+    "leaveComment": "Laisser un commentaire",
+    "name": "Nom",
+    "emailOptional": "(optionnel)",
+    "comment": "Commentaire",
+    "yourName": "Votre nom",
+    "yourEmail": "votre@email.com",
+    "shareThoughts": "Partagez vos réflexions...",
+    "postComment": "Publier le commentaire",
+    "posting": "Publication...",
+    "noCommentsYet": "Aucun commentaire pour le moment. Soyez le premier !",
+    "commentPosted": "Commentaire publié !",
+    "failedToPost": "Échec de la publication. Réessayez.",
+    "justNow": "à l'instant",
+    "minutesAgo": "il y a {n} min",
+    "hoursAgo": "il y a {n} h",
+    "daysAgo": "il y a {n} j"
+  },
+  "news": {
+    "badge": "Blog et Actualités",
+    "title": "Restez informé de nos dernières actualités",
+    "subtitle": "Conseils professionnels, conseils de santé et mises à jour de la clinique directement de notre panel d'ophtalmologistes certifiés.",
+    "readMore": "Voir plus",
+    "minRead": "min",
+    "enterPublication": "Entrer dans la publication",
+    "info": "Info",
+    "tipsHealthySmile": {
+      "title": "Conseils pour maintenir un sourire sain",
+      "category": "Santé oculaire",
+      "excerpt": "Habitudes quotidiennes et soins professionnels qui maintiennent vos dents et vos gencives en parfait état pour les années à venir."
+    },
+    "understandingImplants": {
+      "title": "Comprendre la chirurgie de la cataracte",
+      "category": "Traitements",
+      "excerpt": "Ce à quoi s'attendre de la chirurgie d'implantation et comment prendre soin de votre nouveau sourire pendant le processus de récupération."
+    },
+    "emergencyDentist": {
+      "title": "Quand consulter un dentiste d'urgence",
+      "category": "Urgent",
+      "excerpt": "Signes indiquant que vous avez besoin de soins oculaires urgents et comment nous pouvons vous aider quand c'est le plus important pour votre vision."
+    },
+    "digitalDentistry": {
+      "title": "Nouvelle technologie en dentisterie numérique",
+      "category": "Innovation",
+      "excerpt": "Comment le scan 3D et les empreintes numériques révolutionnent le confort du patient et la précision du traitement."
+    }
+  },
+  "testimonials": {
+    "badge": "Histoires de patients",
+    "title": "Ce que nos patients disent de nous",
+    "subtitle": "Conseils professionnels, conseils de santé et mises à jour de la clinique directement de notre panel d'ophtalmologistes certifiés.",
+    "testimonial1": {
+      "content": "Après ma chirurgie LASIK ici, je vois clairement pour la première fois en 20 ans. L'équipe était professionnelle et attentionnée tout au long du processus.",
+      "name": "Emma Davis",
+      "role": "Patient familial"
+    },
+    "testimonial2": {
+      "content": "Le traitement de blanchiment était indolore et les résultats sont incroyables. J'ai retrouvé ma confiance et je ne peux pas arrêter de sourire. Je recommande vivement leurs services esthétiques !",
+      "name": "James K. Wilson",
+      "role": "Soins esthétiques"
+    },
+    "testimonial3": {
+      "content": "Des soins oculaires exceptionnels d'une équipe qui se soucie vraiment. Mes examens annuels détectent toujours les problèmes tôt. Je leur fais totalement confiance.",
+      "name": "Yucel Faruksahan",
+      "role": "Patient régulier"
+    },
+    "testimonial4": {
+      "content": "J'étais nerveux à propos de l'extraction de ma dent de sagesse, mais les médecins étaient si patients et ont tout expliqué. La récupération était beaucoup plus rapide que prévu.",
+      "name": "Rodrigo Aguilar",
+      "role": "Chirurgie buccale"
+    },
+    "testimonial5": {
+      "content": "Nos enfants aiment vraiment aller chez le dentiste ici ! L'aile pédiatrique est si accueillante et les médecins sont incroyables avec les enfants. Parfait pour les familles.",
+      "name": "Emma Davis",
+      "role": "Parent"
+    },
+    "testimonial6": {
+      "content": "Tarifs abordables et transparents et soins de haute qualité. Il n'y a pas de coûts cachés et les résultats parlent d'eux-mêmes. C'est maintenant notre clinique de référence.",
+      "name": "Michael Chen",
+      "role": "Soins de santé"
+    }
+  },
+  "footer": {
+    "description": "Fournissant des soins oculaires de qualité depuis 2005. Nous combinons les meilleurs spécialistes du monde avec une technologie médicale moderne pour offrir des résultats visuels inégalés.",
+    "quickLinks": "Liens rapides",
+    "home": "Accueil",
+    "aboutUs": "À propos de nous",
+    "services": "Services",
+    "ourDoctors": "Nos médecins",
+    "caseStudies": "Études de cas",
+    "ourServices": "Nos services",
+    "teethWhitening": "Blanchiment des dents",
+    "dentalImplants": "Chirurgie LASIK",
+    "rootCanal": "Dévitalisation",
+    "bracesAligners": "Soins glaucome",
+    "emergencyCare": "Soins d'urgence",
+    "support": "Support",
+    "helpCenter": "Centre d'aide",
+    "privacyPolicy": "Politique de confidentialité",
+    "termsOfService": "Conditions d'utilisation",
+    "refundPolicy": "Politique de remboursement",
+    "cookieSettings": "Paramètres des cookies",
+    "connect": "Connecter",
+    "followUs": "Suivez-nous",
+    "emergency": "Urgence",
+    "ourStudio": "Notre studio",
+    "address": "123 rue du Sourire, CA",
+    "googleRating": "(4,8)",
+    "ratingsText": "12k+ avis sur Google",
+    "allRightsReserved": "© {year} ClinicMaster. Tous droits réservés.",
+    "logoAlt": "Clinic Master"
+  },
+  "contact": {
+    "badge": "Contactez-nous",
+    "title": "Prêt à voir plus clairement ?",
+    "subtitle": "Conseils professionnels, conseils de santé et mises à jour de la clinique directement de notre panel d'ophtalmologistes certifiés.",
+    "sendMessage": "Envoyer un message",
+    "fastFriendlySupport": "Équipe de support rapide et amicale",
+    "fullName": "Nom complet",
+    "fullNamePlaceholder": "Jean Dupont",
+    "emailAddress": "Adresse e-mail",
+    "emailPlaceholder": "jean@exemple.com",
+    "yourInquiry": "Votre demande",
+    "inquiryPlaceholder": "Comment pouvons-nous vous aider aujourd'hui ?",
+    "sendMessageButton": "Envoyer le message",
+    "processing": "Traitement en cours...",
+    "errorFieldsRequired": "Veuillez remplir tous les champs obligatoires"
+  },
+  "whyChoose": {
+    "badge": "Pourquoi nous choisir",
+    "mainTitle": "Une vision holistique des soins oculaires et de la santé",
+    "eyeSpecialist": {
+      "title": "Spécialiste des yeux",
+      "description": "Nos ophtalmologistes experts offrent des soins spécialisés aux patients."
+    },
+    "weAreCertified": {
+      "title": "Nous sommes certifiés",
+      "description": "Nos ophtalmologistes experts offrent des soins spécialisés aux patients."
+    },
+    "happyClients": {
+      "title": "Clients satisfaits",
+      "description": "Nos ophtalmologistes experts offrent des soins spécialisés aux patients."
+    },
+    "durationOfService": {
+      "title": "Durée de service",
+      "description": "Nos ophtalmologistes experts offrent des soins spécialisés aux patients."
+    }
+  },
+  "makeAppointment": {
+    "title": "Planifier votre visite",
+    "subtitle": "Soins professionnels à portée de main.",
+    "certifiedDoctors": "Médecins certifiés et professionnels",
+    "emergencyCare247": "Urgences oculaires 24h/24 et 7j/7",
+    "modernEquipment": "Équipement ophtalmologique moderne",
+    "flexiblePayment": "Options de paiement flexibles",
+    "fullName": "Nom complet",
+    "fullNamePlaceholder": "ex. Jean Dupont",
+    "phoneNumber": "Numéro de téléphone",
+    "phonePlaceholder": "+33 1 23 45 67 89",
+    "selectService": "Sélectionner un service",
+    "selectServicePlaceholder": "De quoi avez-vous besoin ?",
+    "selectDate": "Date préférée",
+    "bookNow": "Confirmer ma demande maintenant",
+    "processing": "Traitement en cours...",
+    "fullNameRequired": "Le nom complet est requis",
+    "phoneRequired": "Le numéro de téléphone est requis",
+    "serviceRequired": "Veuillez sélectionner un service",
+    "dateRequired": "Veuillez sélectionner une date",
+    "success": {
+      "title": "Succès !",
+      "message": "Merci pour votre demande. Nous vous contacterons sous peu pour confirmer votre visite.",
+      "reschedule": "Reprogrammer une autre séance"
+    },
+    "services": {
+      "generalCheckup": "Examen général",
+      "teethWhitening": "Blanchiment des dents",
+      "dentalImplants": "Chirurgie LASIK",
+      "rootCanal": "Dévitalisation",
+      "cosmeticDentistry": "Dentisterie esthétique",
+      "emergencyCare": "Soins d'urgence"
+    },
+    "doctorsImageAlt": "Médecins dentistes professionnels",
+    "satisfactionRate": "99%",
+    "satisfaction": "Satisfaction",
+    "satisfactionDescription": "Fait confiance par les patients locaux pour des soins oculaires de qualité."
+  },
+  "appointmentHero": {
+    "badge": "Réservation Instantanée",
+    "title": "Rendez-vous",
+    "home": "Accueil",
+    "appointment": "Rendez-vous",
+    "doctorImageAlt": "Médecin"
+  },
+  "appointmentFeatures": {
+    "title": "Prendre un Rendez-vous",
+    "subtitle": "Faites le premier pas vers un sourire plus sain et plus radieux. Nous sommes une équipe de professionnels dédiés à votre santé.",
+    "feature1": {
+      "num": "01",
+      "title": "Service Médical",
+      "desc": "Découvrez des soins oculaires de classe mondiale avec notre équipe de spécialistes dédiés à votre vision.",
+      "readMore": "Lire la suite"
+    },
+    "feature2": {
+      "num": "02",
+      "title": "Médicaments 24/7",
+      "desc": "Notre pharmacie sur place garantit que vous obtenez les médicaments dont vous avez besoin, exactement quand vous en avez besoin.",
+      "readMore": "Lire la suite"
+    },
+    "feature3": {
+      "num": "03",
+      "title": "Meilleur Médecin",
+      "desc": "Nos médecins certifiés apportent des années d'expertise et une approche compatissante.",
+      "readMore": "Lire la suite"
+    }
+  },
+  "locations": {
+    "badge": "Trouvez-nous",
+    "title": "Tous les emplacements",
+    "subtitle": "Plusieurs emplacements pratiques près de chez vous.",
+    "getDirections": "Obtenir l'itinéraire",
+    "location1": {
+      "country": "États-Unis",
+      "address": "123 Health Way, Suite 456, Goodland, 78910 United States",
+      "phone": "+1 123-456-7890",
+      "hours": "Lun-Jeu: 8h00-17h00"
+    },
+    "location2": {
+      "country": "Canada",
+      "address": "123 Health Way, Suite 456, Goodland, 78910 United States",
+      "phone": "+1 123-456-7890",
+      "hours": "Lun-Jeu: 8h00-17h00"
+    },
+    "overlay": {
+      "officeAddress": "Adresse du bureau:",
+      "address": "234 Oak Drive, NY, USA",
+      "workingHours": "Heures d'ouverture:",
+      "hours1": "Lun-Jeu: 8h00-17h00",
+      "hours2": "Ven: 8h00-13h00"
+    }
+  },
+  "cookieNotice": {
+    "title": "Avis sur les cookies",
+    "message": "Nous utilisons des cookies pour vous offrir la meilleure expérience sur notre site.",
+    "linkText": "Lire la politique des cookies.",
+    "managePrefs": "Gérer les préférences",
+    "decline": "Refuser",
+    "accept": "Accepter"
+  },
+  "highlyQualified": {
+    "title": "Rencontrez notre équipe hautement qualifiée",
+    "description": "Notre équipe est composée de spécialistes certifiés qui donnent la priorité à votre confort et à votre bien-être. En utilisant des outils de diagnostic de pointe, nous garantissons précision et soins pour chaque sourire.",
+    "availableToday": "Disponible aujourd'hui",
+    "mainDoctorName": "Dr. Robert Smithson",
+    "mainDoctorTitle": "Chef du service ophtalmologie",
+    "experienceYears": "20+ ans",
+    "experienceLabel": "Expérience professionnelle",
+    "viewAllDoctors": "Voir tous les médecins spécialistes",
+    "doctors": {
+      "doctor1": {
+        "name": "Dr. Michael Williams",
+        "specialty": "Spécialiste cornée"
+      },
+      "doctor2": {
+        "name": "Dr. Jessica Brown",
+        "specialty": "Spécialiste rétine"
+      },
+      "doctor3": {
+        "name": "Dr. David Chen",
+        "specialty": "Ophtalmologie générale"
+      },
+      "doctor4": {
+        "name": "Dr. Emma Foster",
+        "specialty": "Ophtalmologie pédiatrique"
+      }
+    },
+    "mainDoctorAlt": "Médecin principal",
+    "doctorImageAlt": "Médecin"
+  }
+}

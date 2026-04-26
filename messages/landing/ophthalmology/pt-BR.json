@@ -1,0 +1,475 @@
+{
+  "nav": {
+    "home": "Início",
+    "about": "Sobre",
+    "services": "Serviços",
+    "doctors": "Médicos",
+    "departments": "Departamentos",
+    "pricing": "Preços",
+    "blog": "Blog",
+    "reviews": "Avaliações",
+    "contact": "Contato",
+    "bookAppointment": "Agendar Consulta",
+    "appointment": "Consulta",
+    "signUp": "Cadastro",
+    "login": "Entrar",
+    "getToKnowUs": "Conheça-nos",
+    "logoAlt": "Logo da Clínica Master",
+    "toggleMenu": "Alternar menu de navegação"
+  },
+  "topBar": {
+    "phone": "+55 11 1234 5678",
+    "email": "contato@example.com"
+  },
+  "hero": {
+    "tagline": "Cuidado Especializado da Visão",
+    "headline": "Sua Visão é Nossa Missão",
+    "subtitle": "Cuidado oftalmológico avançado com tecnologia de ponta e especialistas compassivos dedicados à saúde de sua visão.",
+    "talkToDoctors": "Converse com mais de 215 médicos",
+    "rating": "(4.8)",
+    "ratingsText": "12k+ avaliações no google",
+    "availableDoctors": "Médicos Disponíveis",
+    "selectDoctor": "Selecione um Médico",
+    "bookAppointment": "Agendar consulta",
+    "heroCta": "Agende sua visita",
+    "contact": "Entre em Contato",
+    "appointment": "Consulta",
+    "avatarAlt": "Avatar do paciente",
+    "heroDoctorAlt": "Oftalmologista profissional",
+    "toothAlt": "Ícone de cuidado ocular",
+    "sparkleAlt": "Brilho de cuidado ocular",
+    "doctor1Alt": "Dra. Olivia Davis",
+    "doctor2Alt": "Dr. William Martinez",
+    "doctor1Name": "Olivia Davis",
+    "doctor2Name": "William Martinez",
+    "dentist": "Oftalmologista",
+    "decorativeImageAlt": "Elemento decorativo de cuidado ocular"
+  },
+  "services": {
+    "badge": "Nossos Serviços",
+    "title": "Nossas Especialidades em Oftalmologia",
+    "subtitle": "Cuidado ocular focado em precisão, projetado para seu conforto e saúde visual duradoura.",
+    "bracesAligners": {
+      "title": "Exames Oculares Abrangentes",
+      "tag": "Diagnóstico",
+      "desc": "Exames minuciosos detectando problemas visuais e doenças oculares em seus estágios iniciais."
+    },
+    "dentalImplants": {
+      "title": "Cirurgia LASIK",
+      "tag": "Refração",
+      "desc": "Correção visual a laser avançada para uma vida livre de óculos e lentes de contato.",
+      "bookNow": "Agendar Agora"
+    },
+    "emergencyCare": {
+      "title": "Atendimento Ocular de Emergência",
+      "tag": "Urgência",
+      "desc": "Cuidado urgente no mesmo dia para trauma ocular, perda súbita de visão e infecções. Nossos especialistas estão sempre de prontidão."
+    },
+    "teethWhitening": {
+      "title": "Cirurgia de Catarata",
+      "tag": "Cirurgia",
+      "desc": "Facoemulsificação moderna com opções de lentes intraoculares premium para visão cristalina."
+    },
+    "rootCanal": {
+      "title": "Tratamento de Glaucoma",
+      "tag": "Especialidade",
+      "desc": "Detecção precoce e gerenciamento de glaucoma para preservar sua visão preciosa."
+    },
+    "cosmeticDentistry": {
+      "title": "Cuidado Ocular Pediátrico",
+      "tag": "Pediátrico",
+      "desc": "Cuidado ocular gentil e especializado para crianças desde a infância até adolescência."
+    },
+    "lowVisionServices": {
+      "tag": "01",
+      "title": "Serviços de Baixa Visão",
+      "desc": "Óculos e lentes acessíveis adaptados às suas necessidades. Entendemos e apoiamos você."
+    },
+    "pediatricEyeCare": {
+      "tag": "02",
+      "title": "Cuidado Ocular Pediátrico",
+      "desc": "Exames gentis e amigáveis para crianças com óculos acessíveis quando necessário. Tranquilizamos os pequeninos."
+    },
+    "eyeEvaluation": {
+      "tag": "03",
+      "title": "Avaliação Ocular",
+      "desc": "Exames oculares completos e equipamento moderno. Ajudamos você a escolher os melhores óculos ou lentes."
+    },
+    "longTermEyeHealth": {
+      "tag": "04",
+      "title": "Saúde Ocular de Longo Prazo",
+      "desc": "Cuidado contínuo e check-ups para proteger sua visão. Prevenção e bem-estar para o longo prazo."
+    },
+    "mostPopular": "Mais Popular"
+  },
+  "aboutDoctor": {
+    "title": "Sobre o Médico",
+    "doctorName": "Dra. Emma Foster",
+    "quote": "Nossa missão é combinar tecnologia avançada com cuidado compassivo para dar a cada paciente o dom da visão clara e saúde ocular duradoura.",
+    "description": "A Dra. Foster traz mais de duas décadas de experiência em oftalmologia. Ela se dedica a fornecer cuidado personalizado e se manter na vanguarda da tecnologia de cuidado ocular através de pesquisa e treinamento contínuos.",
+    "bullet1": "20+ Anos de Experiência Clínica",
+    "bullet2": "Oftalmologista Certificado pela Junta",
+    "bullet3": "Cirurgia Refratária Avançada",
+    "bullet4": "Membro da Academia Americana de Oftalmologia",
+    "scheduleConsultation": "Agendar Consulta",
+    "leadDentalDirector": "Chefe de Oftalmologia"
+  },
+  "weCare": {
+    "subTitle": "Sobre nós",
+    "title": "Nos Importamos Mais Que Apenas com Seus Olhos",
+    "description": "Os tratamentos de clínica de cuidados oculares são serviços especializados visando melhorar e manter a saúde ocular.",
+    "stat1Value": "20",
+    "stat1Label": "Anos de serviço",
+    "stat2Value": "14",
+    "stat2Label": "Prêmios conquistados",
+    "stat3Value": "28",
+    "stat3Label": "Seções de saúde",
+    "readMore": "Ler Mais",
+    "awardBadge": "CENTRO DE CUIDADO OCULAR #1 PRÊMIO VENCEDOR",
+    "patientImageAlt": "Paciente recebendo cuidado ocular",
+    "teethWhitening": "Exames Abrangentes",
+    "modernAnesthetic": "LASIK e Refração",
+    "qualityBrackets": "Cirurgia de Catarata",
+    "rootCanal": "Cuidado com Glaucoma",
+    "happyPatients": "Pacientes Felizes",
+    "specialists": "Especialistas",
+    "winningAwards": "Prêmios Conquistados"
+  },
+  "smileComparison": {
+    "title": "Veja Claramente Novamente — Isso Importa!",
+    "beforeLabel": "Antes do Tratamento",
+    "afterLabel": "Após o Tratamento",
+    "disclaimer": "* Os resultados podem variar de acordo com a condição ocular individual e plano de tratamento."
+  },
+  "pricing": {
+    "badge": "Consulta e Cuidado",
+    "title": "Opções de Consulta Para Sua Visão",
+    "disclaimer": "Entre em contato para uma consulta personalizada. Discutiremos suas necessidades e opções sem obrigação.",
+    "bookConsultationBasic": "Agendar Consulta de Cuidado Visual",
+    "bookConsultationAdvanced": "Agendar Consulta Cirúrgica",
+    "essentialCare": {
+      "name": "Cuidado Visual Básico",
+      "description": "Saúde ocular básica para cada paciente.",
+      "badge": "Básico",
+      "price": "R$ 89",
+      "period": "/fixo",
+      "bookService": "Agendar Serviço",
+      "standardExam": "Exame Ocular Abrangente",
+      "professionalCleaning": "Triagem de Visão",
+      "digitalXrays": "Imagem Digital de Retina",
+      "personalConsultation": "Consulta Pessoal",
+      "priorityConsultation": "Consulta Prioritária"
+    },
+    "advancedSmile": {
+      "name": "Cirurgia Ocular Avançada",
+      "description": "Transformação visual completa e cirurgia.",
+      "badge": "Favorito dos Pacientes",
+      "price": "R$ 499",
+      "period": "/fixo",
+      "bookService": "Agendar Serviço",
+      "fullAestheticDesign": "Consulta LASIK",
+      "professionalWhitening": "Cirurgia de Catarata",
+      "panoramicImaging": "Opções de LIO Premium",
+      "sedationOptions": "Opções de Sedação",
+      "postCareKit": "Kit Pós-Cuidado",
+      "priorityConsultation": "Consulta Prioritária"
+    }
+  },
+  "blogPage": {
+    "pageTitle": "Nossas Últimas",
+    "pageTitleHighlight": "Notícias e Artigos",
+    "pageSubtitle": "Mantenha-se atualizado com as últimas tendências em cuidado ocular, atualizações da clínica e dicas de especialistas para visão mais saudável.",
+    "previous": "Anterior",
+    "next": "Próximo",
+    "pageOf": "Página {page} de {total}",
+    "tags": "Tags:",
+    "shareArticle": "Compartilhar Artigo",
+    "commentsOne": "1 Comentário",
+    "commentsCount": "{count} Comentários",
+    "commentsZero": "0 Comentários",
+    "commentsOff": "Comentários Desativados",
+    "postNotFound": "Artigo Não Encontrado",
+    "postNotFoundDesc": "O artigo que você procura não existe.",
+    "backToHome": "Voltar para Início",
+    "minRead": "min",
+    "joinConversation": "Participe da conversa",
+    "addComment": "Adicionar Comentário",
+    "cancel": "Cancelar",
+    "leaveComment": "Deixe um comentário",
+    "name": "Nome",
+    "emailOptional": "(opcional)",
+    "comment": "Comentário",
+    "yourName": "Seu nome",
+    "yourEmail": "seu@email.com",
+    "shareThoughts": "Compartilhe seus pensamentos...",
+    "postComment": "Postar Comentário",
+    "posting": "Postando...",
+    "noCommentsYet": "Nenhum comentário ainda. Seja o primeiro!",
+    "commentPosted": "Comentário postado!",
+    "failedToPost": "Falha ao postar comentário. Tente novamente.",
+    "justNow": "agora mesmo",
+    "minutesAgo": "há {n}m",
+    "hoursAgo": "há {n}h",
+    "daysAgo": "há {n}d"
+  },
+  "news": {
+    "badge": "Blog e Notícias",
+    "title": "Mantenha-se Informado com Nossas Últimas Notícias",
+    "subtitle": "Insights profissionais, dicas de saúde e atualizações da clínica direto de nosso painel de oftalmologistas certificados pela junta.",
+    "readMore": "Ver Mais",
+    "minRead": "min",
+    "enterPublication": "Inserir Publicação",
+    "info": "Informações",
+    "tipsHealthySmile": {
+      "title": "Dicas para Manter Visão Saudável",
+      "category": "Saúde Ocular",
+      "excerpt": "Hábitos diários e cuidado profissional que mantêm seus olhos em perfeito estado por anos."
+    },
+    "understandingImplants": {
+      "title": "Entendendo Cirurgia de Catarata",
+      "category": "Tratamentos",
+      "excerpt": "O que esperar da cirurgia de catarata e como cuidar de seus olhos durante a recuperação."
+    },
+    "emergencyDentist": {
+      "title": "Quando Procurar um Oftalmologista de Emergência",
+      "category": "Urgência",
+      "excerpt": "Sinais de que você precisa de cuidado ocular urgente e como podemos ajudar quando mais importa para sua visão."
+    },
+    "digitalDentistry": {
+      "title": "Nova Tecnologia em Oftalmologia",
+      "category": "Inovação",
+      "excerpt": "Como imagem avançada e tecnologia laser estão revolucionando a precisão do cuidado ocular e conforto do paciente."
+    }
+  },
+  "testimonials": {
+    "badge": "Histórias de Pacientes",
+    "title": "O Que Nossos Pacientes Dizem Sobre Nós",
+    "subtitle": "Insights profissionais, dicas de saúde e atualizações da clínica direto de nosso painel de oftalmologistas certificados pela junta.",
+    "testimonial1": {
+      "content": "Após cirurgia LASIK aqui, consigo enxergar com clareza pela primeira vez em 20 anos. Toda a equipe foi profissional e atenciosa durante o processo.",
+      "name": "James Rodriguez",
+      "role": "Paciente LASIK"
+    },
+    "testimonial2": {
+      "content": "A cirurgia de catarata mudou minha vida. A Dra. Foster explicou tudo claramente e os resultados superaram minhas expectativas.",
+      "name": "Fatima Al-Hassan",
+      "role": "Cirurgia de Catarata"
+    },
+    "testimonial3": {
+      "content": "Cuidado ocular excepcional de uma equipe que realmente se importa. Meus exames anuais sempre detectam problemas cedo. Confio completamente neles.",
+      "name": "Marie Dubois",
+      "role": "Paciente Regular"
+    },
+    "testimonial4": {
+      "content": "Estava nervoso sobre meu procedimento, mas os médicos foram muito pacientes e explicaram tudo. A recuperação foi muito mais rápida do que esperava.",
+      "name": "Rodrigo Aguilar",
+      "role": "Paciente com Glaucoma"
+    },
+    "testimonial5": {
+      "content": "Nossas crianças realmente gostam de seus exames oculares aqui! A ala pediátrica é muito acolhedora e os médicos são incríveis com crianças. Perfeito para famílias.",
+      "name": "Emma Davis",
+      "role": "Mãe"
+    },
+    "testimonial6": {
+      "content": "Preços acessíveis, transparentes e atendimento ocular de alta qualidade. Não há custos ocultos e os resultados falam por si. Esta é agora nossa clínica de referência.",
+      "name": "Michael Chen",
+      "role": "Paciente Regular"
+    }
+  },
+  "footer": {
+    "description": "Fornecendo cuidado ocular premium desde 2005. Combinamos os melhores especialistas do mundo com tecnologia médica moderna para entregar resultados visuais incomparáveis.",
+    "quickLinks": "Links Rápidos",
+    "home": "Início",
+    "aboutUs": "Sobre Nós",
+    "services": "Serviços",
+    "ourDoctors": "Nossos Médicos",
+    "caseStudies": "Estudos de Caso",
+    "ourServices": "Nossos Serviços",
+    "teethWhitening": "Exames Oculares",
+    "dentalImplants": "Cirurgia LASIK",
+    "rootCanal": "Cirurgia de Catarata",
+    "bracesAligners": "Cuidado com Glaucoma",
+    "emergencyCare": "Atendimento Ocular de Emergência",
+    "support": "Suporte",
+    "helpCenter": "Central de Ajuda",
+    "privacyPolicy": "Política de Privacidade",
+    "termsOfService": "Termos de Serviço",
+    "refundPolicy": "Política de Reembolso",
+    "cookieSettings": "Configurações de Cookie",
+    "connect": "Conectar",
+    "followUs": "Siga-nos",
+    "emergency": "Emergência",
+    "ourStudio": "Nosso Estúdio",
+    "address": "Rua do Sorriso 123, São Paulo, SP",
+    "googleRating": "(4.8)",
+    "ratingsText": "12k+ avaliações no google",
+    "allRightsReserved": "© {year} ClinicMaster. Todos os direitos reservados.",
+    "logoAlt": "Clinic Master"
+  },
+  "contact": {
+    "badge": "Entre em Contato",
+    "title": "Pronto para Enxergar com Mais Clareza?",
+    "subtitle": "Insights profissionais, dicas de saúde e atualizações da clínica direto de nosso painel de oftalmologistas certificados pela junta.",
+    "sendMessage": "Enviar Mensagem",
+    "fastFriendlySupport": "Equipe de Suporte Rápida e Amigável",
+    "fullName": "Nome Completo",
+    "fullNamePlaceholder": "João Silva",
+    "emailAddress": "Endereço de Email",
+    "emailPlaceholder": "joao@example.com",
+    "yourInquiry": "Sua Pergunta",
+    "inquiryPlaceholder": "Como podemos ajudá-lo hoje?",
+    "sendMessageButton": "Enviar Mensagem",
+    "processing": "Processando...",
+    "errorFieldsRequired": "Por favor, preencha todos os campos obrigatórios"
+  },
+  "whyChoose": {
+    "badge": "Por Que Nos Escolher",
+    "mainTitle": "Uma Visão Holística do Cuidado e Saúde Ocular",
+    "eyeSpecialist": {
+      "title": "Especialista em Visão",
+      "description": "Nossos oftalmologistas especialistas fornecem cuidado personalizado ao paciente."
+    },
+    "weAreCertified": {
+      "title": "Somos Certificados",
+      "description": "Nossos oftalmologistas especialistas fornecem cuidado personalizado ao paciente."
+    },
+    "happyClients": {
+      "title": "Clientes Felizes",
+      "description": "Nossos oftalmologistas especialistas fornecem cuidado personalizado ao paciente."
+    },
+    "durationOfService": {
+      "title": "Duração do Serviço",
+      "description": "Nossos oftalmologistas especialistas fornecem cuidado personalizado ao paciente."
+    }
+  },
+  "makeAppointment": {
+    "title": "Agende Sua Visita",
+    "subtitle": "Cuidado profissional ao seu alcance.",
+    "certifiedDoctors": "Médicos Certificados e Profissionais",
+    "emergencyCare247": "Cuidado Ocular de Emergência 24/7",
+    "modernEquipment": "Equipamento Oftalmológico Moderno",
+    "flexiblePayment": "Opções de Pagamento Flexíveis",
+    "fullName": "Nome Completo",
+    "fullNamePlaceholder": "Ex. João Silva",
+    "phoneNumber": "Número de Telefone",
+    "phonePlaceholder": "+55 (11) 9999-9999",
+    "selectService": "Selecione um Serviço",
+    "selectServicePlaceholder": "O que você precisa?",
+    "selectDate": "Data Preferida",
+    "bookNow": "Confirmar Meu Pedido Agora",
+    "processing": "Processando...",
+    "fullNameRequired": "Nome completo é obrigatório",
+    "phoneRequired": "Número de telefone é obrigatório",
+    "serviceRequired": "Por favor, selecione um serviço",
+    "dateRequired": "Por favor, selecione uma data",
+    "success": {
+      "title": "Sucesso!",
+      "message": "Obrigado pelo seu pedido. Entraremos em contato em breve para confirmar sua visita.",
+      "reschedule": "Agendar Outra Sessão"
+    },
+    "services": {
+      "generalCheckup": "Exame Ocular Abrangente",
+      "teethWhitening": "Cirurgia LASIK",
+      "dentalImplants": "Cirurgia de Catarata",
+      "rootCanal": "Tratamento de Glaucoma",
+      "cosmeticDentistry": "Cuidado Ocular Pediátrico",
+      "emergencyCare": "Atendimento Ocular de Emergência"
+    },
+    "doctorsImageAlt": "Oftalmologistas profissionais",
+    "satisfactionRate": "99%",
+    "satisfaction": "Satisfação",
+    "satisfactionDescription": "Confiado por pacientes locais para cuidado ocular premium."
+  },
+  "appointmentHero": {
+    "badge": "Agendamento Instantâneo",
+    "title": "Consulta",
+    "home": "Início",
+    "appointment": "Consulta",
+    "doctorImageAlt": "Médico"
+  },
+  "appointmentFeatures": {
+    "title": "Faça uma Consulta",
+    "subtitle": "Dê o primeiro passo para uma visão mais clara. Somos uma equipe de profissionais dedicados à sua saúde ocular.",
+    "feature1": {
+      "num": "01",
+      "title": "Serviço Médico",
+      "desc": "Experimente cuidado ocular de classe mundial com nossa equipe de especialistas dedicados à sua visão.",
+      "readMore": "Ler Mais"
+    },
+    "feature2": {
+      "num": "02",
+      "title": "Medicamentos 24/7",
+      "desc": "Nossa farmácia no local garante que você obtenha o medicamento que precisa, exatamente quando precisa.",
+      "readMore": "Ler Mais"
+    },
+    "feature3": {
+      "num": "03",
+      "title": "Melhor Médico",
+      "desc": "Nossos médicos certificados pela junta trazem anos de expertise e uma abordagem compassiva.",
+      "readMore": "Ler Mais"
+    }
+  },
+  "locations": {
+    "badge": "Nos Encontre",
+    "title": "Todas as Localizações",
+    "subtitle": "Múltiplas localizações convenientes perto de você.",
+    "getDirections": "Obter Direções",
+    "location1": {
+      "country": "Brasil",
+      "address": "Rua da Saúde 123, Apto 456, São Paulo, 12345 Brasil",
+      "phone": "+55 11 1234-5678",
+      "hours": "Seg-Qui: 8:00-17:00"
+    },
+    "location2": {
+      "country": "São Paulo",
+      "address": "Rua da Saúde 123, Apto 456, São Paulo, 12345 Brasil",
+      "phone": "+55 11 1234-5678",
+      "hours": "Seg-Qui: 8:00-17:00"
+    },
+    "overlay": {
+      "officeAddress": "Endereço do Consultório:",
+      "address": "Avenida Principal 234, São Paulo, Brasil",
+      "workingHours": "Horário de Funcionamento:",
+      "hours1": "Seg-Qui: 8:00-17:00",
+      "hours2": "Sex: 8:00-13:00"
+    }
+  },
+  "cookieNotice": {
+    "title": "Aviso de Cookies",
+    "message": "Usamos cookies para garantir que você tenha a melhor experiência em nosso site.",
+    "linkText": "Leia as políticas de cookies.",
+    "managePrefs": "Gerenciar Preferências",
+    "decline": "Recusar",
+    "accept": "Aceitar"
+  },
+  "highlyQualified": {
+    "title": "Conheça Nossa Equipe Altamente Qualificada",
+    "description": "Nossa equipe consiste em oftalmologistas certificados pela junta que priorizam seu conforto e visão. Usando ferramentas diagnósticas de ponta, garantimos precisão e cuidado para cada paciente.",
+    "availableToday": "Disponível Hoje",
+    "mainDoctorName": "Dra. Emma Foster",
+    "mainDoctorTitle": "Chefe de Oftalmologia",
+    "experienceYears": "20+ Anos",
+    "experienceLabel": "Experiência Profissional",
+    "viewAllDoctors": "Ver Todos os Médicos Especialistas",
+    "doctors": {
+      "doctor1": {
+        "name": "Dr. Michael Williams",
+        "specialty": "Especialista em Córnea"
+      },
+      "doctor2": {
+        "name": "Dra. Jessica Brown",
+        "specialty": "Especialista em Retina"
+      },
+      "doctor3": {
+        "name": "Dr. David Chen",
+        "specialty": "Oftalmologia Geral"
+      },
+      "doctor4": {
+        "name": "Dra. Emma Foster",
+        "specialty": "Oftalmologia Pediátrica"
+      }
+    },
+    "mainDoctorAlt": "Médico Principal",
+    "doctorImageAlt": "Médico"
+  }
+}

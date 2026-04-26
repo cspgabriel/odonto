@@ -1,0 +1,435 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "services": "Servicios",
+    "doctors": "Médicos",
+    "departments": "Departamentos",
+    "pricing": "Precios",
+    "blog": "Blog",
+    "reviews": "Reseñas",
+    "contact": "Contacto",
+    "bookAppointment": "Reservar cita",
+    "appointment": "Cita",
+    "signUp": "Registrarse",
+    "login": "Iniciar sesión",
+    "getToKnowUs": "Conócenos",
+    "logoAlt": "Logo Clinic Master",
+    "toggleMenu": "Alternar menú de navegación"
+  },
+  "topBar": {
+    "phone": "+1 123 456 7890",
+    "email": "info@example.com"
+  },
+  "hero": {
+    "headline": "Obtén una sonrisa hermosa y recta rápidamente",
+    "subtitle": "Nuestro personal experimentado está dedicado a mejorar la salud dental de nuestros pacientes y mejorar sus sonrisas con atención experta.",
+    "talkToDoctors": "Habla con más de 215 médicos",
+    "rating": "(4.8)",
+    "ratingsText": "12k+ valoraciones en Google",
+    "availableDoctors": "Médicos disponibles",
+    "selectDoctor": "Seleccionar médico",
+    "bookAppointment": "Reservar cita",
+    "appointment": "Cita",
+    "avatarAlt": "Avatar del paciente",
+    "heroDoctorAlt": "Dentista profesional",
+    "toothAlt": "Icono de cuidado dental",
+    "sparkleAlt": "Brillo de cuidado dental",
+    "doctor1Alt": "Dr. Olivia Davis",
+    "doctor2Alt": "Dr. William Martinez",
+    "doctor1Name": "Olivia Davis",
+    "doctor2Name": "William Martinez",
+    "dentist": "Dentista",
+    "decorativeImageAlt": "Elemento decorativo dental"
+  },
+  "services": {
+    "badge": "Nuestros Servicios",
+    "title": "Nuestras Especialidades Dentales",
+    "subtitle": "Tratamientos de precisión diseñados para su comodidad y salud dental duradera.",
+    "bracesAligners": {
+      "title": "Brackets y alineadores",
+      "tag": "Ortodoncia",
+      "desc": "Opciones de brackets tradicionales y alineadores transparentes para dientes más rectos y una mejor alineación de la mordida."
+    },
+    "dentalImplants": {
+      "title": "Implantes dentales",
+      "tag": "Restauración",
+      "desc": "Reemplazo dental permanente que se ve y se siente natural. Restaure la función y la estética con nuestros procedimientos de implante especializados.",
+      "bookNow": "Reservar ahora"
+    },
+    "emergencyCare": {
+      "title": "Atención de emergencia",
+      "tag": "Urgente",
+      "desc": "Atención urgente el mismo día para traumatismos dentales, dolor severo e infecciones. Nuestros especialistas están siempre disponibles cuando más los necesita."
+    },
+    "teethWhitening": {
+      "title": "Blanqueamiento dental",
+      "tag": "Estética",
+      "desc": "Tratamientos de blanqueamiento profesionales para restaurar una sonrisa más brillante y segura con resultados duraderos."
+    },
+    "rootCanal": {
+      "title": "Endodoncia",
+      "tag": "Cirugía",
+      "desc": "Tratamiento cómodo y efectivo para salvar dientes infectados y aliviar el dolor mientras preserva su sonrisa natural."
+    },
+    "cosmeticDentistry": {
+      "title": "Odontología estética",
+      "tag": "Estética",
+      "desc": "Carillas, adhesión y diseño de sonrisa para corregir imperfecciones y lograr la sonrisa que se merece."
+    },
+    "mostPopular": "Más popular"
+  },
+  "aboutDoctor": {
+    "title": "Sobre el médico",
+    "doctorName": "Dra. Sarah Williams",
+    "quote": "Nuestra misión es combinar el arte de la estética dental con la ciencia de la excelencia clínica para dar a cada paciente la sonrisa con la que siempre ha soñado.",
+    "description": "La Dra. Williams aporta más de dos décadas de experiencia en odontología general y estética. Está comprometida a brindar atención personalizada y mantenerse a la vanguardia de la tecnología dental a través de investigación y capacitación continuas.",
+    "bullet1": "Más de 20 años de experiencia clínica",
+    "bullet2": "Especialista dental certificado",
+    "bullet3": "Diseño de sonrisa estético avanzado",
+    "bullet4": "Miembro de la Asociación Dental Internacional",
+    "scheduleConsultation": "Programar consulta",
+    "leadDentalDirector": "Director dental principal"
+  },
+  "weCare": {
+    "title": "Nos preocupamos por su salud dental",
+    "description": "Es un hecho establecido desde hace mucho tiempo que un lector se distraerá con el contenido legible de una página al mirar su diseño. El punto de usar Lorem Ipsum es que tiene una distribución más o menos normal de letras, a diferencia del uso.",
+    "teethWhitening": "Blanqueamiento dental",
+    "modernAnesthetic": "Anestésico moderno",
+    "qualityBrackets": "Brackets de calidad",
+    "rootCanal": "Endodoncia",
+    "happyPatients": "Pacientes satisfechos",
+    "specialists": "Especialistas",
+    "winningAwards": "Premios ganados",
+    "patientImageAlt": "Paciente recibiendo atención dental"
+  },
+  "smileComparison": {
+    "title": "¡Obtén una sonrisa hermosa, es importante!",
+    "beforeLabel": "Caso inicial",
+    "afterLabel": "Resultado final",
+    "disclaimer": "* Los resultados pueden variar según la condición dental individual y el plan de tratamiento."
+  },
+  "pricing": {
+    "badge": "Precios transparentes",
+    "title": "Planes simples para su sonrisa",
+    "disclaimer": "* Todos los planes incluyen consulta inicial gratuita y escaneo dental completo.",
+    "essentialCare": {
+      "name": "Atención esencial",
+      "description": "Salud básica para cada paciente.",
+      "badge": "Básico",
+      "price": "$89",
+      "period": "/fijo",
+      "bookService": "Reservar servicio",
+      "standardExam": "Examen dental estándar",
+      "professionalCleaning": "Limpieza profesional",
+      "digitalXrays": "2 radiografías digitales",
+      "personalConsultation": "Consulta personal",
+      "priorityConsultation": "Consulta prioritaria"
+    },
+    "advancedSmile": {
+      "name": "Sonrisa avanzada",
+      "description": "Transformación completa y estética.",
+      "badge": "Favorito de los pacientes",
+      "price": "$499",
+      "period": "/fijo",
+      "bookService": "Reservar servicio",
+      "fullAestheticDesign": "Diseño estético completo",
+      "professionalWhitening": "Blanqueamiento profesional",
+      "panoramicImaging": "Imagen panorámica",
+      "sedationOptions": "Opciones de sedación",
+      "postCareKit": "Kit de cuidados posteriores",
+      "priorityConsultation": "Consulta prioritaria"
+    }
+  },
+  "blogPage": {
+    "pageTitle": "Nuestras últimas",
+    "pageTitleHighlight": "noticias y artículos",
+    "pageSubtitle": "Manténgase informado sobre las últimas tendencias en cuidado dental, actualizaciones de la clínica y consejos de expertos para una sonrisa más saludable.",
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "pageOf": "Página {page} de {total}",
+    "tags": "Etiquetas:",
+    "shareArticle": "Compartir artículo",
+    "commentsOne": "1 comentario",
+    "commentsCount": "{count} comentarios",
+    "commentsZero": "0 comentarios",
+    "commentsOff": "Comentarios desactivados",
+    "postNotFound": "Artículo no encontrado",
+    "postNotFoundDesc": "El artículo que buscas no existe.",
+    "backToHome": "Volver al inicio",
+    "minRead": "min",
+    "joinConversation": "Únete a la conversación",
+    "addComment": "Añadir comentario",
+    "cancel": "Cancelar",
+    "leaveComment": "Dejar un comentario",
+    "name": "Nombre",
+    "emailOptional": "(opcional)",
+    "comment": "Comentario",
+    "yourName": "Tu nombre",
+    "yourEmail": "tu@email.com",
+    "shareThoughts": "Comparte tus pensamientos...",
+    "postComment": "Publicar comentario",
+    "posting": "Publicando...",
+    "noCommentsYet": "Aún no hay comentarios. ¡Sé el primero!",
+    "commentPosted": "¡Comentario publicado!",
+    "failedToPost": "Error al publicar. Inténtalo de nuevo.",
+    "justNow": "ahora mismo",
+    "minutesAgo": "hace {n} min",
+    "hoursAgo": "hace {n} h",
+    "daysAgo": "hace {n} días"
+  },
+  "news": {
+    "badge": "Blog y Noticias",
+    "title": "Mantente informado con nuestras últimas noticias",
+    "subtitle": "Consejos profesionales, consejos de salud y actualizaciones de la clínica directamente de nuestro panel de especialistas dentales certificados.",
+    "readMore": "Ver más",
+    "minRead": "min",
+    "enterPublication": "Entrar a la publicación",
+    "info": "Info",
+    "tipsHealthySmile": {
+      "title": "Consejos para mantener una sonrisa saludable",
+      "category": "Salud bucal",
+      "excerpt": "Hábitos diarios y atención profesional que mantienen sus dientes y encías en perfecto estado durante los próximos años."
+    },
+    "understandingImplants": {
+      "title": "Entender los implantes dentales",
+      "category": "Tratamientos",
+      "excerpt": "Qué esperar de la cirugía de implantes y cómo cuidar su nueva sonrisa durante el proceso de recuperación."
+    },
+    "emergencyDentist": {
+      "title": "Cuándo ver a un dentista de emergencia",
+      "category": "Urgente",
+      "excerpt": "Señales de que necesita atención urgente y cómo podemos ayudarle cuando más importa para su salud dental."
+    },
+    "digitalDentistry": {
+      "title": "Nueva tecnología en odontología digital",
+      "category": "Innovación",
+      "excerpt": "Cómo el escaneo 3D y las impresiones digitales están revolucionando la comodidad del paciente y la precisión del tratamiento."
+    }
+  },
+  "testimonials": {
+    "badge": "Historias de pacientes",
+    "title": "Lo que nuestros pacientes dicen sobre nosotros",
+    "subtitle": "Consejos profesionales, consejos de salud y actualizaciones de la clínica directamente de nuestro panel de especialistas dentales certificados.",
+    "testimonial1": {
+      "content": "Profesional, suave y eficiente. Toda mi familia viene aquí ahora. El equipo hace que cada visita sea cómoda y sin estrés. ¡La mejor experiencia dental que he tenido!",
+      "name": "Sarah Mitchell",
+      "role": "Paciente familiar"
+    },
+    "testimonial2": {
+      "content": "El tratamiento de blanqueamiento fue indoloro y los resultados son increíbles. He recuperado mi confianza y no puedo dejar de sonreír. ¡Recomiendo encarecidamente sus servicios estéticos!",
+      "name": "James K. Wilson",
+      "role": "Atención estética"
+    },
+    "testimonial3": {
+      "content": "Una de las mejores clínicas dentales que he visitado. La tecnología que utilizan es de última generación y el personal es increíblemente conocedor. Verdaderamente una experiencia premium.",
+      "name": "Yucel Faruksahan",
+      "role": "Paciente regular"
+    },
+    "testimonial4": {
+      "content": "Estaba nervioso por la extracción de mi muela del juicio, pero los médicos fueron tan pacientes y explicaron todo. La recuperación fue mucho más rápida de lo que esperaba.",
+      "name": "Rodrigo Aguilar",
+      "role": "Cirugía oral"
+    },
+    "testimonial5": {
+      "content": "¡A nuestros hijos realmente les gusta ir al dentista aquí! El ala pediátrica es tan acogedora y los médicos son increíbles con los niños. Perfecto para familias.",
+      "name": "Emma Davis",
+      "role": "Padre"
+    },
+    "testimonial6": {
+      "content": "Precios asequibles y transparentes y atención de alta calidad. No hay costos ocultos y los resultados hablan por sí solos. Esta es ahora nuestra clínica de referencia.",
+      "name": "Michael Chen",
+      "role": "Atención médica"
+    }
+  },
+  "footer": {
+    "description": "Proporcionando atención dental de calidad desde 2005. Combinamos los mejores especialistas del mundo con tecnología médica moderna para ofrecer resultados dentales sin igual.",
+    "quickLinks": "Enlaces rápidos",
+    "home": "Inicio",
+    "aboutUs": "Sobre nosotros",
+    "services": "Servicios",
+    "ourDoctors": "Nuestros médicos",
+    "caseStudies": "Casos de estudio",
+    "ourServices": "Nuestros servicios",
+    "teethWhitening": "Blanqueamiento dental",
+    "dentalImplants": "Implantes dentales",
+    "rootCanal": "Endodoncia",
+    "bracesAligners": "Brackets y alineadores",
+    "emergencyCare": "Atención de emergencia",
+    "support": "Soporte",
+    "helpCenter": "Centro de ayuda",
+    "privacyPolicy": "Política de privacidad",
+    "termsOfService": "Términos de servicio",
+    "refundPolicy": "Política de reembolso",
+    "cookieSettings": "Configuración de cookies",
+    "connect": "Conectar",
+    "emergency": "Emergencia",
+    "ourStudio": "Nuestro estudio",
+    "address": "123 Calle Sonrisa, CA",
+    "googleRating": "(4.8)",
+    "ratingsText": "12k+ valoraciones en Google",
+    "allRightsReserved": "© {year} ClinicMaster. Todos los derechos reservados.",
+    "logoAlt": "Clinic Master"
+  },
+  "contact": {
+    "badge": "Póngase en contacto",
+    "title": "¿Listo para mejorar su sonrisa?",
+    "subtitle": "Consejos profesionales, consejos de salud y actualizaciones de la clínica directamente de nuestro panel de especialistas dentales certificados.",
+    "sendMessage": "Enviar un mensaje",
+    "fastFriendlySupport": "Equipo de soporte rápido y amigable",
+    "fullName": "Nombre completo",
+    "fullNamePlaceholder": "Juan Pérez",
+    "emailAddress": "Dirección de correo electrónico",
+    "emailPlaceholder": "juan@ejemplo.com",
+    "yourInquiry": "Su consulta",
+    "inquiryPlaceholder": "¿Cómo podemos ayudarle hoy?",
+    "sendMessageButton": "Enviar mensaje",
+    "processing": "Procesando...",
+    "errorFieldsRequired": "Por favor complete todos los campos requeridos"
+  },
+  "whyChoose": {
+    "title": "¿Por qué elegir nuestra clínica dental?",
+    "description": "Combinamos la excelencia clínica con un enfoque centrado en el paciente. Desde la atención preventiva hasta los tratamientos avanzados, estamos comprometidos con su salud bucal a largo plazo y una hermosa sonrisa.",
+    "latestTechnology": {
+      "title": "Última tecnología",
+      "description": "Protocolos basados en evidencia y flujos de trabajo digitales que utilizan equipos de última generación."
+    },
+    "experiencedTeam": {
+      "title": "Equipo experimentado",
+      "description": "Nuestro equipo aporta décadas de experiencia combinada para brindar la mejor atención."
+    },
+    "modernFacilities": "Instalaciones modernas",
+    "treatmentImageAlt": "Tratamiento dental",
+    "smileImageAlt": "Hermosa sonrisa"
+  },
+  "makeAppointment": {
+    "title": "Programe su visita",
+    "subtitle": "Atención profesional al alcance de su mano.",
+    "certifiedDoctors": "Médicos certificados y profesionales",
+    "emergencyCare247": "Atención dental de emergencia 24/7",
+    "modernEquipment": "Equipamiento dental moderno",
+    "flexiblePayment": "Opciones de pago flexibles",
+    "fullName": "Nombre completo",
+    "fullNamePlaceholder": "ej. Juan Pérez",
+    "phoneNumber": "Número de teléfono",
+    "phonePlaceholder": "+34 123 456 789",
+    "selectService": "Seleccionar servicio",
+    "selectServicePlaceholder": "¿Qué necesita?",
+    "selectDate": "Fecha preferida",
+    "bookNow": "Confirmar mi solicitud ahora",
+    "processing": "Procesando...",
+    "fullNameRequired": "Se requiere el nombre completo",
+    "phoneRequired": "Se requiere el número de teléfono",
+    "serviceRequired": "Por favor seleccione un servicio",
+    "dateRequired": "Por favor seleccione una fecha",
+    "success": {
+      "title": "¡Éxito!",
+      "message": "Gracias por su solicitud. Nos pondremos en contacto con usted pronto para confirmar su visita.",
+      "reschedule": "Reprogramar otra sesión"
+    },
+    "services": {
+      "generalCheckup": "Revisión general",
+      "teethWhitening": "Blanqueamiento dental",
+      "dentalImplants": "Implantes dentales",
+      "rootCanal": "Endodoncia",
+      "cosmeticDentistry": "Odontología estética",
+      "emergencyCare": "Atención de emergencia"
+    },
+    "doctorsImageAlt": "Médicos dentistas profesionales",
+    "satisfactionRate": "99%",
+    "satisfaction": "Satisfacción",
+    "satisfactionDescription": "Confiado por pacientes locales para atención dental de calidad."
+  },
+  "appointmentHero": {
+    "badge": "Reserva Instantánea",
+    "title": "Cita",
+    "home": "Inicio",
+    "appointment": "Cita",
+    "doctorImageAlt": "Doctor"
+  },
+  "appointmentFeatures": {
+    "title": "Hacer una Cita",
+    "subtitle": "Da el primer paso hacia una sonrisa más saludable y brillante. Somos un equipo de profesionales dedicados a su salud.",
+    "feature1": {
+      "num": "01",
+      "title": "Servicio Médico",
+      "desc": "Experimente atención dental de clase mundial con nuestro equipo de especialistas dedicados a su salud.",
+      "readMore": "Leer más"
+    },
+    "feature2": {
+      "num": "02",
+      "title": "Medicinas 24/7",
+      "desc": "Nuestra farmacia en el lugar garantiza que obtenga la medicación que necesita, exactamente cuando la necesita.",
+      "readMore": "Leer más"
+    },
+    "feature3": {
+      "num": "03",
+      "title": "Mejor Doctor",
+      "desc": "Nuestros médicos certificados aportan años de experiencia y un enfoque compasivo.",
+      "readMore": "Leer más"
+    }
+  },
+  "locations": {
+    "badge": "Encuéntranos",
+    "title": "Todas las ubicaciones",
+    "subtitle": "Múltiples ubicaciones convenientes más cercanas a ti.",
+    "getDirections": "Obtener direcciones",
+    "location1": {
+      "country": "Estados Unidos",
+      "address": "123 Health Way, Suite 456, Goodland, 78910 United States",
+      "phone": "+1 123-456-7890",
+      "hours": "Lun-Jue: 8:00am-5:00pm"
+    },
+    "location2": {
+      "country": "Canadá",
+      "address": "123 Health Way, Suite 456, Goodland, 78910 United States",
+      "phone": "+1 123-456-7890",
+      "hours": "Lun-Jue: 8:00am-5:00pm"
+    },
+    "overlay": {
+      "officeAddress": "Dirección de la oficina:",
+      "address": "234 Oak Drive, NY, USA",
+      "workingHours": "Horario de trabajo:",
+      "hours1": "Lun-Jue: 8:00am-5:00pm",
+      "hours2": "Vie: 8:00am-1:00pm"
+    }
+  },
+  "cookieNotice": {
+    "title": "Aviso de cookies",
+    "message": "Utilizamos cookies para garantizar la mejor experiencia en nuestro sitio web.",
+    "linkText": "Leer la política de cookies.",
+    "managePrefs": "Gestionar preferencias",
+    "decline": "Rechazar",
+    "accept": "Aceptar"
+  },
+  "highlyQualified": {
+    "title": "Conoce a nuestro equipo altamente calificado",
+    "description": "Nuestro equipo está formado por especialistas certificados que priorizan tu comodidad y bienestar. Utilizando herramientas de diagnóstico de última generación, garantizamos precisión y cuidado para cada sonrisa.",
+    "availableToday": "Disponible hoy",
+    "mainDoctorName": "Dr. Robert Smithson",
+    "mainDoctorTitle": "Director dental principal",
+    "experienceYears": "20+ años",
+    "experienceLabel": "Experiencia profesional",
+    "viewAllDoctors": "Ver todos los médicos especialistas",
+    "doctors": {
+      "doctor1": {
+        "name": "Dr. Michael Williams",
+        "specialty": "Cirujano oral"
+      },
+      "doctor2": {
+        "name": "Dr. Jessica Brown",
+        "specialty": "Ortodoncista"
+      },
+      "doctor3": {
+        "name": "Dr. David Chen",
+        "specialty": "Odontología general"
+      },
+      "doctor4": {
+        "name": "Dr. Sarah Miller",
+        "specialty": "Odontología estética"
+      }
+    },
+    "mainDoctorAlt": "Médico principal",
+    "doctorImageAlt": "Médico"
+  }
+}
