@@ -2,7 +2,7 @@ import { redirect } from "next/navigation";
 import { cookies, headers } from "next/headers";
 import { Suspense } from "react";
 import { getTranslations } from "next-intl/server";
-import { getAuthUser } from "@/lib/auth";
+import { getAuthUser, getSession } from "@/lib/auth";
 import { getCurrentUserPermissions } from "@/lib/auth/require-permission";
 import { getCachedClinic, getCachedEnsureAppUser } from "@/lib/cache";
 import { requestLog } from "@/lib/debug";
@@ -81,19 +81,26 @@ export default async function DashboardLayout({
       causeMessage.includes("ENOTFOUND") ||
       causeMessage.includes("getaddrinfo");
     if (isNetwork) {
-      const t = await getTranslations("errors");
-      return (
-        <DashboardDbError
-          title={t("connectionProblem")}
-          message={t("authConnection")}
-          showEnvHint={false}
-          tryAgainLabel={t("tryAgain")}
-          signOutLabel={t("signOut")}
-        />
-      );
+      const session = await getSession();
+      const sessionUser = session?.user ?? null;
+      if (sessionUser?.id) {
+        authUser = sessionUser;
+      } else {
+        const t = await getTranslations("errors");
+        return (
+          <DashboardDbError
+            title={t("connectionProblem")}
+            message={t("authConnection")}
+            showEnvHint={false}
+            tryAgainLabel={t("tryAgain")}
+            signOutLabel={t("signOut")}
+          />
+        );
+      }
+    } else {
+      console.error("[Layout] getAuthUser failed:", err);
+      redirect("/login");
     }
-    console.error("[Layout] getAuthUser failed:", err);
-    redirect("/login");
   }
   if (!authUser) {
     requestLog("layout.redirect", "login (no authUser)");
