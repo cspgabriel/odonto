@@ -5,6 +5,7 @@ import { cookies } from "next/headers";
 import { getCachedCurrentUser } from "@/lib/cache";
 import { getAuthUser, type UserRole } from "@/lib/auth";
 import { db } from "@/lib/db";
+import { DashboardDbError } from "@/components/dashboard/dashboard-db-error";
 import {
   patients,
   appointments,
