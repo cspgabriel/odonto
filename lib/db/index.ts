@@ -15,12 +15,13 @@ const rawConnectionString = process.env.DATABASE_URL ?? process.env.DIRECT_DATAB
 
 function normalizeConnectionString(url: string | undefined): string | undefined {
   if (!url) return undefined;
+  const cleanUrl = url.trim().replace(/^\uFEFF/, "");
   try {
-    const parsed = new URL(url);
+    const parsed = new URL(cleanUrl);
     parsed.searchParams.delete("pgbouncer");
     return parsed.toString();
   } catch {
-    return url;
+    return cleanUrl;
   }
 }
 
