@@ -22,8 +22,9 @@ import { usePreferences } from "@/contexts/preferences-context";
 import { ChevronDown } from "lucide-react";
 import { useTranslations } from "next-intl";
 
-const LOCALE_LABEL_KEYS: Record<LocaleCode, "languageEnglish" | "languageFrench" | "languageSpanish" | "languageArabic"> = {
+const LOCALE_LABEL_KEYS: Record<LocaleCode, "languageEnglish" | "languagePortuguese" | "languageFrench" | "languageSpanish" | "languageArabic"> = {
   en: "languageEnglish",
+  "pt-BR": "languagePortuguese",
   fr: "languageFrench",
   es: "languageSpanish",
   ar: "languageArabic",
@@ -39,6 +40,7 @@ import { DENTAL_RADIUS_BUTTON } from "@/lib/dental-branding";
 
 const FLAG_EMOJIS: Record<LocaleCode, string> = {
   en: "🇺🇸",
+  "pt-BR": "🇧🇷",
   fr: "🇫🇷",
   es: "🇪🇸",
   ar: "🇸🇦",
