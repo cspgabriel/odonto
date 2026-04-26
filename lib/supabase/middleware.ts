@@ -8,8 +8,6 @@ export async function updateSession(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
   const clinicParam = request.nextUrl.searchParams.get("clinic")?.toLowerCase().trim();
   const isDemoClinic = clinicParam && VALID_DEMO_TYPES.includes(clinicParam as (typeof VALID_DEMO_TYPES)[number]);
-  const isLocalLicenseMode =
-    process.env.NODE_ENV === "development" && !!process.env.LICENSE_TEST_CODE;
 
   if (process.env.NODE_ENV === "development") {
     console.log(`[CareNova] ${new Date().toISOString()} request.in | ${request.method} ${pathname}`);
@@ -33,30 +31,6 @@ export async function updateSession(request: NextRequest) {
 
   const isDashboard = pathname === "/dashboard" || pathname.startsWith("/dashboard/");
   const isAuthRoute = pathname === "/login" || pathname === "/signup";
-  const isSetupRoute = pathname === "/setup" || pathname.startsWith("/setup/");
-
-  if (isLocalLicenseMode) {
-    return response;
-  }
-
-  // License check — /setup: if already licensed, redirect to dashboard
-  // /api/check-license: pass through (no redirect)
-  if (isSetupRoute) {
-    try {
-      const licenseUrl = new URL("/api/check-license", request.url);
-      const licenseRes = await fetch(licenseUrl.toString(), {
-        headers: { "x-pathname": pathname },
-      });
-      const { licensed } = (await licenseRes.json()) as { licensed?: boolean };
-      if (licensed) {
-        const dashboardUrl = new URL("/dashboard", request.url);
-        return NextResponse.redirect(dashboardUrl);
-      }
-    } catch {
-      // On error, allow setup page
-    }
-    return response;
-  }
 
   // If logged in and visiting login/signup → redirect to dashboard (unless pending approval)
   // When user confirmed email but is not yet approved, dashboard redirects to /login?pending=1.
@@ -161,27 +135,6 @@ export async function updateSession(request: NextRequest) {
 
   if (process.env.NODE_ENV === "development") {
     console.log(`[Dashboard:trace] T+${Date.now() - traceT0}ms | middleware.dashboard.auth.done | user ok, pass through`);
-  }
-
-  // License check — dashboard requires valid license
-  try {
-    const licenseUrl = new URL("/api/check-license", request.url);
-    const licenseRes = await fetch(licenseUrl.toString(), {
-      headers: { "x-pathname": pathname },
-    });
-    const { licensed } = (await licenseRes.json()) as { licensed?: boolean };
-    if (!licensed) {
-      const setupUrl = new URL("/setup", request.url);
-      const redirectResponse = NextResponse.redirect(setupUrl);
-      response.cookies.getAll().forEach((c) => redirectResponse.cookies.set(c.name, c.value, c));
-      return redirectResponse;
-    }
-  } catch {
-    // On error, redirect to setup to be safe
-    const setupUrl = new URL("/setup", request.url);
-    const redirectResponse = NextResponse.redirect(setupUrl);
-    response.cookies.getAll().forEach((c) => redirectResponse.cookies.set(c.name, c.value, c));
-    return redirectResponse;
   }
 
   // Throttle session activity ping (every 5 min). Note: Edge middleware cannot
