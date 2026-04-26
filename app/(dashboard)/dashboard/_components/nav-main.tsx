@@ -73,7 +73,7 @@ export interface NavItem {
   badge?: string;
 }
 
-export interface NavItemWithChildren {
+export interface NavItemWithChildren extends NavItem {
   title: string;
   href: string;
   icon: React.ComponentType<{ className?: string }>;
@@ -92,7 +92,7 @@ const overviewItems: NavItem[] = [
   },
 ];
 
-const websiteManagementItems: NavItem[] = [
+const websiteManagementItems: (NavItem | NavItemWithChildren)[] = [
   {
     title: "demos",
     href: "/",
@@ -467,10 +467,16 @@ export function NavMain({
     title: t(item.title),
   }));
 
-  const translatedWebsiteItems = websiteManagementItems.map((item) => ({
-    ...item,
-    title: t(item.title),
-  }));
+  const translatedWebsiteItems = websiteManagementItems.map((item) => {
+    const base = { ...item, title: t(item.title) };
+    if ("children" in base && Array.isArray(base.children)) {
+      return {
+        ...base,
+        children: base.children.map((c) => ({ ...c, title: t(c.title) })),
+      };
+    }
+    return base;
+  });
 
   const translatedPatientManagementItems = [...patientManagementItems];
   const medicalOrDentalItem: NavItem | NavItemWithChildren =

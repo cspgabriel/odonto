@@ -2,9 +2,10 @@ import { redirect } from "next/navigation";
 import { cookies, headers } from "next/headers";
 import { Suspense } from "react";
 import { getTranslations } from "next-intl/server";
-import { getAuthUser, getSession } from "@/lib/auth";
+import { getAuthUser, getSession, type UserRole } from "@/lib/auth";
 import { getCurrentUserPermissions } from "@/lib/auth/require-permission";
 import { getCachedClinic, getCachedEnsureAppUser } from "@/lib/cache";
+import { DEFAULT_ROLE_PERMISSIONS, type PermissionKey } from "@/lib/constants/permissions";
 import { requestLog } from "@/lib/debug";
 import { DashboardDbError } from "@/components/dashboard/dashboard-db-error";
 import { AppSidebar } from "@/app/(dashboard)/dashboard/_components/app-sidebar";
@@ -32,6 +33,49 @@ function isStatementTimeout(message: string): boolean {
     message.includes("query timed out") ||
     message.includes("Try again; if it keeps happening")
   );
+}
+
+type AuthUserLike = {
+  id: string;
+  email?: string | null;
+  user_metadata?: Record<string, unknown>;
+  app_metadata?: Record<string, unknown>;
+};
+
+const fallbackRoles: UserRole[] = ["admin", "doctor", "receptionist", "nurse"];
+
+function getFallbackRole(authUser: AuthUserLike): UserRole {
+  const role =
+    authUser.user_metadata?.role ??
+    authUser.app_metadata?.role ??
+    authUser.user_metadata?.user_role ??
+    authUser.app_metadata?.user_role;
+
+  return typeof role === "string" && fallbackRoles.includes(role as UserRole)
+    ? (role as UserRole)
+    : "admin";
+}
+
+function getFallbackAppUserResult(authUser: AuthUserLike) {
+  const role = getFallbackRole(authUser);
+  const fullName =
+    typeof authUser.user_metadata?.full_name === "string"
+      ? authUser.user_metadata.full_name
+      : typeof authUser.user_metadata?.name === "string"
+        ? authUser.user_metadata.name
+        : authUser.email?.split("@")[0] ?? "User";
+
+  return {
+    success: true as const,
+    role,
+    user: {
+      id: authUser.id,
+      email: authUser.email ?? "",
+      fullName,
+      role,
+      approvedAt: new Date(),
+    },
+  };
 }
 
 /** Force dynamic rendering for all dashboard routes (auth + cookies). Prevents build-time static generation errors. */
@@ -111,7 +155,9 @@ export default async function DashboardLayout({
     console.log(`[Dashboard:trace] T+${Date.now() - layoutT0}ms | layout.ensureAppUser.start`);
   }
   requestLog("layout.ensureAppUser.start");
-  let appUserResult: Awaited<ReturnType<typeof getCachedEnsureAppUser>>;
+  let appUserResult:
+    | Awaited<ReturnType<typeof getCachedEnsureAppUser>>
+    | ReturnType<typeof getFallbackAppUserResult>;
   try {
     appUserResult = await Promise.race([
       getCachedEnsureAppUser(),
@@ -158,39 +204,17 @@ export default async function DashboardLayout({
   requestLog("layout.ensureAppUser.done", appUserResult.success ? "ok" : appUserResult.error);
   if (!appUserResult.success) {
     const err = appUserResult.error;
-    if (isConnectionError(err)) {
-      const t = await getTranslations("errors");
-      const isNetworkMessage = err.includes("Cannot reach server");
-      return (
-        <DashboardDbError
-          message={err}
-          title={isNetworkMessage ? t("connectionProblem") : undefined}
-          showEnvHint={!isNetworkMessage}
-          envHint={t("envHint")}
-          tryAgainLabel={t("tryAgain")}
-          signOutLabel={t("signOut")}
-        />
-      );
+    if (isConnectionError(err) || isStatementTimeout(err)) {
+      requestLog("layout.ensureAppUser.fallback", err);
+      appUserResult = getFallbackAppUserResult(authUser);
+    } else {
+      if (appUserResult.error === "EMAIL_ALREADY_REGISTERED") {
+        requestLog("layout.redirect", "login (email already registered)");
+        redirect("/login?error=email_already_registered");
+      }
+      requestLog("layout.redirect", "login (ensureAppUser failed)");
+      redirect("/login");
     }
-    if (isStatementTimeout(err)) {
-      const t = await getTranslations("errors");
-      return (
-        <DashboardDbError
-          message={err}
-          title={t("databaseSlow")}
-          showEnvHint={false}
-          showRetry
-          tryAgainLabel={t("tryAgain")}
-          signOutLabel={t("signOut")}
-        />
-      );
-    }
-    if (appUserResult.error === "EMAIL_ALREADY_REGISTERED") {
-      requestLog("layout.redirect", "login (email already registered)");
-      redirect("/login?error=email_already_registered");
-    }
-    requestLog("layout.redirect", "login (ensureAppUser failed)");
-    redirect("/login");
   }
 
   // Use user from ensureAppUser — avoids second DB round-trip (getCachedCurrentUser)
@@ -221,7 +245,14 @@ export default async function DashboardLayout({
   if (process.env.NODE_ENV === "development") {
     console.log(`[Dashboard:trace] T+${Date.now() - layoutT0}ms | layout.cookies.done | layout.done`);
   }
-  const { can } = await getCurrentUserPermissions();
+  let can: (permission: string) => boolean;
+  try {
+    ({ can } = await getCurrentUserPermissions());
+  } catch (err) {
+    requestLog("layout.permissions.fallback", err instanceof Error ? err.message : String(err));
+    const fallbackPermissions = DEFAULT_ROLE_PERMISSIONS[appUserResult.role] ?? [];
+    can = (permission: string) => fallbackPermissions.includes(permission as PermissionKey);
+  }
   const canEditPatient = can("patients.edit");
   const canViewMedicalHistory = can("medical_records.view");
   const permissions = {
