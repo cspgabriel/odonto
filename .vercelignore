@@ -1,0 +1,8 @@
+node_modules/
+.next/
+.turbo/
+desktop-panel/node_modules/
+desktop-panel/dist/
+desktop-panel/*.exe
+*.log
+.env*
