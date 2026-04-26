@@ -3,8 +3,8 @@ import { redirect } from "next/navigation";
 import Link from "next/link";
 import { cookies } from "next/headers";
 import { getCachedCurrentUser } from "@/lib/cache";
+import { getAuthUser, type UserRole } from "@/lib/auth";
 import { db } from "@/lib/db";
-import { DashboardDbError } from "@/components/dashboard/dashboard-db-error";
 import {
   patients,
   appointments,
@@ -62,6 +62,43 @@ export const metadata = {
 export const dynamic = "force-dynamic";
 export const revalidate = 0;
 
+type DashboardUser = {
+  id: string;
+  fullName: string;
+  email: string;
+  role: UserRole;
+};
+
+const fallbackRoles: UserRole[] = ["admin", "doctor", "receptionist", "nurse"];
+
+function getFallbackRole(authUser: Awaited<ReturnType<typeof getAuthUser>>): UserRole {
+  const role =
+    authUser?.user_metadata?.role ??
+    authUser?.app_metadata?.role ??
+    authUser?.user_metadata?.user_role ??
+    authUser?.app_metadata?.user_role;
+
+  return typeof role === "string" && fallbackRoles.includes(role as UserRole)
+    ? (role as UserRole)
+    : "admin";
+}
+
+function getFallbackDashboardUser(authUser: NonNullable<Awaited<ReturnType<typeof getAuthUser>>>): DashboardUser {
+  const fullName =
+    typeof authUser.user_metadata?.full_name === "string"
+      ? authUser.user_metadata.full_name
+      : typeof authUser.user_metadata?.name === "string"
+        ? authUser.user_metadata.name
+        : authUser.email?.split("@")[0] ?? "User";
+
+  return {
+    id: authUser.id,
+    fullName,
+    email: authUser.email ?? "",
+    role: getFallbackRole(authUser),
+  };
+}
+
 export default async function DashboardPage() {
   const pageT0 = Date.now();
   if (process.env.NODE_ENV === "development") {
@@ -71,7 +108,24 @@ export default async function DashboardPage() {
   if (process.env.NODE_ENV === "development") {
     console.log(`[Dashboard:trace] T+${Date.now() - pageT0}ms | page.getCachedCurrentUser.start`);
   }
-  const user = await getCachedCurrentUser();
+  let user: DashboardUser | null = null;
+  try {
+    user = await Promise.race([
+      getCachedCurrentUser(),
+      new Promise<never>((_, reject) =>
+        setTimeout(() => reject(new Error("Current user timeout after 8s")), 8000)
+      ),
+    ]);
+  } catch (error) {
+    console.error("[Dashboard] Current user load failed:", error);
+  }
+
+  if (!user) {
+    const authUser = await getAuthUser().catch(() => null);
+    if (authUser?.id) {
+      user = getFallbackDashboardUser(authUser);
+    }
+  }
   if (process.env.NODE_ENV === "development") {
     console.log(`[Dashboard:trace] T+${Date.now() - pageT0}ms | page.getCachedCurrentUser.done | ${user ? `role=${user.role}` : "null"}`);
   }
@@ -103,16 +157,45 @@ export default async function DashboardPage() {
 
   if (loadError || !dashboardContent) {
     const t = await getTranslations("errors");
-    const tCommon = await getTranslations("common");
     return (
-      <div className="flex flex-col items-center justify-center min-h-[60vh] gap-3 p-6">
-        <p className="text-sm text-muted-foreground text-center">
-          {t("loadError")}
-        </p>
-        <p className="text-xs text-red-500 font-mono">{loadError ?? t("unknown")}</p>
-        <Link href="/dashboard" className="text-sm underline text-primary">
-          {tCommon("retry")}
-        </Link>
+      <div className="space-y-6 p-4 md:p-6">
+        <Card className="border-amber-200 bg-amber-50/70 dark:border-amber-900 dark:bg-amber-950/30">
+          <CardHeader>
+            <CardTitle className="flex items-center gap-2 text-amber-900 dark:text-amber-100">
+              <AlertTriangle className="h-5 w-5" />
+              Dashboard em modo limitado
+            </CardTitle>
+          </CardHeader>
+          <CardContent className="space-y-2 text-sm text-amber-900/80 dark:text-amber-100/80">
+            <p>{t("loadError")}</p>
+            <p className="font-mono text-xs">{loadError ?? t("unknown")}</p>
+          </CardContent>
+        </Card>
+        <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
+          {[
+            { title: "Pacientes", href: "/dashboard/patients", icon: Users },
+            { title: "Agendamentos", href: "/dashboard/appointments", icon: Calendar },
+            { title: "Financeiro", href: "/dashboard/invoices", icon: DollarSign },
+            { title: "Configurações", href: "/dashboard/settings", icon: ClipboardList },
+          ].map((item) => (
+            <Card key={item.href} className="transition hover:border-primary/50 hover:shadow-sm">
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2 text-base">
+                  <item.icon className="h-5 w-5 text-primary" />
+                  {item.title}
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <Button asChild variant="outline" className="w-full justify-between">
+                  <Link href={item.href}>
+                    Abrir módulo
+                    <ArrowRight className="h-4 w-4" />
+                  </Link>
+                </Button>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
       </div>
     );
   }
@@ -124,7 +207,7 @@ export default async function DashboardPage() {
 }
 
 async function loadDashboardContent(
-  user: NonNullable<Awaited<ReturnType<typeof getCachedCurrentUser>>>,
+  user: DashboardUser,
   traceT0: number
 ) {
   if (process.env.NODE_ENV === "development") {
