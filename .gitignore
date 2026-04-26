@@ -61,3 +61,7 @@ _unused-assets/
 
 # Lock files
 package-lock.json
+
+# Desktop panel build artifacts
+desktop-panel/node_modules/
+desktop-panel/dist/
