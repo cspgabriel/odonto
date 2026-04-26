@@ -318,6 +318,13 @@ export default async function HomePage({ searchParams }: HomePageProps) {
   const themeColors =
     landingSettings.colors ?? getDefaultLandingSettingsForClinicType(clinic.type).colors ?? undefined;
 
+  let blogPosts: Awaited<ReturnType<typeof getBlogPosts>>["data"] = [];
+  try {
+    blogPosts = (await getBlogPosts(1, 4, undefined, "published")).data;
+  } catch {
+    // DB unavailable: render landing page without news posts
+  }
+
   if (clinic.type === "dental") {
     const c = landingSettings.content ?? undefined;
     return (
@@ -345,7 +352,7 @@ export default async function HomePage({ searchParams }: HomePageProps) {
           <DentalWeCare dentalHealth={c?.dentalHealth ?? undefined} />
           <DentalSmileComparison smileComparison={c?.smileComparison ?? undefined} />
           <DentalPricing pricing={c?.pricing ?? undefined} />
-          <DentalNews initialPosts={(await getBlogPosts(1, 4, undefined, "published")).data} />
+          <DentalNews initialPosts={blogPosts} />
 
           <DentalTestimonials testimonials={c?.testimonials ?? undefined} />
           <DentalWhyChoose whyChooseUs={c?.whyChooseUs ?? undefined} />
@@ -394,7 +401,7 @@ export default async function HomePage({ searchParams }: HomePageProps) {
           )}
           <OphthalmologyWeCare dentalHealth={c?.dentalHealth ?? undefined} />
           <OphthalmologyPricing pricing={c?.pricing ?? undefined} />
-          <OphthalmologyNews initialPosts={(await getBlogPosts(1, 4, undefined, "published")).data} />
+          <OphthalmologyNews initialPosts={blogPosts} />
 
           <OphthalmologyTestimonials testimonials={c?.testimonials ?? undefined} />
           <OphthalmologyWhyChoose whyChooseUs={c?.whyChooseUs ?? undefined} />
@@ -444,7 +451,7 @@ export default async function HomePage({ searchParams }: HomePageProps) {
         <GeneralWeCare dentalHealth={c?.dentalHealth ?? undefined} />
         <GeneralSmileComparison smileComparison={c?.smileComparison ?? undefined} />
         <GeneralTestimonials testimonials={c?.testimonials ?? undefined} />
-        <GeneralNews initialPosts={(await getBlogPosts(1, 4, undefined, "published")).data} />
+        <GeneralNews initialPosts={blogPosts} />
         <GeneralFaq />
         <GeneralAwards />
         <GeneralContact contact={landingSettings.contact ?? undefined} cta={landingSettings.cta ?? undefined} />
