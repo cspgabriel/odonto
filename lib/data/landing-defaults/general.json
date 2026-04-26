@@ -166,7 +166,7 @@
       "enableDarkModeToggle": true,
       "enableLanguageSwitcher": true,
       "enableStickyNavbar": true,
-      "supportedLanguages": ["en", "fr", "es", "ar"],
+      "supportedLanguages": ["pt-BR", "en", "fr", "es", "ar"],
       "enableTopBar": true,
       "topBarType": "custom",
       "topBarCustomText": "👋 Welcome — 📞 Call us to book an appointment!"

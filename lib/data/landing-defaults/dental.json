@@ -150,6 +150,7 @@
       "enableLanguageSwitcher": true,
       "enableStickyNavbar": true,
       "supportedLanguages": [
+        "pt-BR",
         "en",
         "fr",
         "es",

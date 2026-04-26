@@ -545,7 +545,7 @@ export default function LandingPage() {
 
             {/* Card Painel Admin */}
             <a
-              href="/admin"
+              href="/login"
               target="_blank"
               rel="noopener noreferrer"
               className="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all hover:-translate-y-1 ring-2 ring-slate-900"

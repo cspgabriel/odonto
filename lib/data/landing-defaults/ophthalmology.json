@@ -156,7 +156,7 @@
       "enableDarkModeToggle": true,
       "enableLanguageSwitcher": true,
       "enableStickyNavbar": true,
-      "supportedLanguages": ["en", "fr", "es", "ar"],
+      "supportedLanguages": ["pt-BR", "en", "fr", "es", "ar"],
       "enableTopBar": true,
       "topBarType": "info",
       "topBarCustomText": "Welcome to ClinicMaster - Call us to book an appointment!"

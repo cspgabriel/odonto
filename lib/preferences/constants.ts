@@ -30,7 +30,7 @@ export const VALID_LOCALES: readonly LocaleCode[] = LOCALE_OPTIONS.map(
 );
 
 export const DEFAULT_CURRENCY: CurrencyCode = "USD";
-export const DEFAULT_LOCALE: LocaleCode = "en";
+export const DEFAULT_LOCALE: LocaleCode = "pt-BR";
 
 /** Context for theme/locale: landing (path /) vs dashboard (/dashboard, /login, etc.). */
 export type ThemeLocaleContext = "landing" | "dashboard";
