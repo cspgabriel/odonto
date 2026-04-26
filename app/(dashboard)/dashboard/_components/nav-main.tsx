@@ -94,6 +94,18 @@ const overviewItems: NavItem[] = [
 
 const websiteManagementItems: NavItem[] = [
   {
+    title: "demos",
+    href: "/",
+    icon: Globe,
+    roles: ["admin", "doctor", "receptionist", "nurse"],
+    children: [
+      { title: "dentalLanding", href: "/?clinic=dental", icon: Globe, roles: ["admin", "doctor", "receptionist", "nurse"] },
+      { title: "generalLanding", href: "/?clinic=general", icon: Globe, roles: ["admin", "doctor", "receptionist", "nurse"] },
+      { title: "ophthalmologyLanding", href: "/?clinic=ophthalmology", icon: Globe, roles: ["admin", "doctor", "receptionist", "nurse"] },
+      { title: "loginPage", href: "/login", icon: Settings, roles: ["admin", "doctor", "receptionist", "nurse"] },
+    ],
+  },
+  {
     title: "blogNews",
     href: "/dashboard/blog",
     icon: Newspaper,
