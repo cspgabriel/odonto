@@ -50,6 +50,7 @@ import { getBlogPosts } from "@/lib/actions/blog-actions";
 import { CookieNotice } from "@/components/ui/cookie-notice";
 import { LocalBusinessSchema } from "@/components/landing/structured-data";
 import { SectionSkeleton } from "@/components/landing/section-skeleton";
+import SalesLandingPage from "./landing/page";
 
 /** Below-fold sections: lazy-loaded for smaller initial bundle and better LCP. */
 const DentalPricing = dynamic(
@@ -161,6 +162,31 @@ export async function generateMetadata({ searchParams }: HomePageProps): Promise
   const params = await searchParams;
   const isDemoMode = !!params.clinic;
 
+  if (!params.clinic) {
+    return {
+      title: "AgenciAR Med - Sistema de gestao para clinicas",
+      description:
+        "Sistema completo para clinicas medicas, odontologicas e oftalmologicas: pacientes, agenda, prontuario, faturamento e site publico integrado.",
+      robots: { index: true, follow: true },
+      alternates: { canonical: SITE_URL },
+      openGraph: {
+        type: "website",
+        url: SITE_URL,
+        title: "AgenciAR Med - Sistema de gestao para clinicas",
+        description:
+          "Sistema completo para clinicas medicas, odontologicas e oftalmologicas.",
+        siteName: "AgenciAR Med",
+        locale: "pt_BR",
+      },
+      twitter: {
+        card: "summary_large_image",
+        title: "AgenciAR Med - Sistema de gestao para clinicas",
+        description:
+          "Sistema completo para clinicas medicas, odontologicas e oftalmologicas.",
+      },
+    };
+  }
+
   try {
     const demoParam = params.clinic?.toLowerCase().trim();
     const demoType =
@@ -232,6 +258,11 @@ export async function generateMetadata({ searchParams }: HomePageProps): Promise
 
 export default async function HomePage({ searchParams }: HomePageProps) {
   const params = await searchParams;
+
+  if (!params.clinic) {
+    return <SalesLandingPage />;
+  }
+
   const demoParam = params.clinic?.toLowerCase().trim();
   const cookieStore = await cookies();
   const cookieClinic = cookieStore.get(LANDING_CLINIC_DEMO_COOKIE)?.value?.toLowerCase().trim();
