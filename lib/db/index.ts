@@ -11,7 +11,20 @@ import * as schema from "./schema";
 
 // ─── Connection validation ─────────────────────────────────────────────────
 
-const connectionString = process.env.DIRECT_DATABASE_URL ?? process.env.DATABASE_URL;
+const rawConnectionString = process.env.DATABASE_URL ?? process.env.DIRECT_DATABASE_URL;
+
+function normalizeConnectionString(url: string | undefined): string | undefined {
+  if (!url) return undefined;
+  try {
+    const parsed = new URL(url);
+    parsed.searchParams.delete("pgbouncer");
+    return parsed.toString();
+  } catch {
+    return url;
+  }
+}
+
+const connectionString = normalizeConnectionString(rawConnectionString);
 
 if (!connectionString && process.env.NODE_ENV === "production") {
   throw new Error("[CareNova DB] DATABASE_URL is not set in production");
